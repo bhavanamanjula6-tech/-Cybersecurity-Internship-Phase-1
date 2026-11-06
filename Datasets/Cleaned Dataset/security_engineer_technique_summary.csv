@@ -1,0 +1,698 @@
+technique_id,technique_name,tactics,platforms,record_count,mitigation_count
+T1001,Data Obfuscation,Command and Control,"ESXi, Linux, Windows, macOS",1,1
+T1001.001,Data Obfuscation: Junk Data,Command and Control,"ESXi, Linux, Windows, macOS",1,1
+T1001.002,Data Obfuscation: Steganography,Command and Control,"ESXi, Linux, Windows, macOS",1,1
+T1001.003,Data Obfuscation: Protocol or Service Impersonation,Command and Control,"ESXi, Linux, Windows, macOS",1,1
+T1003,OS Credential Dumping,Credential Access,"Linux, Windows, macOS",9,9
+T1003.001,OS Credential Dumping: LSASS Memory,Credential Access,Windows,7,7
+T1003.002,OS Credential Dumping: Security Account Manager,Credential Access,Windows,4,4
+T1003.003,OS Credential Dumping: NTDS,Credential Access,Windows,4,4
+T1003.004,OS Credential Dumping: LSA Secrets,Credential Access,Windows,3,3
+T1003.005,OS Credential Dumping: Cached Domain Credentials,Credential Access,"Linux, Windows",5,5
+T1003.006,OS Credential Dumping: DCSync,Credential Access,Windows,3,3
+T1003.007,OS Credential Dumping: Proc Filesystem,Credential Access,Linux,2,2
+T1003.008,OS Credential Dumping: /etc/passwd and /etc/shadow,Credential Access,Linux,2,2
+T1005,Data from Local System,Collection,"ESXi, Linux, Network Devices, Windows, macOS",1,1
+T1006,Direct Volume Access,Stealth,"Network Devices, Windows",2,2
+T1007,System Service Discovery,Discovery,"Linux, Windows, macOS",1,0
+T1008,Fallback Channels,Command and Control,"ESXi, Linux, Windows, macOS",1,1
+T1010,Application Window Discovery,Discovery,"Linux, Windows, macOS",1,0
+T1011,Exfiltration Over Other Network Medium,Exfiltration,"Linux, Windows, macOS",2,2
+T1011.001,Exfiltration Over Other Network Medium: Exfiltration Over Bluetooth,Exfiltration,"Linux, Windows, macOS",2,2
+T1012,Query Registry,Discovery,Windows,1,0
+T1014,Rootkit,Stealth,"Linux, Windows, macOS",1,0
+T1016,System Network Configuration Discovery,Discovery,"ESXi, Linux, Network Devices, Windows, macOS",1,0
+T1016.001,System Network Configuration Discovery: Internet Connection Discovery,Discovery,"ESXi, Linux, Windows, macOS",1,0
+T1016.002,System Network Configuration Discovery: Wi-Fi Discovery,Discovery,"Linux, Windows, macOS",1,0
+T1018,Remote System Discovery,Discovery,"ESXi, Linux, Network Devices, Windows, macOS",1,0
+T1020,Automated Exfiltration,Exfiltration,"Linux, Network Devices, Windows, macOS",1,0
+T1020.001,Automated Exfiltration: Traffic Duplication,Exfiltration,"IaaS, Network Devices",3,3
+T1021,Remote Services,Lateral Movement,"ESXi, IaaS, Linux, Windows, macOS",6,6
+T1021.001,Remote Services: Remote Desktop Protocol,Lateral Movement,Windows,8,8
+T1021.002,Remote Services: SMB/Windows Admin Shares,Lateral Movement,Windows,4,4
+T1021.003,Remote Services: Distributed Component Object Model,Lateral Movement,Windows,4,4
+T1021.004,Remote Services: SSH,Lateral Movement,"ESXi, Linux, macOS",3,3
+T1021.005,Remote Services: VNC,Lateral Movement,"Linux, Windows, macOS",4,4
+T1021.006,Remote Services: Windows Remote Management,Lateral Movement,Windows,3,3
+T1021.007,Remote Services: Cloud Services,Lateral Movement,"IaaS, Identity Provider, Office Suite, SaaS",2,2
+T1021.008,Remote Services: Direct Cloud VM Connections,Lateral Movement,IaaS,2,2
+T1025,Data from Removable Media,Collection,"Linux, Windows, macOS",1,1
+T1027,Obfuscated Files or Information,Stealth,"ESXi, Linux, Network Devices, Windows, macOS",4,4
+T1027.001,Obfuscated Files or Information: Binary Padding,Stealth,"Linux, Windows, macOS",1,0
+T1027.002,Obfuscated Files or Information: Software Packing,Stealth,"Linux, Windows, macOS",1,1
+T1027.003,Obfuscated Files or Information: Steganography,Stealth,"Linux, Windows, macOS",1,0
+T1027.004,Obfuscated Files or Information: Compile After Delivery,Stealth,"Linux, Windows, macOS",1,0
+T1027.005,Obfuscated Files or Information: Indicator Removal from Tools,Stealth,"Linux, Windows, macOS",1,0
+T1027.006,Obfuscated Files or Information: HTML Smuggling,Stealth,"Linux, Windows, macOS",1,1
+T1027.007,Obfuscated Files or Information: Dynamic API Resolution,Stealth,Windows,1,0
+T1027.008,Obfuscated Files or Information: Stripped Payloads,Stealth,"Linux, Network Devices, Windows, macOS",1,0
+T1027.009,Obfuscated Files or Information: Embedded Payloads,Stealth,"Linux, Windows, macOS",2,2
+T1027.010,Obfuscated Files or Information: Command Obfuscation,Stealth,"Linux, Windows, macOS",2,2
+T1027.011,Obfuscated Files or Information: Fileless Storage,Stealth,"Linux, Windows",1,1
+T1027.012,Obfuscated Files or Information: LNK Icon Smuggling,Stealth,Windows,2,2
+T1027.013,Obfuscated Files or Information: Encrypted/Encoded File,Stealth,"Linux, Windows, macOS",2,2
+T1027.014,Obfuscated Files or Information: Polymorphic Code,Stealth,"Linux, Windows, macOS",2,2
+T1027.015,Obfuscated Files or Information: Compression,Stealth,"Linux, Windows, macOS",1,1
+T1027.016,Obfuscated Files or Information: Junk Code Insertion,Stealth,"Linux, Windows, macOS",1,1
+T1027.017,Obfuscated Files or Information: SVG Smuggling,Stealth,"Linux, Windows, macOS",1,1
+T1027.018,Obfuscated Files or Information: Invisible Unicode,Stealth,"Linux, Windows, macOS",1,0
+T1029,Scheduled Transfer,Exfiltration,"Linux, Windows, macOS",1,1
+T1030,Data Transfer Size Limits,Exfiltration,"ESXi, Linux, Windows, macOS",1,1
+T1033,System Owner/User Discovery,Discovery,"Linux, Network Devices, Windows, macOS",1,0
+T1036,Masquerading,Stealth,"Containers, ESXi, Linux, Windows, macOS",8,8
+T1036.001,Masquerading: Invalid Code Signature,Stealth,"Windows, macOS",1,1
+T1036.002,Masquerading: Right-to-Left Override,Stealth,"Linux, Windows, macOS",1,0
+T1036.003,Masquerading: Rename Legitimate Utilities,Stealth,"Linux, Windows, macOS",1,1
+T1036.004,Masquerading: Masquerade Task or Service,Stealth,"Linux, Windows, macOS",1,0
+T1036.005,Masquerading: Match Legitimate Resource Name or Location,Stealth,"Containers, ESXi, Linux, Windows, macOS",3,3
+T1036.006,Masquerading: Space after Filename,Stealth,"Linux, macOS",1,0
+T1036.007,Masquerading: Double File Extension,Stealth,Windows,2,2
+T1036.008,Masquerading: Masquerade File Type,Stealth,"Linux, Windows, macOS",3,3
+T1036.009,Masquerading: Break Process Trees,Stealth,"Linux, macOS",1,0
+T1036.010,Masquerading: Masquerade Account Name,Stealth,"Containers, IaaS, Identity Provider, Linux, Office Suite, SaaS, Windows, macOS",2,2
+T1036.011,Masquerading: Overwrite Process Arguments,Stealth,Linux,1,0
+T1036.012,Masquerading: Browser Fingerprint,Stealth,"Linux, Windows, macOS",1,1
+T1037,Boot or Logon Initialization Scripts,"Persistence, Privilege Escalation","ESXi, Linux, Network Devices, Windows, macOS",2,2
+T1037.001,Boot or Logon Initialization Scripts: Logon Script (Windows),"Persistence, Privilege Escalation",Windows,1,1
+T1037.002,Boot or Logon Initialization Scripts: Login Hook,"Persistence, Privilege Escalation",macOS,1,1
+T1037.003,Boot or Logon Initialization Scripts: Network Logon Script,"Persistence, Privilege Escalation",Windows,1,1
+T1037.004,Boot or Logon Initialization Scripts: RC Scripts,"Persistence, Privilege Escalation","ESXi, Linux, Network Devices, macOS",1,1
+T1037.005,Boot or Logon Initialization Scripts: Startup Items,"Persistence, Privilege Escalation",macOS,1,1
+T1039,Data from Network Shared Drive,Collection,"Linux, Windows, macOS",1,0
+T1040,Network Sniffing,"Credential Access, Discovery","IaaS, Linux, Network Devices, Windows, macOS",4,4
+T1041,Exfiltration Over C2 Channel,Exfiltration,"ESXi, Linux, Windows, macOS",2,2
+T1046,Network Service Discovery,Discovery,"Containers, IaaS, Linux, Network Devices, Windows, macOS",3,3
+T1047,Windows Management Instrumentation,Execution,Windows,4,4
+T1048,Exfiltration Over Alternative Protocol,Exfiltration,"ESXi, IaaS, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",6,6
+T1048.001,Exfiltration Over Alternative Protocol: Exfiltration Over Symmetric Encrypted Non-C2 Protocol,Exfiltration,"ESXi, Linux, Windows, macOS",3,3
+T1048.002,Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,Exfiltration,"ESXi, Linux, Windows, macOS",4,4
+T1048.003,Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol,Exfiltration,"ESXi, Linux, Network Devices, Windows, macOS",4,4
+T1049,System Network Connections Discovery,Discovery,"ESXi, IaaS, Linux, Network Devices, Windows, macOS",1,0
+T1052,Exfiltration Over Physical Medium,Exfiltration,"Linux, Windows, macOS",3,3
+T1052.001,Exfiltration Over Physical Medium: Exfiltration over USB,Exfiltration,"Linux, Windows, macOS",3,3
+T1053,Scheduled Task/Job,"Execution, Persistence, Privilege Escalation","Containers, ESXi, Linux, Network Devices, Windows, macOS",5,5
+T1053.002,Scheduled Task/Job: At,"Execution, Persistence, Privilege Escalation","Linux, Windows, macOS",4,4
+T1053.003,Scheduled Task/Job: Cron,"Execution, Persistence, Privilege Escalation","ESXi, Linux, macOS",2,2
+T1053.005,Scheduled Task/Job: Scheduled Task,"Execution, Persistence, Privilege Escalation",Windows,4,4
+T1053.006,Scheduled Task/Job: Systemd Timers,"Execution, Persistence, Privilege Escalation",Linux,3,3
+T1053.007,Scheduled Task/Job: Container Orchestration Job,"Execution, Persistence, Privilege Escalation",Containers,2,2
+T1055,Process Injection,"Privilege Escalation, Stealth","Linux, Windows, macOS",2,2
+T1055.001,Process Injection: Dynamic-link Library Injection,"Privilege Escalation, Stealth",Windows,1,1
+T1055.002,Process Injection: Portable Executable Injection,"Privilege Escalation, Stealth",Windows,1,1
+T1055.003,Process Injection: Thread Execution Hijacking,"Privilege Escalation, Stealth",Windows,1,1
+T1055.004,Process Injection: Asynchronous Procedure Call,"Privilege Escalation, Stealth",Windows,1,1
+T1055.005,Process Injection: Thread Local Storage,"Privilege Escalation, Stealth",Windows,1,1
+T1055.008,Process Injection: Ptrace System Calls,"Privilege Escalation, Stealth",Linux,2,2
+T1055.009,Process Injection: Proc Memory,"Privilege Escalation, Stealth",Linux,2,2
+T1055.011,Process Injection: Extra Window Memory Injection,"Privilege Escalation, Stealth",Windows,1,1
+T1055.012,Process Injection: Process Hollowing,"Privilege Escalation, Stealth",Windows,1,1
+T1055.013,Process Injection: Process Doppelgänging,"Privilege Escalation, Stealth",Windows,1,1
+T1055.014,Process Injection: VDSO Hijacking,"Privilege Escalation, Stealth",Linux,1,1
+T1055.015,Process Injection: ListPlanting,"Privilege Escalation, Stealth",Windows,1,1
+T1056,Input Capture,"Collection, Credential Access","Linux, Network Devices, Windows, macOS",1,0
+T1056.001,Input Capture: Keylogging,"Collection, Credential Access","Linux, Network Devices, Windows, macOS",1,0
+T1056.002,Input Capture: GUI Input Capture,"Collection, Credential Access","Linux, Windows, macOS",1,1
+T1056.003,Input Capture: Web Portal Capture,"Collection, Credential Access","Linux, Windows, macOS",1,1
+T1056.004,Input Capture: Credential API Hooking,"Collection, Credential Access","Linux, Windows, macOS",1,0
+T1057,Process Discovery,Discovery,"ESXi, Linux, Network Devices, Windows, macOS",1,0
+T1059,Command and Scripting Interpreter,Execution,"Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",9,9
+T1059.001,Command and Scripting Interpreter: PowerShell,Execution,Windows,5,5
+T1059.002,Command and Scripting Interpreter: AppleScript,Execution,macOS,2,2
+T1059.003,Command and Scripting Interpreter: Windows Command Shell,Execution,Windows,1,1
+T1059.004,Command and Scripting Interpreter: Unix Shell,Execution,"ESXi, Linux, Network Devices, macOS",1,1
+T1059.005,Command and Scripting Interpreter: Visual Basic,Execution,"Linux, Windows, macOS",5,5
+T1059.006,Command and Scripting Interpreter: Python,Execution,"ESXi, Linux, Windows, macOS",4,4
+T1059.007,Command and Scripting Interpreter: JavaScript,Execution,"Linux, Windows, macOS",4,4
+T1059.008,Command and Scripting Interpreter: Network Device CLI,Execution,Network Devices,3,3
+T1059.009,Command and Scripting Interpreter: Cloud API,Execution,"IaaS, Identity Provider, Office Suite, SaaS",2,2
+T1059.010,Command and Scripting Interpreter: AutoHotKey & AutoIT,Execution,Windows,1,1
+T1059.011,Command and Scripting Interpreter: Lua,Execution,"Linux, Network Devices, Windows, macOS",3,3
+T1059.012,Command and Scripting Interpreter: Hypervisor CLI,Execution,ESXi,1,0
+T1059.013,Command and Scripting Interpreter: Container CLI/API,Execution,Containers,2,2
+T1068,Exploitation for Privilege Escalation,Privilege Escalation,"Containers, Linux, Windows, macOS",5,5
+T1069,Permission Groups Discovery,Discovery,"Containers, IaaS, Identity Provider, Linux, Office Suite, SaaS, Windows, macOS",1,0
+T1069.001,Permission Groups Discovery: Local Groups,Discovery,"Linux, Windows, macOS",1,0
+T1069.002,Permission Groups Discovery: Domain Groups,Discovery,"Linux, Windows, macOS",1,0
+T1069.003,Permission Groups Discovery: Cloud Groups,Discovery,"IaaS, Identity Provider, Office Suite, SaaS",1,0
+T1070,Indicator Removal,Stealth,"Containers, ESXi, Linux, Network Devices, Office Suite, Windows, macOS",3,3
+T1070.003,Indicator Removal: Clear Command History,Stealth,"ESXi, Linux, Network Devices, Windows, macOS",3,3
+T1070.004,Indicator Removal: File Deletion,Stealth,"ESXi, Linux, Windows, macOS",1,0
+T1070.005,Indicator Removal: Network Share Connection Removal,Stealth,Windows,1,0
+T1070.006,Indicator Removal: Timestomp,Stealth,"ESXi, Linux, Windows, macOS",1,0
+T1070.007,Indicator Removal: Clear Network Connection History and Configurations,Stealth,"Linux, Network Devices, Windows, macOS",2,2
+T1070.008,Indicator Removal: Clear Mailbox Data,Stealth,"Linux, Office Suite, Windows, macOS",3,3
+T1070.009,Indicator Removal: Clear Persistence,Stealth,"ESXi, Linux, Windows, macOS",2,2
+T1070.010,Indicator Removal: Relocate Malware,Stealth,"Linux, Network Devices, Windows, macOS",1,0
+T1071,Application Layer Protocol,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",2,2
+T1071.001,Application Layer Protocol: Web Protocols,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",2,2
+T1071.002,Application Layer Protocol: File Transfer Protocols,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",2,2
+T1071.003,Application Layer Protocol: Mail Protocols,Command and Control,"Linux, Network Devices, Windows, macOS",2,2
+T1071.004,Application Layer Protocol: DNS,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",2,2
+T1071.005,Application Layer Protocol: Publish/Subscribe Protocols,Command and Control,"Linux, Network Devices, Windows, macOS",2,2
+T1072,Software Deployment Tools,"Execution, Lateral Movement","Linux, Network Devices, SaaS, Windows, macOS",10,10
+T1074,Data Staged,Collection,"ESXi, IaaS, Linux, Windows, macOS",1,0
+T1074.001,Data Staged: Local Data Staging,Collection,"ESXi, Linux, Windows, macOS",1,0
+T1074.002,Data Staged: Remote Data Staging,Collection,"ESXi, IaaS, Linux, Windows, macOS",1,0
+T1078,Valid Accounts,"Initial Access, Persistence, Privilege Escalation, Stealth","Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",8,8
+T1078.001,Valid Accounts: Default Accounts,"Initial Access, Persistence, Privilege Escalation, Stealth","Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",2,2
+T1078.002,Valid Accounts: Domain Accounts,"Initial Access, Persistence, Privilege Escalation, Stealth","ESXi, Linux, Windows, macOS",5,5
+T1078.003,Valid Accounts: Local Accounts,"Initial Access, Persistence, Privilege Escalation, Stealth","Containers, ESXi, Linux, Network Devices, Windows, macOS",4,4
+T1078.004,Valid Accounts: Cloud Accounts,"Initial Access, Persistence, Privilege Escalation, Stealth","IaaS, Identity Provider, Office Suite, SaaS",7,7
+T1080,Taint Shared Content,Lateral Movement,"Linux, Office Suite, SaaS, Windows, macOS",4,4
+T1082,System Information Discovery,Discovery,"ESXi, IaaS, Linux, Network Devices, Windows, macOS",1,0
+T1083,File and Directory Discovery,Discovery,"ESXi, Linux, Network Devices, Windows, macOS",1,0
+T1087,Account Discovery,Discovery,"ESXi, IaaS, Identity Provider, Linux, Office Suite, SaaS, Windows, macOS",2,2
+T1087.001,Account Discovery: Local Account,Discovery,"ESXi, Linux, Windows, macOS",1,1
+T1087.002,Account Discovery: Domain Account,Discovery,"Linux, Windows, macOS",1,1
+T1087.003,Account Discovery: Email Account,Discovery,"Office Suite, Windows",1,0
+T1087.004,Account Discovery: Cloud Account,Discovery,"IaaS, Identity Provider, Office Suite, SaaS",2,2
+T1090,Proxy,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",3,3
+T1090.001,Proxy: Internal Proxy,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",1,1
+T1090.002,Proxy: External Proxy,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",1,1
+T1090.003,Proxy: Multi-hop Proxy,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",1,1
+T1090.004,Proxy: Domain Fronting,Command and Control,"ESXi, Linux, Windows, macOS",1,1
+T1091,Replication Through Removable Media,"Initial Access, Lateral Movement",Windows,3,3
+T1092,Communication Through Removable Media,Command and Control,"Linux, Windows, macOS",2,2
+T1095,Non-Application Layer Protocol,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",4,4
+T1098,Account Manipulation,"Persistence, Privilege Escalation","Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",7,7
+T1098.001,Account Manipulation: Additional Cloud Credentials,"Persistence, Privilege Escalation","IaaS, Identity Provider, SaaS",5,5
+T1098.002,Account Manipulation: Additional Email Delegate Permissions,"Persistence, Privilege Escalation","Office Suite, Windows",3,3
+T1098.003,Account Manipulation: Additional Cloud Roles,"Persistence, Privilege Escalation","IaaS, Identity Provider, Office Suite, SaaS",3,3
+T1098.004,Account Manipulation: SSH Authorized Keys,"Persistence, Privilege Escalation","ESXi, IaaS, Linux, Network Devices, macOS",3,3
+T1098.005,Account Manipulation: Device Registration,"Persistence, Privilege Escalation","Identity Provider, Windows",1,1
+T1098.006,Account Manipulation: Additional Container Cluster Roles,"Persistence, Privilege Escalation",Containers,2,2
+T1098.007,Account Manipulation: Additional Local or Domain Groups,"Persistence, Privilege Escalation","Linux, Windows, macOS",1,0
+T1102,Web Service,Command and Control,"ESXi, Linux, Windows, macOS",2,2
+T1102.001,Web Service: Dead Drop Resolver,Command and Control,"ESXi, Linux, Windows, macOS",2,2
+T1102.002,Web Service: Bidirectional Communication,Command and Control,"ESXi, Linux, Windows, macOS",2,2
+T1102.003,Web Service: One-Way Communication,Command and Control,"ESXi, Linux, Windows, macOS",2,2
+T1104,Multi-Stage Channels,Command and Control,"ESXi, Linux, Windows, macOS",1,1
+T1105,Ingress Tool Transfer,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",2,2
+T1106,Native API,Execution,"Linux, Windows, macOS",2,2
+T1110,Brute Force,Credential Access,"Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",4,4
+T1110.001,Brute Force: Password Guessing,Credential Access,"Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",4,4
+T1110.002,Brute Force: Password Cracking,Credential Access,"Identity Provider, Linux, Network Devices, Office Suite, Windows, macOS",2,2
+T1110.003,Brute Force: Password Spraying,Credential Access,"Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",3,3
+T1110.004,Brute Force: Credential Stuffing,Credential Access,"Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",4,4
+T1111,Multi-Factor Authentication Interception,Credential Access,"Linux, Windows, macOS",1,1
+T1112,Modify Registry,"Defense Impairment, Persistence",Windows,1,1
+T1113,Screen Capture,Collection,"Linux, Windows, macOS",1,0
+T1114,Email Collection,Collection,"Linux, Office Suite, Windows, macOS",4,4
+T1114.001,Email Collection: Local Email Collection,Collection,Windows,2,2
+T1114.002,Email Collection: Remote Email Collection,Collection,"Office Suite, Windows",3,3
+T1114.003,Email Collection: Email Forwarding Rule,Collection,"Linux, Office Suite, Windows, macOS",4,4
+T1115,Clipboard Data,Collection,"Linux, Windows, macOS",1,0
+T1119,Automated Collection,Collection,"IaaS, Linux, Office Suite, SaaS, Windows, macOS",2,2
+T1120,Peripheral Device Discovery,Discovery,"Linux, Windows, macOS",1,0
+T1123,Audio Capture,Collection,"Linux, Windows, macOS",1,0
+T1124,System Time Discovery,Discovery,"ESXi, Linux, Network Devices, Windows, macOS",1,0
+T1125,Video Capture,Collection,"Linux, Windows, macOS",1,0
+T1127,Trusted Developer Utilities Proxy Execution,"Execution, Stealth",Windows,3,3
+T1127.001,Trusted Developer Utilities Proxy Execution: MSBuild,"Execution, Stealth",Windows,2,2
+T1127.002,Trusted Developer Utilities Proxy Execution: ClickOnce,"Execution, Stealth",Windows,3,3
+T1127.003,Trusted Developer Utilities Proxy Execution: JamPlus,"Execution, Stealth",Windows,2,2
+T1129,Shared Modules,Execution,"Linux, Windows, macOS",1,1
+T1132,Data Encoding,Command and Control,"ESXi, Linux, Windows, macOS",1,1
+T1132.001,Data Encoding: Standard Encoding,Command and Control,"ESXi, Linux, Windows, macOS",1,1
+T1132.002,Data Encoding: Non-Standard Encoding,Command and Control,"ESXi, Linux, Windows, macOS",1,1
+T1133,External Remote Services,"Initial Access, Persistence","Containers, Linux, Windows, macOS",5,5
+T1134,Access Token Manipulation,"Privilege Escalation, Stealth",Windows,2,2
+T1134.001,Access Token Manipulation: Token Impersonation/Theft,"Privilege Escalation, Stealth",Windows,2,2
+T1134.002,Access Token Manipulation: Create Process with Token,"Privilege Escalation, Stealth",Windows,2,2
+T1134.003,Access Token Manipulation: Make and Impersonate Token,"Privilege Escalation, Stealth",Windows,2,2
+T1134.004,Access Token Manipulation: Parent PID Spoofing,"Privilege Escalation, Stealth",Windows,1,0
+T1134.005,Access Token Manipulation: SID-History Injection,"Privilege Escalation, Stealth",Windows,1,1
+T1135,Network Share Discovery,Discovery,"Linux, Windows, macOS",1,1
+T1136,Create Account,Persistence,"Containers, ESXi, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",4,4
+T1136.001,Create Account: Local Account,Persistence,"Containers, ESXi, Linux, Network Devices, Windows, macOS",2,2
+T1136.002,Create Account: Domain Account,Persistence,"Linux, Windows, macOS",4,4
+T1136.003,Create Account: Cloud Account,Persistence,"IaaS, Identity Provider, Office Suite, SaaS",3,3
+T1137,Office Application Startup,Persistence,"Office Suite, Windows",4,4
+T1137.001,Office Application Startup: Office Template Macros,Persistence,"Office Suite, Windows",2,2
+T1137.002,Office Application Startup: Office Test,Persistence,"Office Suite, Windows",2,2
+T1137.003,Office Application Startup: Outlook Forms,Persistence,"Office Suite, Windows",2,2
+T1137.004,Office Application Startup: Outlook Home Page,Persistence,"Office Suite, Windows",2,2
+T1137.005,Office Application Startup: Outlook Rules,Persistence,"Office Suite, Windows",2,2
+T1137.006,Office Application Startup: Add-ins,Persistence,"Office Suite, Windows",1,1
+T1140,Deobfuscate/Decode Files or Information,Stealth,"ESXi, Linux, Windows, macOS",1,0
+T1176,Software Extensions,Persistence,"Linux, Windows, macOS",5,5
+T1176.001,Software Extensions: Browser Extensions,Persistence,"Linux, Windows, macOS",5,5
+T1176.002,Software Extensions: IDE Extensions,Persistence,"Linux, Windows, macOS",5,5
+T1185,Browser Session Hijacking,Collection,Windows,2,2
+T1187,Forced Authentication,Credential Access,Windows,2,2
+T1189,Drive-by Compromise,Initial Access,"Identity Provider, Linux, Windows, macOS",5,5
+T1190,Exploit Public-Facing Application,Initial Access,"Containers, ESXi, IaaS, Linux, Network Devices, Windows, macOS",8,8
+T1195,Supply Chain Compromise,Initial Access,"Linux, SaaS, Windows, macOS",6,6
+T1195.001,Supply Chain Compromise: Compromise Software Dependencies and Development Tools,Initial Access,"Linux, Windows, macOS",4,4
+T1195.002,Supply Chain Compromise: Compromise Software Supply Chain,Initial Access,"Linux, Windows, macOS",2,2
+T1195.003,Supply Chain Compromise: Compromise Hardware Supply Chain,Initial Access,"Linux, Windows, macOS",1,1
+T1197,BITS Jobs,"Execution, Persistence, Stealth",Windows,3,3
+T1199,Trusted Relationship,Initial Access,"IaaS, Identity Provider, Linux, Office Suite, SaaS, Windows, macOS",3,3
+T1200,Hardware Additions,Initial Access,"Linux, Windows, macOS",2,2
+T1201,Password Policy Discovery,Discovery,"IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",1,1
+T1202,Indirect Command Execution,Stealth,Windows,1,0
+T1203,Exploitation for Client Execution,Execution,"Linux, Windows, macOS",3,3
+T1204,User Execution,Execution,"Containers, IaaS, Linux, Windows, macOS",6,6
+T1204.001,User Execution: Malicious Link,Execution,"Linux, Windows, macOS",3,3
+T1204.002,User Execution: Malicious File,Execution,"Linux, Windows, macOS",3,3
+T1204.003,User Execution: Malicious Image,Execution,"Containers, IaaS",4,4
+T1204.004,User Execution: Malicious Copy and Paste,Execution,"Linux, Windows, macOS",3,3
+T1204.005,User Execution: Malicious Library,Execution,"Linux, Windows, macOS",3,3
+T1205,Traffic Signaling,"Command and Control, Persistence, Stealth","Linux, Network Devices, Windows, macOS",2,2
+T1205.001,Traffic Signaling: Port Knocking,"Command and Control, Persistence, Stealth","Linux, Network Devices, Windows, macOS",1,1
+T1205.002,Traffic Signaling: Socket Filters,"Command and Control, Persistence, Stealth","Linux, Windows, macOS",1,1
+T1207,Rogue Domain Controller,Defense Impairment,Windows,1,0
+T1210,Exploitation of Remote Services,Lateral Movement,"ESXi, Linux, Windows, macOS",8,8
+T1211,Exploitation for Stealth,Stealth,"IaaS, Linux, SaaS, Windows, macOS",4,4
+T1212,Exploitation for Credential Access,Credential Access,"Identity Provider, Linux, Windows, macOS",5,5
+T1213,Data from Information Repositories,Collection,"IaaS, Linux, Office Suite, SaaS, Windows, macOS",7,7
+T1213.001,Data from Information Repositories: Confluence,Collection,SaaS,3,3
+T1213.002,Data from Information Repositories: Sharepoint,Collection,"Office Suite, Windows",3,3
+T1213.003,Data from Information Repositories: Code Repositories,Collection,SaaS,4,4
+T1213.004,Data from Information Repositories: Customer Relationship Management Software,Collection,SaaS,4,4
+T1213.005,Data from Information Repositories: Messaging Applications,Collection,"Office Suite, SaaS",3,3
+T1213.006,Data from Information Repositories: Databases,Collection,"IaaS, Linux, SaaS, Windows, macOS",5,5
+T1216,System Script Proxy Execution,Stealth,Windows,1,1
+T1216.001,System Script Proxy Execution: PubPrn,Stealth,Windows,2,2
+T1216.002,System Script Proxy Execution: SyncAppvPublishingServer,Stealth,Windows,1,1
+T1217,Browser Information Discovery,Discovery,"Linux, Windows, macOS",1,0
+T1218,System Binary Proxy Execution,Stealth,"Linux, Windows, macOS",6,6
+T1218.001,System Binary Proxy Execution: Compiled HTML File,Stealth,Windows,2,2
+T1218.002,System Binary Proxy Execution: Control Panel,Stealth,Windows,2,2
+T1218.003,System Binary Proxy Execution: CMSTP,Stealth,Windows,2,2
+T1218.004,System Binary Proxy Execution: InstallUtil,Stealth,Windows,2,2
+T1218.005,System Binary Proxy Execution: Mshta,Stealth,Windows,2,2
+T1218.007,System Binary Proxy Execution: Msiexec,Stealth,Windows,2,2
+T1218.008,System Binary Proxy Execution: Odbcconf,Stealth,Windows,2,2
+T1218.009,System Binary Proxy Execution: Regsvcs/Regasm,Stealth,Windows,2,2
+T1218.010,System Binary Proxy Execution: Regsvr32,Stealth,Windows,1,1
+T1218.011,System Binary Proxy Execution: Rundll32,Stealth,Windows,1,1
+T1218.012,System Binary Proxy Execution: Verclsid,Stealth,Windows,3,3
+T1218.013,System Binary Proxy Execution: Mavinject,Stealth,Windows,2,2
+T1218.014,System Binary Proxy Execution: MMC,Stealth,Windows,2,2
+T1218.015,System Binary Proxy Execution: Electron Applications,Stealth,"Linux, Windows, macOS",3,3
+T1219,Remote Access Tools,Command and Control,"Linux, Windows, macOS",5,5
+T1219.001,Remote Access Tools: IDE Tunneling,Command and Control,"Linux, Windows, macOS",1,1
+T1219.002,Remote Access Tools: Remote Desktop Software,Command and Control,"Linux, Windows, macOS",3,3
+T1219.003,Remote Access Tools: Remote Access Hardware,Command and Control,"Linux, Windows, macOS",1,1
+T1220,XSL Script Processing,Stealth,Windows,1,1
+T1221,Template Injection,Stealth,Windows,4,4
+T1222,File and Directory Permissions Modification,Defense Impairment,"ESXi, Linux, Windows, macOS",2,2
+T1222.001,File and Directory Permissions Modification: Windows Permissions,Defense Impairment,Windows,2,2
+T1222.002,File and Directory Permissions Modification: Linux and Mac Permissions,Defense Impairment,"Linux, macOS",2,2
+T1480,Execution Guardrails,Stealth,"ESXi, Linux, Windows, macOS",1,1
+T1480.001,Execution Guardrails: Environmental Keying,Stealth,"Linux, Windows, macOS",1,1
+T1480.002,Execution Guardrails: Mutual Exclusion,Stealth,"Linux, Windows, macOS",1,1
+T1482,Domain Trust Discovery,Discovery,Windows,2,2
+T1484,Domain or Tenant Policy Modification,"Defense Impairment, Privilege Escalation","Identity Provider, Windows",3,3
+T1484.001,Domain or Tenant Policy Modification: Group Policy Modification,"Defense Impairment, Privilege Escalation",Windows,2,2
+T1484.002,Domain or Tenant Policy Modification: Trust Modification,"Defense Impairment, Privilege Escalation","Identity Provider, Windows",2,2
+T1485,Data Destruction,Impact,"Containers, ESXi, IaaS, Linux, Windows, macOS",3,3
+T1485.001,Data Destruction: Lifecycle-Triggered Deletion,Impact,IaaS,2,2
+T1486,Data Encrypted for Impact,Impact,"ESXi, IaaS, Linux, Windows, macOS",2,2
+T1489,Service Stop,Impact,"ESXi, IaaS, Linux, Windows, macOS",5,5
+T1490,Inhibit System Recovery,Impact,"Containers, ESXi, IaaS, Linux, Network Devices, Windows, macOS",4,4
+T1491,Defacement,Impact,"ESXi, IaaS, Linux, Windows, macOS",1,1
+T1491.001,Defacement: Internal Defacement,Impact,"ESXi, Linux, Windows, macOS",1,1
+T1491.002,Defacement: External Defacement,Impact,"IaaS, Linux, Windows, macOS",1,1
+T1495,Firmware Corruption,Impact,"Linux, Network Devices, Windows, macOS",3,3
+T1496,Resource Hijacking,Impact,"Containers, IaaS, Linux, SaaS, Windows, macOS",1,0
+T1496.001,Resource Hijacking: Compute Hijacking,Impact,"Containers, IaaS, Linux, Windows, macOS",1,0
+T1496.002,Resource Hijacking: Bandwidth Hijacking,Impact,"Containers, IaaS, Linux, Windows, macOS",1,0
+T1496.003,Resource Hijacking: SMS Pumping,Impact,SaaS,1,1
+T1496.004,Resource Hijacking: Cloud Service Hijacking,Impact,SaaS,1,0
+T1497,Virtualization/Sandbox Evasion,"Discovery, Stealth","Linux, Windows, macOS",1,0
+T1497.001,Virtualization/Sandbox Evasion: System Checks,"Discovery, Stealth","Linux, Windows, macOS",1,0
+T1497.002,Virtualization/Sandbox Evasion: User Activity Based Checks,"Discovery, Stealth","Linux, Windows, macOS",1,0
+T1497.003,Virtualization/Sandbox Evasion: Time Based Checks,"Discovery, Stealth","Linux, Windows, macOS",1,0
+T1498,Network Denial of Service,Impact,"Containers, IaaS, Linux, Windows, macOS",1,1
+T1498.001,Network Denial of Service: Direct Network Flood,Impact,"IaaS, Linux, Windows, macOS",1,1
+T1498.002,Network Denial of Service: Reflection Amplification,Impact,"IaaS, Linux, Windows, macOS",1,1
+T1499,Endpoint Denial of Service,Impact,"Containers, IaaS, Linux, Windows, macOS",1,1
+T1499.001,Endpoint Denial of Service: OS Exhaustion Flood,Impact,"Linux, Windows, macOS",1,1
+T1499.002,Endpoint Denial of Service: Service Exhaustion Flood,Impact,"IaaS, Linux, Windows, macOS",1,1
+T1499.003,Endpoint Denial of Service: Application Exhaustion Flood,Impact,"IaaS, Linux, Windows, macOS",1,1
+T1499.004,Endpoint Denial of Service: Application or System Exploitation,Impact,"IaaS, Linux, Windows, macOS",1,1
+T1505,Server Software Component,Persistence,"ESXi, Linux, Network Devices, Windows, macOS",7,7
+T1505.001,Server Software Component: SQL Stored Procedures,Persistence,"Linux, Windows",3,3
+T1505.002,Server Software Component: Transport Agent,Persistence,"Linux, Windows",3,3
+T1505.003,Server Software Component: Web Shell,Persistence,"Linux, Network Devices, Windows, macOS",2,2
+T1505.004,Server Software Component: IIS Components,Persistence,Windows,4,4
+T1505.005,Server Software Component: Terminal Services DLL,Persistence,Windows,2,2
+T1505.006,Server Software Component: vSphere Installation Bundles,Persistence,ESXi,3,3
+T1518,Software Discovery,Discovery,"ESXi, IaaS, Linux, Windows, macOS",1,0
+T1518.001,Software Discovery: Security Software Discovery,Discovery,"IaaS, Linux, Windows, macOS",1,0
+T1518.002,Software Discovery: Backup Software Discovery,Discovery,"Linux, Windows, macOS",1,0
+T1525,Implant Internal Image,Persistence,"Containers, IaaS",3,3
+T1526,Cloud Service Discovery,Discovery,"IaaS, Identity Provider, Office Suite, SaaS",1,0
+T1528,Steal Application Access Token,Credential Access,"Containers, IaaS, Identity Provider, Office Suite, SaaS",4,4
+T1529,System Shutdown/Reboot,Impact,"ESXi, Linux, Network Devices, Windows, macOS",1,0
+T1530,Data from Cloud Storage,Collection,"IaaS, Office Suite, SaaS",6,6
+T1531,Account Access Removal,Impact,"ESXi, IaaS, Linux, Office Suite, SaaS, Windows, macOS",1,0
+T1534,Internal Spearphishing,Lateral Movement,"Linux, Office Suite, SaaS, Windows, macOS",1,0
+T1535,Unused/Unsupported Cloud Regions,Stealth,IaaS,1,1
+T1537,Transfer Data to Cloud Account,Exfiltration,"IaaS, Office Suite, SaaS",4,4
+T1538,Cloud Service Dashboard,Discovery,"IaaS, Identity Provider, Office Suite, SaaS",1,1
+T1539,Steal Web Session Cookie,Credential Access,"Linux, Office Suite, SaaS, Windows, macOS",6,6
+T1542,Pre-OS Boot,"Persistence, Stealth","Linux, Network Devices, Windows, macOS",5,5
+T1542.001,Pre-OS Boot: System Firmware,"Persistence, Stealth","Network Devices, Windows",3,3
+T1542.002,Pre-OS Boot: Component Firmware,"Persistence, Stealth","Linux, Windows, macOS",1,1
+T1542.003,Pre-OS Boot: Bootkit,"Persistence, Stealth","Linux, Windows",2,2
+T1542.004,Pre-OS Boot: ROMMONkit,"Persistence, Stealth",Network Devices,3,3
+T1542.005,Pre-OS Boot: TFTP Boot,"Persistence, Stealth",Network Devices,6,6
+T1543,Create or Modify System Process,"Persistence, Privilege Escalation","Containers, Linux, Windows, macOS",9,9
+T1543.001,Create or Modify System Process: Launch Agent,"Persistence, Privilege Escalation",macOS,1,1
+T1543.002,Create or Modify System Process: Systemd Service,"Persistence, Privilege Escalation",Linux,4,4
+T1543.003,Create or Modify System Process: Windows Service,"Persistence, Privilege Escalation",Windows,5,5
+T1543.004,Create or Modify System Process: Launch Daemon,"Persistence, Privilege Escalation",macOS,2,2
+T1543.005,Create or Modify System Process: Container Service,"Persistence, Privilege Escalation",Containers,2,2
+T1546,Event Triggered Execution,"Persistence, Privilege Escalation","IaaS, Linux, Office Suite, SaaS, Windows, macOS",2,2
+T1546.001,Event Triggered Execution: Change Default File Association,"Persistence, Privilege Escalation",Windows,1,0
+T1546.002,Event Triggered Execution: Screensaver,"Persistence, Privilege Escalation",Windows,2,2
+T1546.003,Event Triggered Execution: Windows Management Instrumentation Event Subscription,"Persistence, Privilege Escalation",Windows,3,3
+T1546.004,Event Triggered Execution: Unix Shell Configuration Modification,"Persistence, Privilege Escalation","Linux, macOS",1,1
+T1546.005,Event Triggered Execution: Trap,"Persistence, Privilege Escalation","Linux, macOS",1,0
+T1546.006,Event Triggered Execution: LC_LOAD_DYLIB Addition,"Persistence, Privilege Escalation",macOS,3,3
+T1546.007,Event Triggered Execution: Netsh Helper DLL,"Persistence, Privilege Escalation",Windows,1,0
+T1546.008,Event Triggered Execution: Accessibility Features,"Persistence, Privilege Escalation",Windows,3,3
+T1546.009,Event Triggered Execution: AppCert DLLs,"Persistence, Privilege Escalation",Windows,1,1
+T1546.010,Event Triggered Execution: AppInit DLLs,"Persistence, Privilege Escalation",Windows,2,2
+T1546.011,Event Triggered Execution: Application Shimming,"Persistence, Privilege Escalation",Windows,2,2
+T1546.012,Event Triggered Execution: Image File Execution Options Injection,"Persistence, Privilege Escalation",Windows,1,0
+T1546.013,Event Triggered Execution: PowerShell Profile,"Persistence, Privilege Escalation",Windows,3,3
+T1546.014,Event Triggered Execution: Emond,"Persistence, Privilege Escalation",macOS,1,1
+T1546.015,Event Triggered Execution: Component Object Model Hijacking,"Persistence, Privilege Escalation",Windows,1,0
+T1546.016,Event Triggered Execution: Installer Packages,"Persistence, Privilege Escalation","Linux, Windows, macOS",1,0
+T1546.017,Event Triggered Execution: Udev Rules,"Persistence, Privilege Escalation",Linux,1,0
+T1546.018,Event Triggered Execution: Python Startup Hooks,"Persistence, Privilege Escalation","Linux, Windows, macOS",1,0
+T1547,Boot or Logon Autostart Execution,"Persistence, Privilege Escalation","Linux, Network Devices, Windows, macOS",1,0
+T1547.001,Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder,"Persistence, Privilege Escalation",Windows,1,0
+T1547.002,Boot or Logon Autostart Execution: Authentication Package,"Persistence, Privilege Escalation",Windows,1,1
+T1547.003,Boot or Logon Autostart Execution: Time Providers,"Persistence, Privilege Escalation",Windows,2,2
+T1547.004,Boot or Logon Autostart Execution: Winlogon Helper DLL,"Persistence, Privilege Escalation",Windows,2,2
+T1547.005,Boot or Logon Autostart Execution: Security Support Provider,"Persistence, Privilege Escalation",Windows,1,1
+T1547.006,Boot or Logon Autostart Execution: Kernel Modules and Extensions,"Persistence, Privilege Escalation","Linux, macOS",4,4
+T1547.007,Boot or Logon Autostart Execution: Re-opened Applications,"Persistence, Privilege Escalation",macOS,2,2
+T1547.008,Boot or Logon Autostart Execution: LSASS Driver,"Persistence, Privilege Escalation",Windows,3,3
+T1547.009,Boot or Logon Autostart Execution: Shortcut Modification,"Persistence, Privilege Escalation",Windows,3,3
+T1547.010,Boot or Logon Autostart Execution: Port Monitors,"Persistence, Privilege Escalation",Windows,1,0
+T1547.012,Boot or Logon Autostart Execution: Print Processors,"Persistence, Privilege Escalation",Windows,1,1
+T1547.013,Boot or Logon Autostart Execution: XDG Autostart Entries,"Persistence, Privilege Escalation",Linux,3,3
+T1547.014,Boot or Logon Autostart Execution: Active Setup,"Persistence, Privilege Escalation",Windows,1,0
+T1547.015,Boot or Logon Autostart Execution: Login Items,"Persistence, Privilege Escalation",macOS,1,0
+T1548,Abuse Elevation Control Mechanism,Privilege Escalation,"IaaS, Identity Provider, Linux, Office Suite, Windows, macOS",8,8
+T1548.001,Abuse Elevation Control Mechanism: Setuid and Setgid,Privilege Escalation,"Linux, macOS",1,1
+T1548.002,Abuse Elevation Control Mechanism: Bypass User Account Control,Privilege Escalation,Windows,4,4
+T1548.003,Abuse Elevation Control Mechanism: Sudo and Sudo Caching,Privilege Escalation,"Linux, macOS",3,3
+T1548.004,Abuse Elevation Control Mechanism: Elevated Execution with Prompt,Privilege Escalation,macOS,1,1
+T1548.005,Abuse Elevation Control Mechanism: Temporary Elevated Cloud Access,Privilege Escalation,"IaaS, Identity Provider, Office Suite",1,1
+T1548.006,Abuse Elevation Control Mechanism: TCC Manipulation,Privilege Escalation,macOS,3,3
+T1550,Use Alternate Authentication Material,Lateral Movement,"Containers, IaaS, Identity Provider, Linux, Office Suite, SaaS, Windows",7,7
+T1550.001,Use Alternate Authentication Material: Application Access Token,Lateral Movement,"Containers, IaaS, Identity Provider, Office Suite, SaaS",5,5
+T1550.002,Use Alternate Authentication Material: Pass the Hash,Lateral Movement,Windows,4,4
+T1550.003,Use Alternate Authentication Material: Pass the Ticket,Lateral Movement,Windows,4,4
+T1550.004,Use Alternate Authentication Material: Web Session Cookie,Lateral Movement,"IaaS, Office Suite, SaaS",1,1
+T1552,Unsecured Credentials,Credential Access,"Containers, IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",11,11
+T1552.001,Unsecured Credentials: Credentials In Files,Credential Access,"Containers, IaaS, Linux, Windows, macOS",4,4
+T1552.002,Unsecured Credentials: Credentials in Registry,Credential Access,Windows,3,3
+T1552.003,Unsecured Credentials: Shell History,Credential Access,"Linux, Windows, macOS",1,1
+T1552.004,Unsecured Credentials: Private Keys,Credential Access,"Linux, Network Devices, Windows, macOS",4,4
+T1552.005,Unsecured Credentials: Cloud Instance Metadata API,Credential Access,IaaS,3,3
+T1552.006,Unsecured Credentials: Group Policy Preferences,Credential Access,Windows,3,3
+T1552.007,Unsecured Credentials: Container API,Credential Access,Containers,4,4
+T1552.008,Unsecured Credentials: Chat Messages,Credential Access,"Office Suite, SaaS",2,2
+T1553,Subvert Trust Controls,Defense Impairment,"Linux, Windows, macOS",5,5
+T1553.001,Subvert Trust Controls: Gatekeeper Bypass,Defense Impairment,macOS,1,1
+T1553.002,Subvert Trust Controls: Code Signing,Defense Impairment,"Windows, macOS",1,0
+T1553.003,Subvert Trust Controls: SIP and Trust Provider Hijacking,Defense Impairment,Windows,3,3
+T1553.004,Subvert Trust Controls: Install Root Certificate,Defense Impairment,"Linux, Windows, macOS",2,2
+T1553.005,Subvert Trust Controls: Mark-of-the-Web Bypass,Defense Impairment,Windows,2,2
+T1553.006,Subvert Trust Controls: Code Signing Policy Modification,Defense Impairment,"Windows, macOS",3,3
+T1554,Compromise Host Software Binary,Persistence,"ESXi, Linux, Windows, macOS",1,1
+T1555,Credentials from Password Stores,Credential Access,"IaaS, Linux, Windows, macOS",3,3
+T1555.001,Credentials from Password Stores: Keychain,Credential Access,macOS,1,1
+T1555.002,Credentials from Password Stores: Securityd Memory,Credential Access,"Linux, macOS",1,0
+T1555.003,Credentials from Password Stores: Credentials from Web Browsers,Credential Access,"Linux, Windows, macOS",5,5
+T1555.004,Credentials from Password Stores: Windows Credential Manager,Credential Access,Windows,1,1
+T1555.005,Credentials from Password Stores: Password Managers,Credential Access,"Linux, Windows, macOS",5,5
+T1555.006,Credentials from Password Stores: Cloud Secrets Management Stores,Credential Access,IaaS,1,1
+T1556,Modify Authentication Process,"Credential Access, Defense Impairment, Persistence","IaaS, Identity Provider, Linux, Network Devices, Office Suite, SaaS, Windows, macOS",9,9
+T1556.001,Modify Authentication Process: Domain Controller Authentication,"Credential Access, Defense Impairment, Persistence",Windows,4,4
+T1556.002,Modify Authentication Process: Password Filter DLL,"Credential Access, Defense Impairment, Persistence",Windows,1,1
+T1556.003,Modify Authentication Process: Pluggable Authentication Modules,"Credential Access, Defense Impairment, Persistence","Linux, macOS",2,2
+T1556.004,Modify Authentication Process: Network Device Authentication,"Credential Access, Defense Impairment, Persistence",Network Devices,2,2
+T1556.005,Modify Authentication Process: Reversible Encryption,"Credential Access, Defense Impairment, Persistence",Windows,2,2
+T1556.006,Modify Authentication Process: Multi-Factor Authentication,"Credential Access, Defense Impairment, Persistence","IaaS, Identity Provider, Linux, Office Suite, SaaS, Windows, macOS",3,3
+T1556.007,Modify Authentication Process: Hybrid Identity,"Credential Access, Defense Impairment, Persistence","IaaS, Identity Provider, Office Suite, SaaS, Windows",3,3
+T1556.008,Modify Authentication Process: Network Provider DLL,"Credential Access, Defense Impairment, Persistence",Windows,3,3
+T1556.009,Modify Authentication Process: Conditional Access Policies,"Credential Access, Defense Impairment, Persistence","IaaS, Identity Provider",1,1
+T1557,Adversary-in-the-Middle,"Collection, Credential Access","Linux, Network Devices, Windows, macOS",7,7
+T1557.001,Adversary-in-the-Middle: Name Resolution Poisoning and SMB Relay,"Collection, Credential Access",Windows,4,4
+T1557.002,Adversary-in-the-Middle: ARP Cache Poisoning,"Collection, Credential Access","Linux, Windows, macOS",6,6
+T1557.003,Adversary-in-the-Middle: DHCP Spoofing,"Collection, Credential Access","Linux, Windows, macOS",2,2
+T1557.004,Adversary-in-the-Middle: Evil Twin,"Collection, Credential Access",Network Devices,2,2
+T1558,Steal or Forge Kerberos Tickets,Credential Access,"Linux, Windows, macOS",6,6
+T1558.001,Steal or Forge Kerberos Tickets: Golden Ticket,Credential Access,Windows,2,2
+T1558.002,Steal or Forge Kerberos Tickets: Silver Ticket,Credential Access,Windows,3,3
+T1558.003,Steal or Forge Kerberos Tickets: Kerberoasting,Credential Access,Windows,3,3
+T1558.004,Steal or Forge Kerberos Tickets: AS-REP Roasting,Credential Access,Windows,3,3
+T1558.005,Steal or Forge Kerberos Tickets: Ccache Files,Credential Access,"Linux, macOS",2,2
+T1559,Inter-Process Communication,Execution,"Linux, Windows, macOS",6,6
+T1559.001,Inter-Process Communication: Component Object Model,Execution,Windows,2,2
+T1559.002,Inter-Process Communication: Dynamic Data Exchange,Execution,Windows,4,4
+T1559.003,Inter-Process Communication: XPC Services,Execution,macOS,1,1
+T1560,Archive Collected Data,Collection,"Linux, Windows, macOS",1,1
+T1560.001,Archive Collected Data: Archive via Utility,Collection,"Linux, Windows, macOS",1,1
+T1560.002,Archive Collected Data: Archive via Library,Collection,"Linux, Windows, macOS",1,0
+T1560.003,Archive Collected Data: Archive via Custom Method,Collection,"Linux, Windows, macOS",1,0
+T1561,Disk Wipe,Impact,"Linux, Network Devices, Windows, macOS",1,1
+T1561.001,Disk Wipe: Disk Content Wipe,Impact,"Linux, Network Devices, Windows, macOS",1,1
+T1561.002,Disk Wipe: Disk Structure Wipe,Impact,"Linux, Network Devices, Windows, macOS",1,1
+T1563,Remote Service Session Hijacking,Lateral Movement,"Linux, Windows, macOS",5,5
+T1563.001,Remote Service Session Hijacking: SSH Hijacking,Lateral Movement,"Linux, macOS",4,4
+T1563.002,Remote Service Session Hijacking: RDP Hijacking,Lateral Movement,Windows,7,7
+T1564,Hide Artifacts,Stealth,"ESXi, Linux, Office Suite, Windows, macOS",4,4
+T1564.001,Hide Artifacts: Hidden Files and Directories,Stealth,"Linux, Windows, macOS",1,0
+T1564.002,Hide Artifacts: Hidden Users,Stealth,"Linux, Windows, macOS",1,1
+T1564.003,Hide Artifacts: Hidden Window,Stealth,"Linux, Windows, macOS",2,2
+T1564.004,Hide Artifacts: NTFS File Attributes,Stealth,Windows,1,1
+T1564.005,Hide Artifacts: Hidden File System,Stealth,"Linux, Windows, macOS",1,0
+T1564.006,Hide Artifacts: Run Virtual Instance,Stealth,"ESXi, Linux, Windows, macOS",3,3
+T1564.007,Hide Artifacts: VBA Stomping,Stealth,"Linux, Windows, macOS",1,1
+T1564.008,Hide Artifacts: Email Hiding Rules,Stealth,"Linux, Office Suite, Windows, macOS",1,1
+T1564.009,Hide Artifacts: Resource Forking,Stealth,macOS,1,1
+T1564.010,Hide Artifacts: Process Argument Spoofing,Stealth,Windows,1,0
+T1564.011,Hide Artifacts: Ignore Process Interrupts,Stealth,"Linux, Windows, macOS",1,0
+T1564.012,Hide Artifacts: File/Path Exclusions,Stealth,"Linux, Windows, macOS",2,2
+T1564.013,Hide Artifacts: Bind Mounts,Stealth,Linux,1,0
+T1564.014,Hide Artifacts: Extended Attributes,Stealth,"Linux, macOS",1,1
+T1565,Data Manipulation,Impact,"Linux, Windows, macOS",4,4
+T1565.001,Data Manipulation: Stored Data Manipulation,Impact,"Linux, Windows, macOS",3,3
+T1565.002,Data Manipulation: Transmitted Data Manipulation,Impact,"Linux, Windows, macOS",1,1
+T1565.003,Data Manipulation: Runtime Data Manipulation,Impact,"Linux, Windows, macOS",2,2
+T1566,Phishing,Initial Access,"Identity Provider, Linux, Office Suite, SaaS, Windows, macOS",6,6
+T1566.001,Phishing: Spearphishing Attachment,Initial Access,"Linux, Windows, macOS",7,7
+T1566.002,Phishing: Spearphishing Link,Initial Access,"Identity Provider, Linux, Office Suite, SaaS, Windows, macOS",5,5
+T1566.003,Phishing: Spearphishing via Service,Initial Access,"Linux, Windows, macOS",5,5
+T1566.004,Phishing: Spearphishing Voice,Initial Access,"Identity Provider, Linux, Windows, macOS",1,1
+T1567,Exfiltration Over Web Service,Exfiltration,"ESXi, Linux, Office Suite, SaaS, Windows, macOS",2,2
+T1567.001,Exfiltration Over Web Service: Exfiltration to Code Repository,Exfiltration,"ESXi, Linux, Windows, macOS",1,1
+T1567.002,Exfiltration Over Web Service: Exfiltration to Cloud Storage,Exfiltration,"ESXi, Linux, Windows, macOS",1,1
+T1567.003,Exfiltration Over Web Service: Exfiltration to Text Storage Sites,Exfiltration,"ESXi, Linux, Windows, macOS",1,1
+T1567.004,Exfiltration Over Web Service: Exfiltration Over Webhook,Exfiltration,"ESXi, Linux, Office Suite, SaaS, Windows, macOS",1,1
+T1568,Dynamic Resolution,Command and Control,"ESXi, Linux, Windows, macOS",2,2
+T1568.001,Dynamic Resolution: Fast Flux DNS,Command and Control,"ESXi, Linux, Windows, macOS",1,0
+T1568.002,Dynamic Resolution: Domain Generation Algorithms,Command and Control,"ESXi, Linux, Windows, macOS",2,2
+T1568.003,Dynamic Resolution: DNS Calculation,Command and Control,"ESXi, Linux, Windows, macOS",1,0
+T1569,System Services,Execution,"Linux, Windows, macOS",4,4
+T1569.001,System Services: Launchctl,Execution,macOS,1,1
+T1569.002,System Services: Service Execution,Execution,Windows,3,3
+T1569.003,System Services: Systemctl,Execution,Linux,1,1
+T1570,Lateral Tool Transfer,Lateral Movement,"ESXi, Linux, Windows, macOS",2,2
+T1571,Non-Standard Port,Command and Control,"ESXi, Linux, Windows, macOS",2,2
+T1572,Protocol Tunneling,Command and Control,"ESXi, Linux, Windows, macOS",2,2
+T1573,Encrypted Channel,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",2,2
+T1573.001,Encrypted Channel: Symmetric Cryptography,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",1,1
+T1573.002,Encrypted Channel: Asymmetric Cryptography,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",2,2
+T1574,Hijack Execution Flow,"Execution, Stealth","Linux, Windows, macOS",10,10
+T1574.001,Hijack Execution Flow: DLL,"Execution, Stealth",Windows,5,5
+T1574.004,Hijack Execution Flow: Dylib Hijacking,"Execution, Stealth",macOS,1,1
+T1574.005,Hijack Execution Flow: Executable Installer File Permissions Weakness,"Execution, Stealth",Windows,3,3
+T1574.006,Hijack Execution Flow: Dynamic Linker Hijacking,"Execution, Stealth","Linux, macOS",2,2
+T1574.007,Hijack Execution Flow: Path Interception by PATH Environment Variable,"Execution, Stealth","Linux, Windows, macOS",3,3
+T1574.008,Hijack Execution Flow: Path Interception by Search Order Hijacking,"Execution, Stealth",Windows,3,3
+T1574.009,Hijack Execution Flow: Path Interception by Unquoted Path,"Execution, Stealth",Windows,3,3
+T1574.010,Hijack Execution Flow: Services File Permissions Weakness,"Execution, Stealth",Windows,3,3
+T1574.011,Hijack Execution Flow: Services Registry Permissions Weakness,"Execution, Stealth",Windows,1,1
+T1574.012,Hijack Execution Flow: COR_PROFILER,"Execution, Stealth",Windows,3,3
+T1574.013,Hijack Execution Flow: KernelCallbackTable,"Execution, Stealth",Windows,1,1
+T1574.014,Hijack Execution Flow: AppDomainManager,"Execution, Stealth",Windows,1,1
+T1578,Modify Cloud Compute Infrastructure,Defense Impairment,IaaS,2,2
+T1578.001,Modify Cloud Compute Infrastructure: Create Snapshot,Defense Impairment,IaaS,2,2
+T1578.002,Modify Cloud Compute Infrastructure: Create Cloud Instance,Defense Impairment,IaaS,2,2
+T1578.003,Modify Cloud Compute Infrastructure: Delete Cloud Instance,Defense Impairment,IaaS,2,2
+T1578.004,Modify Cloud Compute Infrastructure: Revert Cloud Instance,Defense Impairment,IaaS,1,0
+T1578.005,Modify Cloud Compute Infrastructure: Modify Cloud Compute Configurations,Defense Impairment,IaaS,2,2
+T1580,Cloud Infrastructure Discovery,Discovery,IaaS,1,1
+T1583,Acquire Infrastructure,Resource Development,PRE,1,1
+T1583.001,Acquire Infrastructure: Domains,Resource Development,PRE,1,1
+T1583.002,Acquire Infrastructure: DNS Server,Resource Development,PRE,1,1
+T1583.003,Acquire Infrastructure: Virtual Private Server,Resource Development,PRE,1,1
+T1583.004,Acquire Infrastructure: Server,Resource Development,PRE,1,1
+T1583.005,Acquire Infrastructure: Botnet,Resource Development,PRE,1,1
+T1583.006,Acquire Infrastructure: Web Services,Resource Development,PRE,1,1
+T1583.007,Acquire Infrastructure: Serverless,Resource Development,PRE,1,1
+T1583.008,Acquire Infrastructure: Malvertising,Resource Development,PRE,1,1
+T1584,Compromise Infrastructure,Resource Development,PRE,1,1
+T1584.001,Compromise Infrastructure: Domains,Resource Development,PRE,1,1
+T1584.002,Compromise Infrastructure: DNS Server,Resource Development,PRE,1,1
+T1584.003,Compromise Infrastructure: Virtual Private Server,Resource Development,PRE,1,1
+T1584.004,Compromise Infrastructure: Server,Resource Development,PRE,1,1
+T1584.005,Compromise Infrastructure: Botnet,Resource Development,PRE,1,1
+T1584.006,Compromise Infrastructure: Web Services,Resource Development,PRE,1,1
+T1584.007,Compromise Infrastructure: Serverless,Resource Development,PRE,1,1
+T1584.008,Compromise Infrastructure: Network Devices,Resource Development,PRE,1,1
+T1585,Establish Accounts,Resource Development,PRE,1,1
+T1585.001,Establish Accounts: Social Media Accounts,Resource Development,PRE,1,1
+T1585.002,Establish Accounts: Email Accounts,Resource Development,PRE,1,1
+T1585.003,Establish Accounts: Cloud Accounts,Resource Development,PRE,1,1
+T1586,Compromise Accounts,Resource Development,PRE,1,1
+T1586.001,Compromise Accounts: Social Media Accounts,Resource Development,PRE,1,1
+T1586.002,Compromise Accounts: Email Accounts,Resource Development,PRE,1,1
+T1586.003,Compromise Accounts: Cloud Accounts,Resource Development,PRE,1,1
+T1587,Develop Capabilities,Resource Development,PRE,1,1
+T1587.001,Develop Capabilities: Malware,Resource Development,PRE,1,1
+T1587.002,Develop Capabilities: Code Signing Certificates,Resource Development,PRE,1,1
+T1587.003,Develop Capabilities: Digital Certificates,Resource Development,PRE,1,1
+T1587.004,Develop Capabilities: Exploits,Resource Development,PRE,1,1
+T1588,Obtain Capabilities,Resource Development,PRE,1,1
+T1588.001,Obtain Capabilities: Malware,Resource Development,PRE,1,1
+T1588.002,Obtain Capabilities: Tool,Resource Development,PRE,1,1
+T1588.003,Obtain Capabilities: Code Signing Certificates,Resource Development,PRE,1,1
+T1588.004,Obtain Capabilities: Digital Certificates,Resource Development,PRE,1,1
+T1588.005,Obtain Capabilities: Exploits,Resource Development,PRE,1,1
+T1588.006,Obtain Capabilities: Vulnerabilities,Resource Development,PRE,1,1
+T1588.007,Obtain Capabilities: Artificial Intelligence,Resource Development,PRE,1,1
+T1589,Gather Victim Identity Information,Reconnaissance,PRE,1,1
+T1589.001,Gather Victim Identity Information: Credentials,Reconnaissance,PRE,1,1
+T1589.002,Gather Victim Identity Information: Email Addresses,Reconnaissance,PRE,1,1
+T1589.003,Gather Victim Identity Information: Employee Names,Reconnaissance,PRE,1,1
+T1590,Gather Victim Network Information,Reconnaissance,PRE,1,1
+T1590.001,Gather Victim Network Information: Domain Properties,Reconnaissance,PRE,1,1
+T1590.002,Gather Victim Network Information: DNS,Reconnaissance,PRE,1,1
+T1590.003,Gather Victim Network Information: Network Trust Dependencies,Reconnaissance,PRE,1,1
+T1590.004,Gather Victim Network Information: Network Topology,Reconnaissance,PRE,1,1
+T1590.005,Gather Victim Network Information: IP Addresses,Reconnaissance,PRE,1,1
+T1590.006,Gather Victim Network Information: Network Security Appliances,Reconnaissance,PRE,1,1
+T1591,Gather Victim Org Information,Reconnaissance,PRE,1,1
+T1591.001,Gather Victim Org Information: Determine Physical Locations,Reconnaissance,PRE,1,1
+T1591.002,Gather Victim Org Information: Business Relationships,Reconnaissance,PRE,1,1
+T1591.003,Gather Victim Org Information: Identify Business Tempo,Reconnaissance,PRE,1,1
+T1591.004,Gather Victim Org Information: Identify Roles,Reconnaissance,PRE,1,1
+T1592,Gather Victim Host Information,Reconnaissance,PRE,1,1
+T1592.001,Gather Victim Host Information: Hardware,Reconnaissance,PRE,1,1
+T1592.002,Gather Victim Host Information: Software,Reconnaissance,PRE,1,1
+T1592.003,Gather Victim Host Information: Firmware,Reconnaissance,PRE,1,1
+T1592.004,Gather Victim Host Information: Client Configurations,Reconnaissance,PRE,1,1
+T1593,Search Open Websites/Domains,Reconnaissance,PRE,2,2
+T1593.001,Search Open Websites/Domains: Social Media,Reconnaissance,PRE,1,1
+T1593.002,Search Open Websites/Domains: Search Engines,Reconnaissance,PRE,1,1
+T1593.003,Search Open Websites/Domains: Code Repositories,Reconnaissance,PRE,2,2
+T1594,Search Victim-Owned Websites,Reconnaissance,PRE,1,1
+T1595,Active Scanning,Reconnaissance,PRE,1,1
+T1595.001,Active Scanning: Scanning IP Blocks,Reconnaissance,PRE,1,1
+T1595.002,Active Scanning: Vulnerability Scanning,Reconnaissance,PRE,1,1
+T1595.003,Active Scanning: Wordlist Scanning,Reconnaissance,PRE,2,2
+T1596,Search Open Technical Databases,Reconnaissance,PRE,1,1
+T1596.001,Search Open Technical Databases: DNS/Passive DNS,Reconnaissance,PRE,1,1
+T1596.002,Search Open Technical Databases: WHOIS,Reconnaissance,PRE,1,1
+T1596.003,Search Open Technical Databases: Digital Certificates,Reconnaissance,PRE,1,1
+T1596.004,Search Open Technical Databases: CDNs,Reconnaissance,PRE,1,1
+T1596.005,Search Open Technical Databases: Scan Databases,Reconnaissance,PRE,1,1
+T1597,Search Closed Sources,Reconnaissance,PRE,1,1
+T1597.001,Search Closed Sources: Threat Intel Vendors,Reconnaissance,PRE,1,1
+T1597.002,Search Closed Sources: Purchase Technical Data,Reconnaissance,PRE,1,1
+T1598,Phishing for Information,Reconnaissance,PRE,2,2
+T1598.001,Phishing for Information: Spearphishing Service,Reconnaissance,PRE,1,1
+T1598.002,Phishing for Information: Spearphishing Attachment,Reconnaissance,PRE,2,2
+T1598.003,Phishing for Information: Spearphishing Link,Reconnaissance,PRE,2,2
+T1598.004,Phishing for Information: Spearphishing Voice,Reconnaissance,PRE,1,1
+T1599,Network Boundary Bridging,Defense Impairment,Network Devices,5,5
+T1599.001,Network Boundary Bridging: Network Address Translation Traversal,Defense Impairment,Network Devices,5,5
+T1600,Weaken Encryption,Defense Impairment,Network Devices,1,0
+T1600.001,Weaken Encryption: Reduce Key Space,Defense Impairment,Network Devices,1,0
+T1600.002,Weaken Encryption: Disable Crypto Hardware,Defense Impairment,Network Devices,1,0
+T1601,Modify System Image,Defense Impairment,Network Devices,6,6
+T1601.001,Modify System Image: Patch System Image,Defense Impairment,Network Devices,6,6
+T1601.002,Modify System Image: Downgrade System Image,Defense Impairment,Network Devices,6,6
+T1602,Data from Configuration Repository,Collection,Network Devices,6,6
+T1602.001,Data from Configuration Repository: SNMP (MIB Dump),Collection,Network Devices,6,6
+T1602.002,Data from Configuration Repository: Network Device Configuration Dump,Collection,Network Devices,6,6
+T1606,Forge Web Credentials,Credential Access,"IaaS, Identity Provider, Linux, Office Suite, SaaS, Windows, macOS",4,4
+T1606.001,Forge Web Credentials: Web Cookies,Credential Access,"IaaS, Linux, SaaS, Windows, macOS",2,2
+T1606.002,Forge Web Credentials: SAML Tokens,Credential Access,"IaaS, Identity Provider, Office Suite, SaaS, Windows",4,4
+T1608,Stage Capabilities,Resource Development,PRE,1,1
+T1608.001,Stage Capabilities: Upload Malware,Resource Development,PRE,1,1
+T1608.002,Stage Capabilities: Upload Tool,Resource Development,PRE,1,1
+T1608.003,Stage Capabilities: Install Digital Certificate,Resource Development,PRE,1,1
+T1608.004,Stage Capabilities: Drive-by Target,Resource Development,PRE,1,1
+T1608.005,Stage Capabilities: Link Target,Resource Development,PRE,1,1
+T1608.006,Stage Capabilities: SEO Poisoning,Resource Development,PRE,1,1
+T1609,Container Administration Command,Execution,Containers,5,5
+T1610,Deploy Container,Execution,Containers,4,4
+T1611,Escape to Host,Privilege Escalation,"Containers, ESXi, Linux, Windows",5,5
+T1612,Build Image on Host,Stealth,Containers,4,4
+T1613,Container and Resource Discovery,Discovery,Containers,3,3
+T1614,System Location Discovery,Discovery,"IaaS, Linux, Windows, macOS",1,0
+T1614.001,System Location Discovery: System Language Discovery,Discovery,"Linux, Windows, macOS",1,0
+T1615,Group Policy Discovery,Discovery,Windows,1,0
+T1619,Cloud Storage Object Discovery,Discovery,IaaS,1,1
+T1620,Reflective Code Loading,Stealth,"Linux, Windows, macOS",1,0
+T1621,Multi-Factor Authentication Request Generation,Credential Access,"IaaS, Identity Provider, Linux, Office Suite, SaaS, Windows, macOS",3,3
+T1622,Debugger Evasion,"Discovery, Stealth","Linux, Windows, macOS",1,0
+T1647,Plist File Modification,Defense Impairment,macOS,1,1
+T1648,Serverless Execution,Execution,"IaaS, Office Suite, SaaS",2,2
+T1649,Steal or Forge Authentication Certificates,Credential Access,"Identity Provider, Linux, Windows, macOS",4,4
+T1650,Acquire Access,Resource Development,PRE,1,1
+T1651,Cloud Administration Command,Execution,IaaS,1,1
+T1652,Device Driver Discovery,Discovery,"Linux, Windows, macOS",1,0
+T1653,Power Settings,Persistence,"Linux, Network Devices, Windows, macOS",1,1
+T1654,Log Enumeration,Discovery,"ESXi, IaaS, Linux, Windows, macOS",1,1
+T1657,Financial Theft,Impact,"Linux, Office Suite, SaaS, Windows, macOS",2,2
+T1659,Content Injection,"Command and Control, Initial Access","Linux, Windows, macOS",2,2
+T1665,Hide Infrastructure,Command and Control,"ESXi, Linux, Network Devices, Windows, macOS",1,0
+T1666,Modify Cloud Resource Hierarchy,Defense Impairment,IaaS,3,3
+T1667,Email Bombing,Impact,"Linux, Office Suite, Windows, macOS",2,2
+T1668,Exclusive Control,Persistence,"Linux, Windows, macOS",1,0
+T1669,Wi-Fi Networks,Initial Access,"Linux, Network Devices, Windows, macOS",3,3
+T1671,Cloud Application Integration,Persistence,"Office Suite, SaaS",2,2
+T1673,Virtual Machine Discovery,Discovery,"ESXi, Linux, Windows, macOS",1,0
+T1674,Input Injection,Execution,"Linux, Windows, macOS",2,2
+T1675,ESXi Administration Command,Execution,ESXi,1,1
+T1677,Poisoned Pipeline Execution,Execution,SaaS,2,2
+T1678,Delay Execution,Stealth,"Linux, Windows, macOS",1,0
+T1679,Selective Exclusion,Stealth,Windows,1,0
+T1680,Local Storage Discovery,Discovery,"ESXi, IaaS, Linux, Windows, macOS",1,0
+T1681,Search Threat Vendor Data,Reconnaissance,PRE,1,1
+T1682,Query Public AI Services,Reconnaissance,PRE,1,1
+T1683,Generate Content,Resource Development,PRE,1,1
+T1683.001,Generate Content: Written Content,Resource Development,PRE,1,1
+T1683.002,Generate Content: Audio-Visual Content,Resource Development,PRE,1,1
+T1684,Social Engineering,Stealth,"Linux, Office Suite, SaaS, Windows, macOS",3,3
+T1684.001,Social Engineering: Impersonation,Stealth,"Linux, Office Suite, SaaS, Windows, macOS",2,2
+T1684.002,Social Engineering: Email Spoofing,Stealth,"Linux, Office Suite, Windows, macOS",1,1
+T1685,Disable or Modify Tools,Defense Impairment,"Containers, ESXi, IaaS, Linux, Network Devices, Windows, macOS",7,7
+T1685.001,Disable or Modify Tools: Disable or Modify Windows Event Log,Defense Impairment,Windows,4,4
+T1685.002,Disable or Modify Tools: Disable or Modify Cloud Log,Defense Impairment,"IaaS, Identity Provider, Office Suite, SaaS",1,1
+T1685.003,Disable or Modify Tools: Modify or Spoof Tool UI,Defense Impairment,"Linux, Windows, macOS",1,1
+T1685.004,Disable or Modify Tools: Disable or Modify Linux Audit System Log,Defense Impairment,Linux,2,2
+T1685.005,Disable or Modify Tools: Clear Windows Event Logs,Defense Impairment,Windows,3,3
+T1685.006,Disable or Modify Tools: Clear Linux or Mac System Logs,Defense Impairment,"Linux, macOS",3,3
+T1686,Disable or Modify System Firewall,Defense Impairment,"ESXi, Linux, Network Devices, Windows, macOS",4,4
+T1686.001,Disable or Modify System Firewall: Cloud Firewall,Defense Impairment,IaaS,2,2
+T1686.002,Disable or Modify System Firewall: Network Device Firewall,Defense Impairment,Network Devices,3,3
+T1686.003,Disable or Modify System Firewall: Windows Host Firewall,Defense Impairment,Windows,4,4
+T1687,Exploitation for Defense Impairment,Defense Impairment,"IaaS, Linux, SaaS, Windows, macOS",1,0
+T1688,Safe Mode Boot,Defense Impairment,Windows,2,2
+T1689,Downgrade Attack,Defense Impairment,"Linux, Windows, macOS",2,2
+T1690,Prevent Command History Logging,Defense Impairment,"ESXi, Linux, Network Devices, Windows, macOS",2,2

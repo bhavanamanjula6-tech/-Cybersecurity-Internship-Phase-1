@@ -1,0 +1,1001 @@
+Alert_ID,Timestamp,Alert_Type,Source_IP,Destination_IP,Username,Device_Name,Department,Severity,Status,Failed_Login_Count,Country,Protocol,Description
+ALT00186,2026-01-01 13:12:00,Malware,44.154.81.224,10.8.47.168,user047,DEV-0065,IT,Critical,Closed,0,UK,FTP,Malicious software activity detected on endpoint
+ALT00801,2026-01-01 19:38:00,Data Exfiltration,30.117.70.128,10.6.22.55,user039,DEV-0112,IT,Critical,Resolved,0,UK,RDP,Unusual outbound data transfer detected
+ALT00222,2026-01-02 13:05:00,Malware,180.245.102.25,10.0.105.44,user082,DEV-0075,IT,High,New,0,Germany,SMTP,Malicious software activity detected on endpoint
+ALT00585,2026-01-02 14:55:00,Data Exfiltration,196.71.13.155,10.3.143.244,user090,DEV-0193,Marketing,Critical,Resolved,0,USA,SSH,Unusual outbound data transfer detected
+ALT00818,2026-01-02 17:53:00,Malware,129.88.50.99,10.18.214.250,user054,DEV-0106,Finance,Critical,Investigating,0,Canada,HTTP,Malicious software activity detected on endpoint
+ALT00526,2026-01-02 19:30:00,Malware,13.88.211.143,10.15.201.138,user011,DEV-0167,Engineering,Critical,New,0,India,DNS,Malicious software activity detected on endpoint
+ALT00576,2026-01-03 00:55:00,Malware,196.191.251.104,10.13.202.249,user096,DEV-0096,Sales,Critical,Investigating,0,Germany,SSH,Malicious software activity detected on endpoint
+ALT00839,2026-01-03 12:03:00,Port Scanning,101.71.233.197,10.8.9.210,user091,DEV-0052,Finance,High,Closed,0,Canada,FTP,Multiple ports scanned from a source IP
+ALT00969,2026-01-03 12:49:00,Ransomware,178.90.192.12,10.9.93.58,user044,DEV-0175,Operations,Critical,Resolved,0,Australia,RDP,Potential ransomware behavior detected
+ALT00713,2026-01-04 15:39:00,Unauthorized Access,40.34.0.40,10.19.61.134,user013,DEV-0064,Finance,High,Resolved,0,India,RDP,Unauthorized access attempt detected
+ALT00494,2026-01-05 03:40:00,Port Scanning,121.212.253.189,10.18.148.10,user063,DEV-0103,Sales,Low,Resolved,0,Singapore,DNS,Multiple ports scanned from a source IP
+ALT00308,2026-01-05 05:26:00,Malware,172.161.249.77,10.8.24.102,user013,DEV-0177,Finance,Critical,Investigating,0,India,HTTPS,Malicious software activity detected on endpoint
+ALT00247,2026-01-05 09:26:00,Malware,180.138.70.108,10.3.60.73,user015,DEV-0028,Sales,High,Resolved,0,USA,DNS,Malicious software activity detected on endpoint
+ALT00135,2026-01-05 09:36:00,Unauthorized Access,96.145.232.254,10.20.252.228,user018,DEV-0130,Sales,Critical,Resolved,0,UK,HTTPS,Unauthorized access attempt detected
+ALT00621,2026-01-05 13:30:00,Data Exfiltration,135.42.219.64,10.19.78.187,user066,DEV-0048,Finance,Critical,New,0,UK,SMTP,Unusual outbound data transfer detected
+ALT00833,2026-01-05 18:27:00,Ransomware,39.226.99.151,10.20.233.1,user033,DEV-0194,Sales,High,Closed,0,Singapore,SSH,Potential ransomware behavior detected
+ALT00684,2026-01-06 22:21:00,Phishing,156.164.119.144,10.2.197.73,user078,DEV-0055,Operations,Low,New,0,USA,HTTP,Suspicious email or malicious link detected
+ALT00491,2026-01-07 05:41:00,Brute Force,114.249.155.159,10.19.184.177,user087,DEV-0177,Engineering,High,Investigating,66,Germany,SMTP,Multiple failed login attempts detected
+ALT00569,2026-01-07 07:01:00,Suspicious Login,199.219.124.159,10.2.30.36,user048,DEV-0128,HR,High,Investigating,1,USA,HTTPS,Login detected from unusual location or time
+ALT00198,2026-01-07 07:02:00,Brute Force,49.91.18.142,10.20.214.58,user042,DEV-0064,Sales,Low,Investigating,65,Canada,SSH,Multiple failed login attempts detected
+ALT00164,2026-01-07 09:26:00,Data Exfiltration,32.124.86.176,10.12.86.36,user035,DEV-0078,HR,Critical,Investigating,0,Germany,HTTPS,Unusual outbound data transfer detected
+ALT00784,2026-01-07 19:17:00,Unauthorized Access,81.245.203.12,10.8.140.161,user008,DEV-0147,Marketing,High,New,0,India,SMTP,Unauthorized access attempt detected
+ALT00899,2026-01-08 01:59:00,Suspicious Login,187.59.148.2,10.7.169.253,user023,DEV-0100,Marketing,High,New,6,USA,SSH,Login detected from unusual location or time
+ALT00857,2026-01-08 11:57:00,Malware,118.33.57.248,10.15.237.252,user054,DEV-0138,Sales,High,New,0,USA,SMTP,Malicious software activity detected on endpoint
+ALT00731,2026-01-08 23:15:00,Brute Force,43.224.92.73,10.1.160.90,user078,DEV-0168,Finance,Critical,New,12,UK,HTTPS,Multiple failed login attempts detected
+ALT00103,2026-01-09 20:32:00,Ransomware,194.73.149.110,10.0.180.62,user074,DEV-0107,Finance,Critical,Resolved,0,Canada,FTP,Potential ransomware behavior detected
+ALT00319,2026-01-10 04:03:00,Ransomware,16.95.52.73,10.8.64.184,user057,DEV-0187,IT,High,Closed,0,USA,HTTP,Potential ransomware behavior detected
+ALT00096,2026-01-10 11:19:00,Port Scanning,65.174.248.50,10.7.70.40,user010,DEV-0076,Marketing,Medium,New,0,Australia,HTTP,Multiple ports scanned from a source IP
+ALT00700,2026-01-11 05:16:00,Ransomware,54.4.180.249,10.15.0.126,user032,DEV-0121,IT,Critical,Closed,0,India,SMTP,Potential ransomware behavior detected
+ALT00601,2026-01-11 12:35:00,Malware,211.250.32.133,10.18.63.193,user097,DEV-0054,Engineering,Critical,Resolved,0,India,HTTPS,Malicious software activity detected on endpoint
+ALT00766,2026-01-11 16:06:00,Brute Force,135.21.80.73,10.9.12.59,user081,DEV-0198,Engineering,Low,Investigating,69,USA,HTTP,Multiple failed login attempts detected
+ALT00715,2026-01-12 05:09:00,Phishing,179.123.87.131,10.17.102.122,user062,DEV-0075,HR,Medium,Resolved,0,Canada,HTTP,Suspicious email or malicious link detected
+ALT00953,2026-01-12 09:49:00,Unauthorized Access,41.154.72.68,10.14.104.31,user082,DEV-0191,Engineering,High,New,0,Australia,HTTP,Unauthorized access attempt detected
+ALT00999,2026-01-13 10:31:00,Port Scanning,15.110.222.199,10.20.75.116,user076,DEV-0195,Engineering,Medium,New,0,USA,FTP,Multiple ports scanned from a source IP
+ALT00770,2026-01-13 12:49:00,Phishing,105.244.55.165,10.9.170.37,user081,DEV-0022,IT,Medium,New,0,Singapore,HTTPS,Suspicious email or malicious link detected
+ALT00482,2026-01-14 09:43:00,Phishing,42.201.191.152,10.3.165.40,user004,DEV-0021,Sales,High,Closed,0,Australia,FTP,Suspicious email or malicious link detected
+ALT00313,2026-01-14 12:33:00,Ransomware,32.53.134.159,10.4.43.168,user050,DEV-0080,Finance,Critical,Resolved,0,USA,FTP,Potential ransomware behavior detected
+ALT00082,2026-01-14 19:59:00,Suspicious Login,80.158.173.90,10.0.92.223,user019,DEV-0145,Engineering,Critical,New,4,Germany,HTTP,Login detected from unusual location or time
+ALT00112,2026-01-14 23:11:00,Suspicious Login,154.60.134.199,10.8.228.55,user079,DEV-0074,Engineering,Critical,Investigating,7,Germany,HTTPS,Login detected from unusual location or time
+ALT00168,2026-01-14 23:29:00,Malware,64.224.149.213,10.2.209.173,user064,DEV-0036,Engineering,Critical,Closed,0,UK,HTTPS,Malicious software activity detected on endpoint
+ALT00118,2026-01-15 02:02:00,Brute Force,64.213.15.128,10.20.148.165,user039,DEV-0124,Finance,Critical,New,78,Australia,SMTP,Multiple failed login attempts detected
+ALT00366,2026-01-15 05:12:00,Port Scanning,97.245.242.205,10.1.69.124,user020,DEV-0161,Sales,High,Investigating,0,Australia,DNS,Multiple ports scanned from a source IP
+ALT00589,2026-01-15 05:59:00,Phishing,109.143.112.185,10.8.243.244,user086,DEV-0032,Engineering,Low,Closed,0,USA,DNS,Suspicious email or malicious link detected
+ALT00967,2026-01-15 16:28:00,Malware,57.237.140.179,10.18.198.206,user069,DEV-0168,Engineering,Critical,New,0,India,SSH,Malicious software activity detected on endpoint
+ALT00886,2026-01-15 22:38:00,Unauthorized Access,191.68.202.56,10.14.158.138,user090,DEV-0173,HR,Critical,Investigating,0,UK,HTTPS,Unauthorized access attempt detected
+ALT00213,2026-01-15 22:44:00,Data Exfiltration,156.72.96.215,10.15.158.45,user063,DEV-0010,IT,Critical,Investigating,0,India,HTTPS,Unusual outbound data transfer detected
+ALT00440,2026-01-15 23:52:00,Malware,43.72.116.79,10.4.107.34,user011,DEV-0109,Engineering,Critical,New,0,Australia,SMTP,Malicious software activity detected on endpoint
+ALT00077,2026-01-16 01:30:00,Unauthorized Access,120.55.251.183,10.14.37.231,user011,DEV-0083,Operations,High,Resolved,0,USA,HTTP,Unauthorized access attempt detected
+ALT00955,2026-01-16 01:31:00,Port Scanning,130.211.89.250,10.0.22.169,user009,DEV-0198,HR,Medium,Investigating,0,Canada,SSH,Multiple ports scanned from a source IP
+ALT00083,2026-01-16 02:47:00,Malware,107.214.232.88,10.5.189.80,user093,DEV-0084,Marketing,Critical,Investigating,0,Singapore,DNS,Malicious software activity detected on endpoint
+ALT00451,2026-01-17 13:56:00,Brute Force,91.192.226.118,10.1.16.46,user072,DEV-0169,Marketing,Critical,Investigating,20,Australia,SSH,Multiple failed login attempts detected
+ALT00111,2026-01-17 19:09:00,Data Exfiltration,105.190.227.196,10.2.70.136,user047,DEV-0102,HR,Critical,Resolved,0,Canada,SSH,Unusual outbound data transfer detected
+ALT00648,2026-01-17 19:48:00,Malware,52.5.202.214,10.13.232.142,user092,DEV-0067,Operations,High,New,0,Singapore,SSH,Malicious software activity detected on endpoint
+ALT00395,2026-01-18 00:39:00,Unauthorized Access,163.111.62.182,10.3.44.220,user078,DEV-0034,Sales,High,New,0,Canada,SMTP,Unauthorized access attempt detected
+ALT00971,2026-01-18 08:27:00,Phishing,119.34.33.23,10.8.183.122,user052,DEV-0130,Finance,Medium,Resolved,0,USA,HTTP,Suspicious email or malicious link detected
+ALT00209,2026-01-18 19:39:00,Ransomware,176.151.255.106,10.17.245.16,user012,DEV-0072,Sales,Critical,Resolved,0,USA,RDP,Potential ransomware behavior detected
+ALT00943,2026-01-18 20:18:00,Port Scanning,204.20.28.186,10.4.254.17,user009,DEV-0036,Finance,Medium,Investigating,0,India,DNS,Multiple ports scanned from a source IP
+ALT00717,2026-01-18 20:41:00,Brute Force,101.71.239.226,10.14.141.3,user021,DEV-0092,Operations,High,New,61,Australia,SMTP,Multiple failed login attempts detected
+ALT00908,2026-01-19 18:34:00,Suspicious Login,221.243.197.73,10.19.198.116,user096,DEV-0061,Engineering,Critical,New,1,Germany,DNS,Login detected from unusual location or time
+ALT00577,2026-01-20 03:24:00,Phishing,52.99.223.246,10.8.178.131,user091,DEV-0126,Engineering,Medium,Closed,0,Canada,SSH,Suspicious email or malicious link detected
+ALT00809,2026-01-20 04:38:00,Phishing,174.51.195.132,10.2.172.238,user082,DEV-0192,HR,Medium,Closed,0,Germany,RDP,Suspicious email or malicious link detected
+ALT00741,2026-01-20 05:43:00,Brute Force,159.162.21.142,10.7.31.244,user092,DEV-0067,HR,High,Closed,69,India,FTP,Multiple failed login attempts detected
+ALT00570,2026-01-20 07:59:00,Port Scanning,124.168.68.72,10.10.20.134,user054,DEV-0166,Marketing,Medium,Resolved,0,UK,SMTP,Multiple ports scanned from a source IP
+ALT00039,2026-01-21 00:15:00,Phishing,16.78.122.33,10.15.58.145,user028,DEV-0120,Engineering,High,New,0,UK,SMTP,Suspicious email or malicious link detected
+ALT00947,2026-01-21 06:37:00,Port Scanning,69.251.3.90,10.2.188.131,user022,DEV-0102,Finance,Medium,New,0,USA,DNS,Multiple ports scanned from a source IP
+ALT00205,2026-01-21 06:53:00,Unauthorized Access,48.46.127.248,10.11.202.132,user007,DEV-0174,HR,Critical,Closed,0,UK,SMTP,Unauthorized access attempt detected
+ALT00068,2026-01-21 09:50:00,Malware,159.186.67.24,10.9.167.192,user054,DEV-0045,Finance,Critical,Investigating,0,USA,SMTP,Malicious software activity detected on endpoint
+ALT00053,2026-01-21 13:47:00,Ransomware,75.13.46.59,10.18.10.196,user087,DEV-0069,Operations,High,Investigating,0,India,SMTP,Potential ransomware behavior detected
+ALT00728,2026-01-22 03:02:00,Malware,68.179.220.123,10.9.116.6,user008,DEV-0007,Marketing,High,Investigating,0,Australia,SMTP,Malicious software activity detected on endpoint
+ALT00946,2026-01-22 07:48:00,Suspicious Login,46.163.165.100,10.20.202.5,user066,DEV-0196,HR,High,Closed,3,Germany,HTTP,Login detected from unusual location or time
+ALT00403,2026-01-22 12:07:00,Brute Force,181.234.76.190,10.18.119.237,user010,DEV-0010,Engineering,High,Resolved,32,USA,RDP,Multiple failed login attempts detected
+ALT00092,2026-01-22 14:58:00,Port Scanning,177.96.164.155,10.15.77.246,user008,DEV-0116,IT,Medium,Resolved,0,Australia,SMTP,Multiple ports scanned from a source IP
+ALT00501,2026-01-22 16:06:00,Phishing,41.105.185.41,10.9.226.196,user065,DEV-0128,Engineering,High,New,0,Australia,HTTP,Suspicious email or malicious link detected
+ALT00410,2026-01-23 01:41:00,Malware,64.222.128.86,10.19.232.12,user014,DEV-0190,IT,High,Investigating,0,Singapore,HTTPS,Malicious software activity detected on endpoint
+ALT00742,2026-01-23 19:15:00,Data Exfiltration,30.227.57.131,10.2.121.53,user042,DEV-0147,HR,Critical,Investigating,0,Australia,SMTP,Unusual outbound data transfer detected
+ALT00291,2026-01-23 22:33:00,Port Scanning,216.246.195.90,10.18.50.109,user018,DEV-0066,Sales,Medium,Investigating,0,Australia,HTTPS,Multiple ports scanned from a source IP
+ALT00404,2026-01-24 07:44:00,Brute Force,172.25.157.211,10.3.233.157,user022,DEV-0152,IT,High,New,21,Australia,SMTP,Multiple failed login attempts detected
+ALT00004,2026-01-24 21:14:00,Suspicious Login,70.51.194.72,10.14.186.42,user048,DEV-0091,Finance,High,Closed,4,Canada,SSH,Login detected from unusual location or time
+ALT00146,2026-01-25 07:47:00,Ransomware,123.119.111.194,10.1.71.129,user038,DEV-0060,Marketing,Critical,New,0,Canada,DNS,Potential ransomware behavior detected
+ALT00957,2026-01-25 09:23:00,Suspicious Login,127.241.83.96,10.11.74.83,user095,DEV-0164,HR,High,Resolved,1,Germany,HTTPS,Login detected from unusual location or time
+ALT00148,2026-01-25 11:41:00,Port Scanning,212.163.213.105,10.4.153.97,user024,DEV-0194,Operations,Medium,Resolved,0,Germany,HTTPS,Multiple ports scanned from a source IP
+ALT00488,2026-01-25 17:04:00,Port Scanning,142.55.217.106,10.3.237.170,user093,DEV-0146,Marketing,Medium,Closed,0,UK,SSH,Multiple ports scanned from a source IP
+ALT00952,2026-01-26 00:17:00,Brute Force,108.81.49.14,10.11.110.166,user025,DEV-0109,Engineering,Critical,Investigating,5,UK,HTTP,Multiple failed login attempts detected
+ALT00067,2026-01-26 19:47:00,Port Scanning,84.117.180.57,10.20.97.159,user033,DEV-0174,Marketing,Medium,Investigating,0,Canada,SMTP,Multiple ports scanned from a source IP
+ALT00697,2026-01-26 20:15:00,Port Scanning,67.58.27.230,10.1.136.62,user009,DEV-0137,IT,Low,Closed,0,UK,HTTPS,Multiple ports scanned from a source IP
+ALT00295,2026-01-27 05:24:00,Port Scanning,12.46.74.121,10.19.222.23,user009,DEV-0068,Finance,High,Closed,0,UK,HTTP,Multiple ports scanned from a source IP
+ALT00676,2026-01-27 08:05:00,Port Scanning,171.11.52.29,10.14.62.28,user019,DEV-0073,HR,High,Closed,0,USA,HTTP,Multiple ports scanned from a source IP
+ALT00048,2026-01-27 08:55:00,Ransomware,221.33.205.126,10.2.27.39,user020,DEV-0145,HR,Critical,Investigating,0,India,HTTPS,Potential ransomware behavior detected
+ALT00099,2026-01-27 20:30:00,Malware,152.52.63.73,10.2.82.70,user058,DEV-0132,Finance,Critical,Closed,0,Australia,RDP,Malicious software activity detected on endpoint
+ALT00094,2026-01-27 20:41:00,Data Exfiltration,95.48.197.73,10.8.76.86,user011,DEV-0150,Engineering,Critical,Investigating,0,USA,SSH,Unusual outbound data transfer detected
+ALT00984,2026-01-28 01:54:00,Malware,38.137.65.201,10.3.216.53,user006,DEV-0170,Operations,High,New,0,India,HTTP,Malicious software activity detected on endpoint
+ALT00763,2026-01-28 08:31:00,Port Scanning,97.23.157.115,10.13.113.147,user022,DEV-0138,Finance,Medium,Resolved,0,Australia,FTP,Multiple ports scanned from a source IP
+ALT00804,2026-01-28 09:27:00,Port Scanning,173.59.230.129,10.11.242.183,user043,DEV-0137,HR,Medium,New,0,India,SMTP,Multiple ports scanned from a source IP
+ALT00264,2026-01-29 06:17:00,Port Scanning,52.146.128.38,10.1.151.53,user097,DEV-0139,IT,Low,Resolved,0,UK,SMTP,Multiple ports scanned from a source IP
+ALT00212,2026-01-29 07:36:00,Unauthorized Access,215.198.181.240,10.5.90.61,user076,DEV-0082,Marketing,High,Resolved,0,Canada,FTP,Unauthorized access attempt detected
+ALT00091,2026-01-29 11:32:00,Unauthorized Access,129.231.19.15,10.11.146.20,user083,DEV-0024,Operations,Critical,New,0,Singapore,DNS,Unauthorized access attempt detected
+ALT00360,2026-01-29 20:22:00,Brute Force,19.152.169.236,10.2.25.28,user054,DEV-0046,Finance,Medium,New,9,Canada,SSH,Multiple failed login attempts detected
+ALT00110,2026-01-30 02:42:00,Port Scanning,104.81.15.37,10.19.224.9,user017,DEV-0018,Finance,Medium,Resolved,0,Australia,FTP,Multiple ports scanned from a source IP
+ALT00737,2026-01-30 03:35:00,Port Scanning,195.147.237.109,10.18.133.42,user049,DEV-0120,Engineering,High,Investigating,0,USA,HTTPS,Multiple ports scanned from a source IP
+ALT00520,2026-01-30 09:24:00,Data Exfiltration,47.211.165.67,10.12.61.14,user026,DEV-0062,Marketing,High,New,0,Singapore,DNS,Unusual outbound data transfer detected
+ALT00013,2026-01-31 07:04:00,Suspicious Login,29.121.142.172,10.15.109.139,user017,DEV-0186,Operations,Low,Closed,0,Singapore,RDP,Login detected from unusual location or time
+ALT00460,2026-01-31 16:12:00,Port Scanning,48.123.77.192,10.9.222.106,user041,DEV-0017,Engineering,High,Investigating,0,USA,SMTP,Multiple ports scanned from a source IP
+ALT00582,2026-01-31 23:11:00,Suspicious Login,115.225.55.223,10.20.85.21,user038,DEV-0022,Sales,Medium,New,3,India,SSH,Login detected from unusual location or time
+ALT00727,2026-02-01 07:31:00,Data Exfiltration,155.18.177.252,10.2.213.154,user095,DEV-0157,IT,Critical,New,0,Singapore,RDP,Unusual outbound data transfer detected
+ALT00495,2026-02-01 16:01:00,Ransomware,91.32.137.229,10.20.213.228,user061,DEV-0030,Sales,High,Investigating,0,Singapore,FTP,Potential ransomware behavior detected
+ALT00777,2026-02-01 19:29:00,Ransomware,28.179.115.89,10.20.7.238,user025,DEV-0071,HR,Critical,Resolved,0,Australia,SMTP,Potential ransomware behavior detected
+ALT00629,2026-02-01 22:12:00,Malware,112.253.38.43,10.14.196.144,user100,DEV-0100,Sales,High,Resolved,0,Singapore,SSH,Malicious software activity detected on endpoint
+ALT00328,2026-02-02 21:34:00,Suspicious Login,185.254.78.157,10.9.165.105,user083,DEV-0083,IT,High,New,6,India,DNS,Login detected from unusual location or time
+ALT00193,2026-02-04 00:16:00,Phishing,26.203.146.161,10.16.212.109,user090,DEV-0103,IT,Low,New,0,Canada,DNS,Suspicious email or malicious link detected
+ALT00443,2026-02-04 03:52:00,Suspicious Login,194.98.144.44,10.17.2.250,user093,DEV-0026,Finance,High,Investigating,0,Singapore,SMTP,Login detected from unusual location or time
+ALT00904,2026-02-04 07:27:00,Phishing,123.73.226.153,10.1.96.197,user027,DEV-0186,HR,High,Resolved,0,India,DNS,Suspicious email or malicious link detected
+ALT00759,2026-02-04 15:35:00,Suspicious Login,20.214.134.158,10.12.120.164,user045,DEV-0124,Operations,Low,Resolved,3,Canada,HTTPS,Login detected from unusual location or time
+ALT00018,2026-02-04 21:55:00,Malware,41.126.20.159,10.2.214.169,user075,DEV-0145,Operations,High,New,0,UK,SSH,Malicious software activity detected on endpoint
+ALT00278,2026-02-05 06:20:00,Suspicious Login,168.156.78.145,10.18.186.207,user041,DEV-0110,Finance,Medium,Investigating,7,India,SSH,Login detected from unusual location or time
+ALT00052,2026-02-06 01:10:00,Unauthorized Access,163.147.224.32,10.14.155.180,user052,DEV-0070,Operations,Critical,Resolved,0,Singapore,RDP,Unauthorized access attempt detected
+ALT00192,2026-02-06 16:56:00,Ransomware,103.162.67.100,10.18.215.94,user070,DEV-0175,Finance,Critical,Closed,0,Australia,RDP,Potential ransomware behavior detected
+ALT00606,2026-02-06 20:46:00,Malware,173.98.190.145,10.20.83.108,user020,DEV-0081,Marketing,Critical,New,0,Germany,RDP,Malicious software activity detected on endpoint
+ALT00113,2026-02-07 14:11:00,Phishing,124.44.163.171,10.11.33.141,user070,DEV-0075,HR,Low,Closed,0,Australia,HTTPS,Suspicious email or malicious link detected
+ALT00721,2026-02-07 14:48:00,Phishing,172.15.89.83,10.3.230.97,user018,DEV-0164,Operations,Low,Investigating,0,Singapore,HTTPS,Suspicious email or malicious link detected
+ALT00119,2026-02-07 22:03:00,Port Scanning,117.247.237.53,10.10.73.81,user092,DEV-0082,Engineering,Medium,New,0,Australia,SSH,Multiple ports scanned from a source IP
+ALT00924,2026-02-08 00:46:00,Suspicious Login,98.36.79.150,10.20.235.162,user043,DEV-0171,IT,Critical,Resolved,0,Singapore,HTTP,Login detected from unusual location or time
+ALT00927,2026-02-08 06:11:00,Suspicious Login,69.83.202.163,10.18.151.154,user053,DEV-0130,Engineering,High,Resolved,5,UK,HTTPS,Login detected from unusual location or time
+ALT00255,2026-02-08 15:20:00,Ransomware,82.25.114.141,10.20.193.104,user031,DEV-0021,Sales,Critical,New,0,Germany,SMTP,Potential ransomware behavior detected
+ALT00457,2026-02-08 17:13:00,Ransomware,23.152.205.206,10.7.47.184,user075,DEV-0025,Operations,Critical,New,0,UK,SSH,Potential ransomware behavior detected
+ALT00685,2026-02-08 18:57:00,Unauthorized Access,185.222.162.209,10.10.101.51,user007,DEV-0127,Sales,High,Resolved,0,India,SSH,Unauthorized access attempt detected
+ALT00159,2026-02-08 21:59:00,Ransomware,150.16.91.238,10.10.8.247,user027,DEV-0151,Finance,High,New,0,Australia,SMTP,Potential ransomware behavior detected
+ALT00439,2026-02-09 03:52:00,Phishing,15.245.178.80,10.11.71.210,user057,DEV-0153,Operations,Medium,New,0,Australia,SSH,Suspicious email or malicious link detected
+ALT00745,2026-02-10 02:59:00,Port Scanning,155.214.62.217,10.16.26.156,user061,DEV-0169,Operations,High,Closed,0,Singapore,RDP,Multiple ports scanned from a source IP
+ALT00109,2026-02-10 10:42:00,Unauthorized Access,125.218.85.177,10.14.179.115,user006,DEV-0187,Marketing,High,New,0,UK,DNS,Unauthorized access attempt detected
+ALT00756,2026-02-10 23:50:00,Phishing,30.167.80.130,10.10.141.117,user081,DEV-0189,Operations,Critical,New,0,Canada,SMTP,Suspicious email or malicious link detected
+ALT00587,2026-02-11 11:27:00,Ransomware,132.51.197.76,10.19.99.183,user019,DEV-0134,Operations,Critical,Closed,0,Australia,SMTP,Potential ransomware behavior detected
+ALT00140,2026-02-11 16:28:00,Suspicious Login,30.57.31.213,10.17.103.147,user069,DEV-0039,Finance,High,Resolved,8,UK,SMTP,Login detected from unusual location or time
+ALT00419,2026-02-11 19:56:00,Suspicious Login,25.186.26.29,10.12.187.120,user080,DEV-0011,HR,Critical,Resolved,5,UK,HTTPS,Login detected from unusual location or time
+ALT00788,2026-02-12 05:28:00,Malware,166.101.209.45,10.20.1.80,user036,DEV-0144,HR,Critical,New,0,India,SSH,Malicious software activity detected on endpoint
+ALT00637,2026-02-12 08:09:00,Brute Force,13.54.173.219,10.2.103.36,user062,DEV-0195,Operations,Medium,Resolved,6,Germany,SMTP,Multiple failed login attempts detected
+ALT00923,2026-02-12 14:58:00,Ransomware,217.163.58.6,10.4.54.63,user010,DEV-0046,HR,High,Resolved,0,India,HTTPS,Potential ransomware behavior detected
+ALT00896,2026-02-12 15:01:00,Port Scanning,93.247.199.79,10.15.147.198,user088,DEV-0179,IT,Medium,Investigating,0,Singapore,SMTP,Multiple ports scanned from a source IP
+ALT00735,2026-02-13 01:17:00,Unauthorized Access,109.253.9.221,10.12.196.114,user006,DEV-0058,Finance,Critical,Closed,0,Germany,HTTPS,Unauthorized access attempt detected
+ALT00093,2026-02-13 16:41:00,Data Exfiltration,74.224.224.135,10.16.81.94,user048,DEV-0073,Sales,Critical,New,0,Germany,SMTP,Unusual outbound data transfer detected
+ALT00207,2026-02-13 18:37:00,Port Scanning,219.38.11.17,10.6.227.208,user017,DEV-0024,Marketing,Medium,New,0,Australia,SMTP,Multiple ports scanned from a source IP
+ALT00977,2026-02-13 22:57:00,Port Scanning,208.20.189.72,10.12.143.119,user084,DEV-0088,HR,Low,Resolved,0,Australia,DNS,Multiple ports scanned from a source IP
+ALT00115,2026-02-14 02:19:00,Malware,194.245.210.197,10.13.37.33,user041,DEV-0165,IT,Critical,Investigating,0,Germany,RDP,Malicious software activity detected on endpoint
+ALT00190,2026-02-14 03:08:00,Ransomware,161.196.179.247,10.13.161.203,user018,DEV-0064,HR,Critical,Resolved,0,Canada,HTTP,Potential ransomware behavior detected
+ALT00588,2026-02-14 09:53:00,Brute Force,130.86.228.245,10.3.246.170,user070,DEV-0062,Finance,Medium,Closed,75,USA,HTTPS,Multiple failed login attempts detected
+ALT00371,2026-02-14 10:29:00,Brute Force,207.159.11.148,10.9.107.83,user026,DEV-0050,HR,High,New,10,UK,DNS,Multiple failed login attempts detected
+ALT00789,2026-02-14 18:59:00,Ransomware,40.46.93.187,10.2.95.82,user076,DEV-0161,IT,Critical,Investigating,0,Australia,HTTPS,Potential ransomware behavior detected
+ALT00689,2026-02-15 06:46:00,Port Scanning,105.2.26.67,10.1.56.13,user039,DEV-0020,HR,Medium,Closed,0,UK,FTP,Multiple ports scanned from a source IP
+ALT00897,2026-02-15 09:57:00,Brute Force,157.88.160.190,10.1.14.13,user039,DEV-0099,Finance,Medium,Resolved,80,UK,DNS,Multiple failed login attempts detected
+ALT00877,2026-02-15 10:22:00,Malware,200.116.162.213,10.9.51.235,user093,DEV-0024,Engineering,Critical,Resolved,0,Germany,SSH,Malicious software activity detected on endpoint
+ALT00599,2026-02-15 14:55:00,Port Scanning,108.140.227.95,10.0.61.30,user011,DEV-0032,Sales,High,Resolved,0,Canada,FTP,Multiple ports scanned from a source IP
+ALT00519,2026-02-16 03:06:00,Data Exfiltration,84.73.93.66,10.2.78.79,user053,DEV-0174,Finance,Critical,Investigating,0,India,DNS,Unusual outbound data transfer detected
+ALT00915,2026-02-16 10:59:00,Brute Force,49.109.157.216,10.2.185.160,user041,DEV-0150,Marketing,High,New,50,Germany,RDP,Multiple failed login attempts detected
+ALT00249,2026-02-16 16:04:00,Ransomware,36.131.118.117,10.9.135.119,user007,DEV-0026,Marketing,High,Resolved,0,USA,SMTP,Potential ransomware behavior detected
+ALT00895,2026-02-16 21:41:00,Phishing,145.201.102.73,10.10.69.115,user098,DEV-0051,HR,High,Investigating,0,Canada,RDP,Suspicious email or malicious link detected
+ALT00663,2026-02-17 13:21:00,Malware,87.84.101.90,10.13.246.122,user069,DEV-0177,Marketing,Critical,Closed,0,USA,FTP,Malicious software activity detected on endpoint
+ALT00846,2026-02-17 17:49:00,Phishing,51.44.239.157,10.20.97.193,user010,DEV-0197,Engineering,High,New,0,Germany,SMTP,Suspicious email or malicious link detected
+ALT00654,2026-02-17 22:14:00,Ransomware,217.72.82.247,10.16.174.115,user017,DEV-0087,HR,High,Closed,0,UK,DNS,Potential ransomware behavior detected
+ALT00375,2026-02-17 22:29:00,Ransomware,90.238.240.60,10.7.73.221,user079,DEV-0067,HR,Critical,New,0,Germany,HTTPS,Potential ransomware behavior detected
+ALT00808,2026-02-18 04:46:00,Malware,137.220.140.89,10.14.124.236,user094,DEV-0135,Operations,High,New,0,Germany,HTTP,Malicious software activity detected on endpoint
+ALT00137,2026-02-18 05:08:00,Data Exfiltration,74.3.133.99,10.7.228.193,user035,DEV-0085,HR,High,Investigating,0,Singapore,FTP,Unusual outbound data transfer detected
+ALT00966,2026-02-18 14:24:00,Phishing,72.240.17.83,10.9.231.56,user079,DEV-0106,IT,Low,Resolved,0,India,FTP,Suspicious email or malicious link detected
+ALT00890,2026-02-18 16:16:00,Data Exfiltration,166.31.30.175,10.11.48.44,user001,DEV-0136,IT,Critical,New,0,India,SSH,Unusual outbound data transfer detected
+ALT00322,2026-02-18 16:42:00,Ransomware,132.199.159.240,10.10.81.162,user094,DEV-0011,Engineering,Critical,Closed,0,Singapore,DNS,Potential ransomware behavior detected
+ALT00859,2026-02-18 22:25:00,Suspicious Login,37.127.115.65,10.5.154.85,user091,DEV-0119,Engineering,High,Closed,4,Singapore,DNS,Login detected from unusual location or time
+ALT00450,2026-02-19 02:42:00,Data Exfiltration,207.252.238.52,10.9.254.126,user065,DEV-0067,Operations,High,Resolved,0,UK,SMTP,Unusual outbound data transfer detected
+ALT00653,2026-02-19 10:26:00,Data Exfiltration,139.51.76.7,10.18.195.123,user076,DEV-0010,HR,Critical,Closed,0,USA,HTTPS,Unusual outbound data transfer detected
+ALT00124,2026-02-19 12:23:00,Phishing,97.187.73.51,10.19.205.129,user006,DEV-0012,IT,Low,Resolved,0,USA,FTP,Suspicious email or malicious link detected
+ALT00309,2026-02-19 14:47:00,Unauthorized Access,103.184.131.89,10.0.210.32,user045,DEV-0174,Operations,High,Investigating,0,USA,DNS,Unauthorized access attempt detected
+ALT00565,2026-02-19 21:10:00,Phishing,22.212.55.209,10.10.165.144,user081,DEV-0049,Operations,Medium,Resolved,0,USA,DNS,Suspicious email or malicious link detected
+ALT00080,2026-02-19 23:47:00,Phishing,44.30.168.172,10.3.210.91,user086,DEV-0193,Sales,Low,Investigating,0,Australia,FTP,Suspicious email or malicious link detected
+ALT00609,2026-02-20 01:10:00,Unauthorized Access,203.199.92.89,10.17.206.123,user076,DEV-0033,HR,High,Investigating,0,India,FTP,Unauthorized access attempt detected
+ALT00696,2026-02-20 01:41:00,Ransomware,119.99.150.49,10.12.90.153,user036,DEV-0136,Operations,High,Investigating,0,Germany,DNS,Potential ransomware behavior detected
+ALT00050,2026-02-20 06:40:00,Brute Force,31.80.122.45,10.17.38.41,user001,DEV-0105,Sales,High,New,32,Canada,DNS,Multiple failed login attempts detected
+ALT00608,2026-02-20 12:14:00,Suspicious Login,211.63.89.135,10.9.250.25,user068,DEV-0090,Engineering,High,Closed,6,Singapore,SMTP,Login detected from unusual location or time
+ALT00543,2026-02-21 00:53:00,Malware,108.56.173.240,10.6.156.117,user031,DEV-0095,Marketing,Critical,Resolved,0,UK,FTP,Malicious software activity detected on endpoint
+ALT00469,2026-02-21 05:44:00,Port Scanning,27.180.215.155,10.17.167.117,user089,DEV-0008,Marketing,High,New,0,India,FTP,Multiple ports scanned from a source IP
+ALT00698,2026-02-21 07:46:00,Port Scanning,188.137.253.53,10.5.104.89,user082,DEV-0074,Engineering,Medium,Resolved,0,Singapore,SSH,Multiple ports scanned from a source IP
+ALT00853,2026-02-21 11:23:00,Port Scanning,27.222.153.59,10.2.199.225,user061,DEV-0005,HR,Medium,Closed,0,Canada,FTP,Multiple ports scanned from a source IP
+ALT00871,2026-02-22 02:46:00,Unauthorized Access,164.185.123.223,10.15.221.108,user008,DEV-0164,IT,High,Resolved,0,Australia,SMTP,Unauthorized access attempt detected
+ALT00681,2026-02-22 18:50:00,Unauthorized Access,90.84.105.245,10.15.221.227,user058,DEV-0109,Operations,Critical,Resolved,0,Canada,SSH,Unauthorized access attempt detected
+ALT00669,2026-02-23 02:41:00,Phishing,116.53.254.192,10.19.51.163,user057,DEV-0129,Operations,High,New,0,Australia,HTTP,Suspicious email or malicious link detected
+ALT00021,2026-02-23 04:16:00,Unauthorized Access,38.79.139.73,10.19.107.184,user044,DEV-0053,Engineering,Critical,New,0,Canada,SMTP,Unauthorized access attempt detected
+ALT00540,2026-02-23 14:56:00,Port Scanning,21.253.112.236,10.0.114.178,user030,DEV-0120,Operations,Medium,Resolved,0,USA,HTTPS,Multiple ports scanned from a source IP
+ALT00794,2026-02-23 20:22:00,Brute Force,132.171.172.166,10.3.95.234,user046,DEV-0079,Finance,High,New,6,Germany,DNS,Multiple failed login attempts detected
+ALT00873,2026-02-23 22:31:00,Port Scanning,155.192.195.11,10.19.55.152,user083,DEV-0026,Operations,Medium,Resolved,0,India,HTTP,Multiple ports scanned from a source IP
+ALT00088,2026-02-24 07:27:00,Data Exfiltration,145.40.202.223,10.9.173.57,user043,DEV-0200,Finance,High,Resolved,0,India,DNS,Unusual outbound data transfer detected
+ALT00377,2026-02-24 10:35:00,Phishing,213.154.236.103,10.18.211.62,user080,DEV-0063,Operations,Medium,Resolved,0,USA,RDP,Suspicious email or malicious link detected
+ALT00398,2026-02-24 14:45:00,Port Scanning,19.37.36.147,10.8.228.5,user064,DEV-0039,Engineering,Medium,New,0,Canada,HTTP,Multiple ports scanned from a source IP
+ALT00720,2026-02-24 15:59:00,Malware,93.118.121.27,10.5.196.194,user054,DEV-0017,IT,High,Resolved,0,Singapore,SSH,Malicious software activity detected on endpoint
+ALT00085,2026-02-26 09:43:00,Phishing,135.157.23.57,10.12.28.2,user027,DEV-0078,Finance,Medium,Resolved,0,Australia,HTTPS,Suspicious email or malicious link detected
+ALT00726,2026-02-26 18:30:00,Brute Force,19.173.215.67,10.6.171.228,user098,DEV-0016,Finance,High,Resolved,38,USA,DNS,Multiple failed login attempts detected
+ALT00919,2026-02-26 21:12:00,Port Scanning,93.149.42.91,10.19.253.5,user080,DEV-0152,Sales,High,Closed,0,USA,SSH,Multiple ports scanned from a source IP
+ALT00954,2026-02-27 02:46:00,Ransomware,159.139.138.6,10.18.245.17,user094,DEV-0178,Finance,High,New,0,USA,HTTP,Potential ransomware behavior detected
+ALT00023,2026-02-27 02:56:00,Port Scanning,49.18.189.150,10.17.75.111,user017,DEV-0011,HR,Medium,Resolved,0,UK,SMTP,Multiple ports scanned from a source IP
+ALT00253,2026-02-27 13:28:00,Ransomware,77.160.6.181,10.16.114.251,user086,DEV-0087,Operations,Critical,New,0,Singapore,FTP,Potential ransomware behavior detected
+ALT00258,2026-02-28 03:48:00,Data Exfiltration,11.174.181.213,10.20.149.141,user067,DEV-0096,Engineering,Critical,Resolved,0,India,HTTP,Unusual outbound data transfer detected
+ALT00040,2026-02-28 05:19:00,Data Exfiltration,17.159.192.102,10.6.38.152,user089,DEV-0161,Finance,High,New,0,India,FTP,Unusual outbound data transfer detected
+ALT00683,2026-02-28 05:51:00,Data Exfiltration,213.95.183.63,10.2.110.169,user048,DEV-0096,Finance,Critical,Investigating,0,Australia,SSH,Unusual outbound data transfer detected
+ALT00455,2026-02-28 10:10:00,Phishing,94.19.235.169,10.13.215.69,user003,DEV-0179,Sales,High,New,0,Singapore,HTTP,Suspicious email or malicious link detected
+ALT00270,2026-02-28 12:16:00,Data Exfiltration,83.12.191.132,10.16.228.125,user006,DEV-0076,Engineering,Critical,Investigating,0,USA,SSH,Unusual outbound data transfer detected
+ALT00426,2026-03-01 01:20:00,Malware,123.133.189.48,10.6.17.171,user041,DEV-0089,Finance,High,Resolved,0,UK,RDP,Malicious software activity detected on endpoint
+ALT00970,2026-03-01 03:10:00,Suspicious Login,165.12.224.128,10.11.220.6,user091,DEV-0135,Engineering,High,New,2,UK,FTP,Login detected from unusual location or time
+ALT00027,2026-03-01 08:11:00,Data Exfiltration,78.19.55.153,10.13.176.187,user041,DEV-0112,Operations,Critical,Resolved,0,Singapore,HTTP,Unusual outbound data transfer detected
+ALT00372,2026-03-02 08:09:00,Data Exfiltration,40.7.52.53,10.17.179.141,user041,DEV-0070,Finance,Critical,New,0,Canada,SMTP,Unusual outbound data transfer detected
+ALT00286,2026-03-02 21:14:00,Malware,95.58.246.173,10.15.245.54,user076,DEV-0042,Engineering,High,Investigating,0,Australia,RDP,Malicious software activity detected on endpoint
+ALT00151,2026-03-02 23:48:00,Suspicious Login,189.104.203.235,10.7.164.199,user037,DEV-0098,Sales,Critical,Closed,7,Singapore,FTP,Login detected from unusual location or time
+ALT00086,2026-03-03 00:31:00,Unauthorized Access,55.66.194.137,10.7.181.19,user051,DEV-0190,IT,High,Resolved,0,Germany,HTTP,Unauthorized access attempt detected
+ALT00786,2026-03-03 01:28:00,Phishing,26.160.49.220,10.17.142.252,user025,DEV-0168,Operations,Medium,Resolved,0,Canada,HTTP,Suspicious email or malicious link detected
+ALT00303,2026-03-03 02:43:00,Malware,137.3.21.218,10.15.190.159,user041,DEV-0127,Operations,Critical,Closed,0,Australia,SSH,Malicious software activity detected on endpoint
+ALT00566,2026-03-03 07:13:00,Port Scanning,93.88.7.103,10.20.161.4,user050,DEV-0055,Sales,High,New,0,USA,HTTP,Multiple ports scanned from a source IP
+ALT00041,2026-03-03 18:50:00,Unauthorized Access,147.219.189.18,10.16.174.4,user054,DEV-0126,IT,Critical,New,0,Germany,SSH,Unauthorized access attempt detected
+ALT00829,2026-03-03 20:12:00,Suspicious Login,156.6.116.190,10.6.186.171,user005,DEV-0103,Engineering,Medium,Investigating,5,India,SSH,Login detected from unusual location or time
+ALT00305,2026-03-03 22:33:00,Malware,187.4.6.173,10.6.194.149,user013,DEV-0084,HR,Critical,Investigating,0,Singapore,SMTP,Malicious software activity detected on endpoint
+ALT00427,2026-03-04 00:25:00,Malware,207.74.234.238,10.10.79.2,user095,DEV-0140,Operations,Critical,Closed,0,UK,FTP,Malicious software activity detected on endpoint
+ALT00033,2026-03-04 14:08:00,Suspicious Login,154.162.226.157,10.16.218.213,user071,DEV-0115,Finance,Critical,Resolved,7,Canada,SMTP,Login detected from unusual location or time
+ALT00732,2026-03-04 21:04:00,Port Scanning,150.105.253.181,10.11.112.114,user092,DEV-0078,HR,Medium,New,0,Australia,DNS,Multiple ports scanned from a source IP
+ALT00816,2026-03-05 03:25:00,Malware,39.148.91.222,10.5.205.141,user053,DEV-0091,Marketing,Critical,New,0,USA,RDP,Malicious software activity detected on endpoint
+ALT00517,2026-03-05 20:35:00,Unauthorized Access,169.27.96.193,10.15.9.31,user085,DEV-0137,Finance,High,New,0,India,SSH,Unauthorized access attempt detected
+ALT00314,2026-03-06 04:33:00,Unauthorized Access,18.17.182.221,10.10.243.120,user070,DEV-0070,Operations,High,Resolved,0,Germany,HTTPS,Unauthorized access attempt detected
+ALT00680,2026-03-06 08:17:00,Phishing,34.178.150.120,10.15.223.132,user052,DEV-0050,HR,High,Investigating,0,USA,HTTPS,Suspicious email or malicious link detected
+ALT00522,2026-03-06 09:36:00,Phishing,32.104.72.96,10.17.86.201,user032,DEV-0138,Sales,Medium,Investigating,0,Singapore,RDP,Suspicious email or malicious link detected
+ALT00507,2026-03-06 16:34:00,Data Exfiltration,34.159.174.194,10.20.81.6,user004,DEV-0139,Operations,Critical,New,0,UK,HTTPS,Unusual outbound data transfer detected
+ALT00537,2026-03-06 20:32:00,Suspicious Login,134.227.95.63,10.4.22.16,user017,DEV-0080,Operations,Critical,Investigating,4,Germany,DNS,Login detected from unusual location or time
+ALT00196,2026-03-06 23:49:00,Unauthorized Access,198.60.15.86,10.13.139.135,user009,DEV-0068,Engineering,Medium,Closed,0,Singapore,FTP,Unauthorized access attempt detected
+ALT00287,2026-03-07 18:37:00,Brute Force,142.20.75.15,10.5.132.237,user024,DEV-0133,Sales,High,New,25,Singapore,DNS,Multiple failed login attempts detected
+ALT00329,2026-03-08 05:55:00,Phishing,38.248.98.26,10.1.198.169,user063,DEV-0135,Operations,Low,New,0,Canada,DNS,Suspicious email or malicious link detected
+ALT00203,2026-03-08 07:18:00,Brute Force,216.201.167.82,10.14.139.60,user010,DEV-0052,Finance,High,Closed,38,Australia,SMTP,Multiple failed login attempts detected
+ALT00675,2026-03-08 14:40:00,Port Scanning,102.95.122.168,10.7.152.50,user069,DEV-0063,Engineering,Low,Resolved,0,Australia,SMTP,Multiple ports scanned from a source IP
+ALT00935,2026-03-08 16:18:00,Port Scanning,106.65.189.145,10.15.32.5,user058,DEV-0095,Sales,Medium,Investigating,0,USA,HTTPS,Multiple ports scanned from a source IP
+ALT00860,2026-03-09 10:27:00,Unauthorized Access,48.17.197.162,10.1.101.251,user024,DEV-0004,Finance,Critical,Investigating,0,Canada,HTTP,Unauthorized access attempt detected
+ALT00020,2026-03-09 11:56:00,Suspicious Login,105.145.80.113,10.17.154.157,user084,DEV-0136,IT,High,Closed,1,Canada,SMTP,Login detected from unusual location or time
+ALT00477,2026-03-09 17:02:00,Port Scanning,77.86.252.239,10.10.239.34,user012,DEV-0082,Engineering,Medium,Resolved,0,Singapore,RDP,Multiple ports scanned from a source IP
+ALT00097,2026-03-09 19:24:00,Brute Force,223.84.224.12,10.13.186.174,user093,DEV-0061,Sales,High,New,24,Singapore,SSH,Multiple failed login attempts detected
+ALT00452,2026-03-10 09:45:00,Malware,206.56.251.169,10.17.240.122,user072,DEV-0041,Operations,Critical,Investigating,0,India,RDP,Malicious software activity detected on endpoint
+ALT00568,2026-03-10 10:11:00,Port Scanning,187.162.246.18,10.10.9.156,user075,DEV-0115,Sales,Medium,Resolved,0,Singapore,FTP,Multiple ports scanned from a source IP
+ALT00139,2026-03-10 15:09:00,Suspicious Login,166.191.212.180,10.17.241.194,user069,DEV-0171,Marketing,High,Resolved,7,USA,SMTP,Login detected from unusual location or time
+ALT00189,2026-03-10 20:43:00,Malware,146.4.84.113,10.11.109.161,user096,DEV-0039,Sales,Critical,New,0,Singapore,FTP,Malicious software activity detected on endpoint
+ALT00973,2026-03-10 23:44:00,Suspicious Login,26.6.57.135,10.8.4.78,user018,DEV-0082,Finance,Medium,New,6,Australia,RDP,Login detected from unusual location or time
+ALT00492,2026-03-11 00:12:00,Unauthorized Access,15.96.13.54,10.15.74.167,user031,DEV-0112,Marketing,Medium,New,0,Canada,SMTP,Unauthorized access attempt detected
+ALT00470,2026-03-11 00:25:00,Malware,89.160.42.29,10.5.127.133,user092,DEV-0197,Marketing,Critical,New,0,Canada,SMTP,Malicious software activity detected on endpoint
+ALT00436,2026-03-11 11:10:00,Data Exfiltration,103.214.182.13,10.9.149.136,user082,DEV-0020,Operations,Critical,New,0,USA,SMTP,Unusual outbound data transfer detected
+ALT00143,2026-03-11 20:46:00,Port Scanning,118.191.195.115,10.12.192.21,user088,DEV-0170,Marketing,Medium,Resolved,0,Singapore,HTTPS,Multiple ports scanned from a source IP
+ALT00133,2026-03-12 00:35:00,Ransomware,51.208.243.123,10.20.102.194,user037,DEV-0083,HR,High,Closed,0,Canada,HTTP,Potential ransomware behavior detected
+ALT00724,2026-03-12 02:28:00,Data Exfiltration,107.36.40.33,10.16.152.26,user016,DEV-0128,Finance,Critical,Investigating,0,India,DNS,Unusual outbound data transfer detected
+ALT00347,2026-03-12 02:46:00,Data Exfiltration,184.116.213.62,10.18.78.110,user040,DEV-0155,HR,Critical,Investigating,0,Germany,DNS,Unusual outbound data transfer detected
+ALT00348,2026-03-12 18:34:00,Malware,62.70.158.177,10.16.69.111,user099,DEV-0038,Engineering,High,Resolved,0,Singapore,HTTPS,Malicious software activity detected on endpoint
+ALT00402,2026-03-13 01:12:00,Ransomware,162.122.250.100,10.2.157.128,user069,DEV-0116,IT,Critical,New,0,India,SSH,Potential ransomware behavior detected
+ALT00797,2026-03-13 04:42:00,Suspicious Login,24.46.158.203,10.4.177.118,user051,DEV-0043,Sales,Critical,Resolved,5,India,FTP,Login detected from unusual location or time
+ALT00645,2026-03-13 09:29:00,Data Exfiltration,152.215.124.54,10.7.28.192,user018,DEV-0031,Engineering,Critical,New,0,Canada,HTTPS,Unusual outbound data transfer detected
+ALT00280,2026-03-13 17:12:00,Phishing,171.39.38.229,10.0.15.209,user075,DEV-0149,Sales,High,New,0,Australia,DNS,Suspicious email or malicious link detected
+ALT01000,2026-03-14 00:57:00,Unauthorized Access,123.129.249.103,10.14.238.96,user027,DEV-0119,Finance,High,New,0,Germany,HTTP,Unauthorized access attempt detected
+ALT00894,2026-03-14 07:52:00,Data Exfiltration,214.206.21.92,10.1.245.208,user085,DEV-0182,Marketing,High,Investigating,0,Australia,DNS,Unusual outbound data transfer detected
+ALT00900,2026-03-14 19:15:00,Port Scanning,77.216.158.53,10.20.139.105,user089,DEV-0003,Sales,Low,Resolved,0,Australia,RDP,Multiple ports scanned from a source IP
+ALT00869,2026-03-14 21:17:00,Malware,13.60.159.135,10.3.241.60,user085,DEV-0113,HR,High,Resolved,0,Australia,HTTP,Malicious software activity detected on endpoint
+ALT00202,2026-03-14 22:17:00,Brute Force,70.211.190.118,10.2.48.130,user018,DEV-0164,Marketing,Critical,New,16,Germany,HTTP,Multiple failed login attempts detected
+ALT00610,2026-03-15 12:36:00,Malware,24.189.127.174,10.19.214.181,user059,DEV-0047,Sales,Critical,Resolved,0,UK,SMTP,Malicious software activity detected on endpoint
+ALT00149,2026-03-15 14:58:00,Suspicious Login,117.68.198.63,10.8.104.85,user083,DEV-0021,Sales,High,Resolved,0,Australia,SSH,Login detected from unusual location or time
+ALT00707,2026-03-15 23:12:00,Phishing,31.148.112.9,10.15.181.64,user087,DEV-0164,Sales,High,Investigating,0,Germany,RDP,Suspicious email or malicious link detected
+ALT00131,2026-03-16 09:02:00,Port Scanning,193.40.177.237,10.14.131.192,user062,DEV-0055,Finance,High,New,0,Australia,DNS,Multiple ports scanned from a source IP
+ALT00466,2026-03-16 11:30:00,Unauthorized Access,221.157.10.166,10.19.17.216,user095,DEV-0170,Marketing,Critical,Resolved,0,India,FTP,Unauthorized access attempt detected
+ALT00941,2026-03-17 14:40:00,Phishing,51.227.160.28,10.8.233.71,user026,DEV-0181,Operations,Medium,Investigating,0,Germany,SSH,Suspicious email or malicious link detected
+ALT00510,2026-03-17 22:27:00,Data Exfiltration,31.47.31.109,10.4.243.55,user058,DEV-0020,HR,Critical,Resolved,0,Canada,DNS,Unusual outbound data transfer detected
+ALT00473,2026-03-18 02:23:00,Port Scanning,156.60.7.184,10.16.222.198,user059,DEV-0173,Sales,Medium,New,0,India,HTTPS,Multiple ports scanned from a source IP
+ALT00380,2026-03-18 14:34:00,Brute Force,158.228.100.53,10.10.153.146,user087,DEV-0078,Sales,Critical,Investigating,42,Canada,SSH,Multiple failed login attempts detected
+ALT00744,2026-03-18 18:01:00,Brute Force,217.160.176.241,10.6.193.213,user075,DEV-0009,Engineering,High,Resolved,18,Canada,HTTPS,Multiple failed login attempts detected
+ALT00241,2026-03-19 04:12:00,Brute Force,156.234.73.81,10.5.41.125,user043,DEV-0162,Finance,Critical,Investigating,48,UK,FTP,Multiple failed login attempts detected
+ALT00061,2026-03-19 15:02:00,Port Scanning,162.169.51.224,10.14.51.135,user059,DEV-0004,Engineering,Critical,New,0,USA,RDP,Multiple ports scanned from a source IP
+ALT00866,2026-03-19 17:39:00,Suspicious Login,82.25.205.76,10.12.215.229,user061,DEV-0120,HR,Critical,Closed,6,USA,FTP,Login detected from unusual location or time
+ALT00479,2026-03-19 17:54:00,Ransomware,173.225.27.49,10.4.27.59,user024,DEV-0010,Sales,Critical,Closed,0,UK,HTTPS,Potential ransomware behavior detected
+ALT00505,2026-03-19 18:03:00,Brute Force,118.205.155.185,10.10.176.3,user036,DEV-0136,Operations,High,Closed,71,USA,FTP,Multiple failed login attempts detected
+ALT00865,2026-03-19 18:55:00,Data Exfiltration,23.185.117.178,10.16.85.96,user021,DEV-0026,Engineering,Critical,Investigating,0,USA,FTP,Unusual outbound data transfer detected
+ALT00847,2026-03-19 20:21:00,Unauthorized Access,176.173.232.136,10.13.10.103,user074,DEV-0076,IT,High,New,0,Singapore,SMTP,Unauthorized access attempt detected
+ALT00272,2026-03-20 00:29:00,Phishing,20.44.37.14,10.5.128.143,user010,DEV-0148,Marketing,High,Resolved,0,USA,SSH,Suspicious email or malicious link detected
+ALT00995,2026-03-20 17:59:00,Data Exfiltration,212.4.166.219,10.5.139.132,user003,DEV-0129,Operations,Critical,New,0,India,RDP,Unusual outbound data transfer detected
+ALT00325,2026-03-20 22:34:00,Brute Force,70.162.177.207,10.14.98.6,user089,DEV-0097,HR,Medium,New,18,Canada,HTTPS,Multiple failed login attempts detected
+ALT00084,2026-03-21 05:48:00,Phishing,183.41.139.114,10.13.248.156,user057,DEV-0107,HR,High,Resolved,0,USA,SMTP,Suspicious email or malicious link detected
+ALT00327,2026-03-21 14:18:00,Malware,149.187.232.1,10.20.194.188,user024,DEV-0005,Operations,High,Resolved,0,Australia,SSH,Malicious software activity detected on endpoint
+ALT00342,2026-03-21 23:54:00,Suspicious Login,24.124.75.223,10.9.7.88,user089,DEV-0029,HR,High,New,1,Germany,RDP,Login detected from unusual location or time
+ALT00649,2026-03-22 08:05:00,Suspicious Login,43.108.205.159,10.1.112.101,user024,DEV-0191,Operations,High,Investigating,8,Singapore,SMTP,Login detected from unusual location or time
+ALT00498,2026-03-22 19:31:00,Malware,117.252.155.61,10.6.24.5,user046,DEV-0067,HR,High,New,0,Canada,HTTPS,Malicious software activity detected on endpoint
+ALT00913,2026-03-22 21:24:00,Suspicious Login,124.12.105.99,10.18.88.70,user096,DEV-0175,Operations,High,Investigating,8,Australia,HTTPS,Login detected from unusual location or time
+ALT00252,2026-03-23 03:26:00,Brute Force,156.224.92.157,10.12.183.157,user004,DEV-0176,Marketing,Critical,Investigating,80,Canada,HTTPS,Multiple failed login attempts detected
+ALT00674,2026-03-23 10:13:00,Unauthorized Access,17.223.5.161,10.18.78.8,user080,DEV-0182,Operations,Critical,New,0,India,DNS,Unauthorized access attempt detected
+ALT00121,2026-03-23 10:59:00,Port Scanning,91.97.81.128,10.16.239.128,user040,DEV-0128,IT,Medium,Resolved,0,India,RDP,Multiple ports scanned from a source IP
+ALT00630,2026-03-23 18:13:00,Suspicious Login,213.233.132.78,10.7.151.182,user035,DEV-0142,IT,Medium,Closed,0,USA,HTTPS,Login detected from unusual location or time
+ALT00826,2026-03-23 18:40:00,Unauthorized Access,193.225.150.40,10.4.75.156,user038,DEV-0099,HR,Critical,Investigating,0,Canada,HTTPS,Unauthorized access attempt detected
+ALT00579,2026-03-24 00:07:00,Suspicious Login,109.203.41.133,10.6.216.43,user055,DEV-0065,Engineering,High,Resolved,1,UK,DNS,Login detected from unusual location or time
+ALT00468,2026-03-24 14:40:00,Suspicious Login,207.208.17.71,10.2.251.121,user095,DEV-0106,Marketing,High,Closed,5,UK,FTP,Login detected from unusual location or time
+ALT00010,2026-03-24 17:49:00,Suspicious Login,164.165.250.5,10.3.185.225,user040,DEV-0062,IT,Medium,Closed,8,USA,DNS,Login detected from unusual location or time
+ALT00619,2026-03-24 21:12:00,Data Exfiltration,181.136.60.108,10.15.253.205,user088,DEV-0183,Finance,Critical,Closed,0,UK,SMTP,Unusual outbound data transfer detected
+ALT00204,2026-03-26 14:29:00,Phishing,41.183.106.116,10.9.237.68,user016,DEV-0024,Finance,Medium,Investigating,0,Australia,FTP,Suspicious email or malicious link detected
+ALT00173,2026-03-26 23:15:00,Phishing,152.81.169.144,10.13.236.60,user052,DEV-0162,Finance,Medium,Investigating,0,USA,FTP,Suspicious email or malicious link detected
+ALT00893,2026-03-27 03:31:00,Malware,50.172.232.238,10.17.199.201,user058,DEV-0030,Engineering,Critical,New,0,Singapore,HTTP,Malicious software activity detected on endpoint
+ALT00994,2026-03-27 07:01:00,Ransomware,61.39.34.198,10.3.137.210,user023,DEV-0137,IT,Critical,Resolved,0,Australia,RDP,Potential ransomware behavior detected
+ALT00437,2026-03-27 17:20:00,Malware,222.154.138.176,10.11.49.137,user075,DEV-0091,Marketing,Critical,Closed,0,USA,HTTP,Malicious software activity detected on endpoint
+ALT00271,2026-03-27 17:34:00,Phishing,27.107.109.222,10.13.53.53,user069,DEV-0180,Engineering,High,New,0,Australia,RDP,Suspicious email or malicious link detected
+ALT00907,2026-03-28 23:59:00,Brute Force,47.53.119.2,10.12.1.145,user008,DEV-0100,Marketing,High,Investigating,46,Singapore,HTTP,Multiple failed login attempts detected
+ALT00792,2026-03-29 01:53:00,Ransomware,50.107.222.89,10.20.147.54,user044,DEV-0180,Operations,Critical,Resolved,0,Singapore,SMTP,Potential ransomware behavior detected
+ALT00373,2026-03-29 02:19:00,Unauthorized Access,97.227.25.34,10.0.241.232,user087,DEV-0013,IT,High,Resolved,0,Germany,HTTP,Unauthorized access attempt detected
+ALT00690,2026-03-29 04:37:00,Port Scanning,43.163.75.193,10.18.211.164,user058,DEV-0172,IT,Medium,Investigating,0,Singapore,DNS,Multiple ports scanned from a source IP
+ALT00005,2026-03-29 17:46:00,Phishing,129.194.138.254,10.20.112.176,user042,DEV-0197,Marketing,Medium,New,0,India,HTTPS,Suspicious email or malicious link detected
+ALT00814,2026-03-29 21:24:00,Ransomware,19.40.249.144,10.11.42.54,user096,DEV-0136,HR,High,New,0,UK,SSH,Potential ransomware behavior detected
+ALT00798,2026-03-30 09:19:00,Malware,71.104.223.24,10.7.78.176,user072,DEV-0199,HR,High,New,0,India,RDP,Malicious software activity detected on endpoint
+ALT00177,2026-03-30 17:10:00,Ransomware,46.95.161.216,10.14.27.222,user046,DEV-0003,Sales,Critical,Investigating,0,USA,HTTPS,Potential ransomware behavior detected
+ALT00261,2026-03-30 23:52:00,Malware,110.164.196.108,10.19.127.71,user051,DEV-0088,HR,Critical,New,0,Germany,SMTP,Malicious software activity detected on endpoint
+ALT00575,2026-03-31 08:24:00,Malware,127.145.192.144,10.19.246.19,user043,DEV-0035,Engineering,Critical,Investigating,0,Germany,HTTPS,Malicious software activity detected on endpoint
+ALT00408,2026-03-31 19:44:00,Port Scanning,57.255.45.161,10.9.178.108,user001,DEV-0143,Finance,Medium,New,0,USA,HTTP,Multiple ports scanned from a source IP
+ALT00635,2026-04-01 06:36:00,Ransomware,197.92.144.6,10.9.83.227,user023,DEV-0101,Engineering,High,Investigating,0,Singapore,HTTPS,Potential ransomware behavior detected
+ALT00379,2026-04-01 09:25:00,Phishing,38.194.167.127,10.20.31.24,user028,DEV-0036,Operations,High,New,0,Australia,FTP,Suspicious email or malicious link detected
+ALT00233,2026-04-01 15:37:00,Ransomware,99.83.132.192,10.2.145.8,user050,DEV-0013,Finance,Critical,Resolved,0,Australia,DNS,Potential ransomware behavior detected
+ALT00290,2026-04-01 15:57:00,Malware,20.60.47.124,10.4.0.230,user100,DEV-0174,Engineering,Critical,Resolved,0,Germany,DNS,Malicious software activity detected on endpoint
+ALT00892,2026-04-01 16:09:00,Malware,124.15.19.240,10.17.61.207,user040,DEV-0075,IT,Critical,Resolved,0,UK,FTP,Malicious software activity detected on endpoint
+ALT00401,2026-04-01 17:02:00,Unauthorized Access,180.97.153.179,10.12.54.162,user089,DEV-0092,Sales,High,Closed,0,India,FTP,Unauthorized access attempt detected
+ALT00888,2026-04-02 05:01:00,Suspicious Login,95.45.48.243,10.12.198.207,user053,DEV-0098,Engineering,High,Resolved,7,Germany,HTTPS,Login detected from unusual location or time
+ALT00807,2026-04-02 09:22:00,Brute Force,94.152.18.153,10.3.182.188,user005,DEV-0137,Engineering,High,New,58,Germany,HTTPS,Multiple failed login attempts detected
+ALT00374,2026-04-02 22:38:00,Phishing,172.228.182.80,10.10.101.183,user098,DEV-0172,Marketing,Medium,Closed,0,Singapore,HTTP,Suspicious email or malicious link detected
+ALT00875,2026-04-03 00:40:00,Brute Force,116.14.233.218,10.8.183.210,user088,DEV-0089,HR,High,New,47,USA,SSH,Multiple failed login attempts detected
+ALT00849,2026-04-03 03:01:00,Malware,21.65.178.245,10.2.167.223,user041,DEV-0059,Engineering,High,Investigating,0,USA,HTTPS,Malicious software activity detected on endpoint
+ALT00358,2026-04-03 03:57:00,Ransomware,62.1.129.4,10.14.254.219,user064,DEV-0140,Marketing,High,New,0,India,DNS,Potential ransomware behavior detected
+ALT00678,2026-04-03 09:00:00,Ransomware,179.16.60.250,10.10.177.124,user079,DEV-0154,Operations,Critical,Closed,0,India,HTTPS,Potential ransomware behavior detected
+ALT00307,2026-04-03 18:08:00,Port Scanning,186.117.51.185,10.8.120.143,user056,DEV-0098,Finance,Medium,Closed,0,USA,SMTP,Multiple ports scanned from a source IP
+ALT00116,2026-04-04 04:27:00,Data Exfiltration,25.63.78.78,10.5.82.83,user091,DEV-0058,HR,High,Investigating,0,Singapore,SSH,Unusual outbound data transfer detected
+ALT00918,2026-04-04 14:57:00,Data Exfiltration,136.176.173.253,10.2.189.18,user023,DEV-0035,Operations,Critical,New,0,UK,FTP,Unusual outbound data transfer detected
+ALT00835,2026-04-04 15:00:00,Ransomware,141.240.253.42,10.5.33.195,user056,DEV-0173,HR,High,Investigating,0,India,SMTP,Potential ransomware behavior detected
+ALT00559,2026-04-04 22:36:00,Port Scanning,189.22.122.227,10.5.140.226,user081,DEV-0138,HR,Medium,New,0,Canada,HTTP,Multiple ports scanned from a source IP
+ALT00396,2026-04-05 08:18:00,Malware,30.232.141.197,10.13.165.66,user021,DEV-0200,IT,Critical,Investigating,0,UK,SMTP,Malicious software activity detected on endpoint
+ALT00444,2026-04-05 14:43:00,Ransomware,57.181.194.109,10.6.116.105,user015,DEV-0195,HR,Critical,Closed,0,India,RDP,Potential ransomware behavior detected
+ALT00993,2026-04-06 07:26:00,Unauthorized Access,144.34.118.224,10.2.26.147,user084,DEV-0190,Finance,Critical,Investigating,0,UK,DNS,Unauthorized access attempt detected
+ALT00972,2026-04-06 21:12:00,Brute Force,150.191.134.123,10.2.94.150,user053,DEV-0030,Operations,Medium,Resolved,62,India,HTTPS,Multiple failed login attempts detected
+ALT00350,2026-04-07 03:08:00,Unauthorized Access,206.136.118.153,10.7.118.176,user004,DEV-0092,IT,Medium,New,0,Canada,SMTP,Unauthorized access attempt detected
+ALT00791,2026-04-07 08:56:00,Data Exfiltration,86.132.225.68,10.2.250.91,user075,DEV-0094,HR,Critical,New,0,Australia,FTP,Unusual outbound data transfer detected
+ALT00666,2026-04-07 13:44:00,Phishing,53.193.110.90,10.6.97.249,user087,DEV-0148,IT,Low,Investigating,0,UK,SMTP,Suspicious email or malicious link detected
+ALT00962,2026-04-07 22:00:00,Ransomware,140.55.253.37,10.2.156.62,user097,DEV-0104,HR,High,Closed,0,Australia,HTTPS,Potential ransomware behavior detected
+ALT00963,2026-04-08 00:01:00,Phishing,41.106.95.212,10.2.34.65,user058,DEV-0031,Sales,Critical,New,0,UK,FTP,Suspicious email or malicious link detected
+ALT00150,2026-04-08 01:17:00,Phishing,165.20.37.49,10.18.111.123,user027,DEV-0086,HR,Medium,Investigating,0,India,HTTPS,Suspicious email or malicious link detected
+ALT00044,2026-04-08 02:15:00,Brute Force,205.123.243.166,10.15.229.203,user003,DEV-0024,HR,High,Investigating,57,USA,RDP,Multiple failed login attempts detected
+ALT00627,2026-04-08 06:45:00,Phishing,36.38.175.78,10.15.103.137,user093,DEV-0040,IT,Low,Investigating,0,USA,HTTPS,Suspicious email or malicious link detected
+ALT00028,2026-04-08 08:02:00,Port Scanning,11.100.186.111,10.2.169.160,user041,DEV-0170,Marketing,High,Resolved,0,India,FTP,Multiple ports scanned from a source IP
+ALT00238,2026-04-08 10:46:00,Port Scanning,186.243.183.130,10.9.87.216,user085,DEV-0143,Finance,High,Resolved,0,UK,HTTP,Multiple ports scanned from a source IP
+ALT00783,2026-04-08 12:23:00,Port Scanning,202.5.100.114,10.11.99.2,user076,DEV-0080,HR,Medium,New,0,India,SSH,Multiple ports scanned from a source IP
+ALT00901,2026-04-08 15:16:00,Port Scanning,171.202.21.179,10.14.65.170,user089,DEV-0058,IT,Medium,Resolved,0,Canada,HTTP,Multiple ports scanned from a source IP
+ALT00015,2026-04-08 17:28:00,Phishing,57.142.236.64,10.2.226.207,user071,DEV-0026,IT,Medium,New,0,Canada,DNS,Suspicious email or malicious link detected
+ALT00613,2026-04-08 23:00:00,Phishing,190.176.125.190,10.16.21.156,user058,DEV-0044,Engineering,Medium,Resolved,0,Australia,DNS,Suspicious email or malicious link detected
+ALT00572,2026-04-09 01:40:00,Ransomware,63.64.46.45,10.18.104.61,user065,DEV-0021,Sales,High,Closed,0,Canada,RDP,Potential ransomware behavior detected
+ALT00820,2026-04-09 05:29:00,Port Scanning,72.89.241.240,10.6.165.34,user038,DEV-0017,IT,Medium,Investigating,0,USA,DNS,Multiple ports scanned from a source IP
+ALT00679,2026-04-09 19:01:00,Unauthorized Access,143.78.110.222,10.11.58.231,user028,DEV-0008,HR,Critical,Investigating,0,USA,HTTPS,Unauthorized access attempt detected
+ALT00089,2026-04-10 11:22:00,Phishing,220.75.120.27,10.4.131.51,user023,DEV-0155,Finance,Medium,Resolved,0,Australia,SMTP,Suspicious email or malicious link detected
+ALT00394,2026-04-10 16:21:00,Suspicious Login,13.4.34.4,10.13.50.135,user014,DEV-0176,Sales,High,Investigating,2,UK,HTTPS,Login detected from unusual location or time
+ALT00413,2026-04-10 20:22:00,Malware,62.171.65.9,10.18.30.72,user018,DEV-0029,Marketing,Critical,Closed,0,Germany,RDP,Malicious software activity detected on endpoint
+ALT00539,2026-04-11 06:40:00,Brute Force,98.96.243.178,10.14.169.219,user075,DEV-0145,HR,High,Resolved,30,Singapore,SSH,Multiple failed login attempts detected
+ALT00597,2026-04-11 23:41:00,Suspicious Login,158.52.75.97,10.13.86.238,user008,DEV-0025,HR,Critical,Investigating,0,Germany,HTTPS,Login detected from unusual location or time
+ALT00914,2026-04-12 04:26:00,Port Scanning,73.66.249.81,10.19.18.174,user013,DEV-0017,IT,Medium,Investigating,0,India,HTTP,Multiple ports scanned from a source IP
+ALT00765,2026-04-12 05:53:00,Suspicious Login,194.117.148.206,10.5.191.85,user053,DEV-0056,Operations,High,Investigating,8,Canada,HTTPS,Login detected from unusual location or time
+ALT00573,2026-04-12 07:27:00,Unauthorized Access,74.155.146.148,10.14.103.70,user062,DEV-0021,HR,Medium,New,0,Germany,RDP,Unauthorized access attempt detected
+ALT00174,2026-04-12 14:37:00,Port Scanning,12.109.105.72,10.2.52.205,user069,DEV-0048,HR,Medium,Investigating,0,UK,HTTPS,Multiple ports scanned from a source IP
+ALT00926,2026-04-12 22:31:00,Suspicious Login,198.31.226.48,10.16.3.21,user023,DEV-0051,HR,High,Investigating,2,USA,DNS,Login detected from unusual location or time
+ALT00232,2026-04-13 01:15:00,Brute Force,103.101.140.95,10.14.203.163,user016,DEV-0175,IT,Medium,Investigating,9,USA,SSH,Multiple failed login attempts detected
+ALT00412,2026-04-13 12:57:00,Suspicious Login,160.248.27.228,10.13.74.56,user079,DEV-0117,Finance,High,New,3,Germany,SSH,Login detected from unusual location or time
+ALT00243,2026-04-13 23:23:00,Brute Force,204.97.9.174,10.0.127.58,user089,DEV-0089,HR,Low,Closed,6,USA,HTTP,Multiple failed login attempts detected
+ALT00925,2026-04-13 23:59:00,Brute Force,194.46.1.111,10.7.107.13,user092,DEV-0021,Sales,High,New,15,UK,FTP,Multiple failed login attempts detected
+ALT00903,2026-04-14 02:35:00,Port Scanning,62.65.18.121,10.15.55.29,user030,DEV-0010,Marketing,High,Resolved,0,Germany,HTTPS,Multiple ports scanned from a source IP
+ALT00352,2026-04-14 06:04:00,Port Scanning,123.250.166.222,10.14.126.110,user052,DEV-0199,IT,Medium,New,0,Singapore,FTP,Multiple ports scanned from a source IP
+ALT00547,2026-04-14 14:55:00,Brute Force,89.217.193.147,10.5.191.66,user071,DEV-0022,Finance,High,Investigating,35,Australia,HTTP,Multiple failed login attempts detected
+ALT00420,2026-04-15 04:21:00,Phishing,40.244.107.193,10.7.164.91,user035,DEV-0129,Engineering,Medium,New,0,Germany,SSH,Suspicious email or malicious link detected
+ALT00554,2026-04-15 12:04:00,Port Scanning,59.243.55.85,10.18.231.164,user039,DEV-0024,Finance,Critical,Investigating,0,India,FTP,Multiple ports scanned from a source IP
+ALT00221,2026-04-16 06:26:00,Brute Force,197.135.144.77,10.7.49.13,user051,DEV-0147,Operations,Medium,Resolved,75,Australia,RDP,Multiple failed login attempts detected
+ALT00506,2026-04-16 17:39:00,Port Scanning,177.226.176.228,10.20.207.199,user026,DEV-0078,IT,Medium,Resolved,0,India,DNS,Multiple ports scanned from a source IP
+ALT00442,2026-04-16 18:57:00,Phishing,182.179.14.24,10.4.142.243,user075,DEV-0090,HR,High,New,0,USA,SMTP,Suspicious email or malicious link detected
+ALT00257,2026-04-16 20:42:00,Unauthorized Access,98.186.27.210,10.7.232.85,user072,DEV-0197,Operations,Critical,Investigating,0,Singapore,RDP,Unauthorized access attempt detected
+ALT00141,2026-04-16 22:37:00,Ransomware,141.228.28.117,10.4.212.117,user073,DEV-0015,Operations,High,Investigating,0,Germany,FTP,Potential ransomware behavior detected
+ALT00378,2026-04-17 22:37:00,Port Scanning,122.175.120.45,10.2.249.30,user076,DEV-0153,Sales,Low,Investigating,0,UK,DNS,Multiple ports scanned from a source IP
+ALT00734,2026-04-18 03:23:00,Suspicious Login,71.225.232.244,10.3.10.128,user005,DEV-0070,HR,High,New,2,Singapore,RDP,Login detected from unusual location or time
+ALT00793,2026-04-18 08:13:00,Unauthorized Access,19.59.95.122,10.4.239.151,user042,DEV-0096,Operations,Medium,Investigating,0,Germany,FTP,Unauthorized access attempt detected
+ALT00030,2026-04-18 13:50:00,Brute Force,93.238.226.114,10.6.242.204,user095,DEV-0044,Engineering,High,Resolved,79,India,SSH,Multiple failed login attempts detected
+ALT00837,2026-04-18 18:43:00,Unauthorized Access,51.98.202.202,10.5.80.157,user085,DEV-0041,HR,Critical,New,0,Singapore,RDP,Unauthorized access attempt detected
+ALT00024,2026-04-18 21:15:00,Brute Force,154.208.79.237,10.7.83.250,user023,DEV-0106,IT,Critical,Investigating,18,USA,FTP,Multiple failed login attempts detected
+ALT00365,2026-04-19 00:40:00,Data Exfiltration,83.130.34.79,10.9.165.197,user001,DEV-0030,Engineering,Critical,New,0,UK,SSH,Unusual outbound data transfer detected
+ALT00670,2026-04-19 07:49:00,Unauthorized Access,108.58.100.220,10.15.63.90,user060,DEV-0106,Marketing,Critical,Investigating,0,Canada,FTP,Unauthorized access attempt detected
+ALT00231,2026-04-19 13:47:00,Phishing,143.191.28.132,10.5.33.80,user091,DEV-0130,Sales,Medium,Investigating,0,USA,SMTP,Suspicious email or malicious link detected
+ALT00465,2026-04-20 08:28:00,Malware,161.28.251.137,10.11.57.82,user070,DEV-0109,Sales,High,Investigating,0,Canada,HTTPS,Malicious software activity detected on endpoint
+ALT00122,2026-04-21 18:22:00,Ransomware,83.253.240.74,10.17.4.217,user014,DEV-0111,Finance,Critical,New,0,UK,FTP,Potential ransomware behavior detected
+ALT00320,2026-04-22 10:26:00,Malware,215.255.190.119,10.1.169.21,user097,DEV-0038,IT,Medium,Investigating,0,UK,SMTP,Malicious software activity detected on endpoint
+ALT00211,2026-04-23 00:57:00,Malware,82.29.241.136,10.11.119.250,user021,DEV-0026,Finance,Medium,Resolved,0,Canada,HTTPS,Malicious software activity detected on endpoint
+ALT00405,2026-04-23 02:51:00,Phishing,97.205.166.31,10.18.70.83,user028,DEV-0196,IT,Low,New,0,Singapore,HTTPS,Suspicious email or malicious link detected
+ALT00987,2026-04-23 08:06:00,Malware,182.157.222.149,10.19.197.115,user028,DEV-0060,IT,Critical,New,0,Australia,HTTP,Malicious software activity detected on endpoint
+ALT00429,2026-04-23 14:22:00,Unauthorized Access,25.99.113.201,10.8.100.6,user011,DEV-0138,Marketing,Low,New,0,Germany,FTP,Unauthorized access attempt detected
+ALT00758,2026-04-23 21:12:00,Port Scanning,49.248.95.188,10.15.144.34,user026,DEV-0163,IT,High,New,0,Singapore,SMTP,Multiple ports scanned from a source IP
+ALT00100,2026-04-24 14:56:00,Phishing,17.212.27.102,10.16.191.61,user050,DEV-0021,HR,High,Investigating,0,USA,HTTP,Suspicious email or malicious link detected
+ALT00330,2026-04-24 19:45:00,Unauthorized Access,64.251.40.120,10.20.31.93,user072,DEV-0191,Sales,Low,New,0,Australia,SSH,Unauthorized access attempt detected
+ALT00639,2026-04-25 00:14:00,Malware,48.180.146.58,10.12.57.126,user022,DEV-0029,Finance,Medium,Investigating,0,India,SSH,Malicious software activity detected on endpoint
+ALT00659,2026-04-25 12:55:00,Port Scanning,34.178.238.120,10.20.238.28,user011,DEV-0047,Engineering,High,Investigating,0,India,RDP,Multiple ports scanned from a source IP
+ALT00265,2026-04-25 23:41:00,Ransomware,71.147.24.238,10.12.198.107,user088,DEV-0081,Operations,High,Resolved,0,India,HTTP,Potential ransomware behavior detected
+ALT00848,2026-04-26 10:27:00,Port Scanning,68.167.234.168,10.6.181.229,user092,DEV-0148,Finance,Low,New,0,USA,SMTP,Multiple ports scanned from a source IP
+ALT00234,2026-04-26 21:13:00,Suspicious Login,142.10.4.122,10.4.88.154,user002,DEV-0058,HR,Critical,Resolved,4,Singapore,SMTP,Login detected from unusual location or time
+ALT00976,2026-04-26 23:58:00,Data Exfiltration,168.208.80.62,10.19.147.128,user099,DEV-0020,Sales,Critical,New,0,Singapore,HTTP,Unusual outbound data transfer detected
+ALT00026,2026-04-27 07:01:00,Ransomware,113.168.142.222,10.2.142.90,user083,DEV-0131,Sales,Critical,Resolved,0,Canada,SMTP,Potential ransomware behavior detected
+ALT00079,2026-04-27 13:21:00,Suspicious Login,197.48.160.110,10.10.130.96,user020,DEV-0176,Sales,High,Investigating,7,India,HTTP,Login detected from unusual location or time
+ALT00844,2026-04-27 14:23:00,Malware,184.132.130.155,10.0.71.31,user083,DEV-0106,Sales,Critical,Investigating,0,Germany,SMTP,Malicious software activity detected on endpoint
+ALT00530,2026-04-27 16:46:00,Unauthorized Access,60.11.129.175,10.17.232.1,user055,DEV-0165,Engineering,Critical,Resolved,0,Canada,HTTP,Unauthorized access attempt detected
+ALT00317,2026-04-29 00:35:00,Port Scanning,116.223.202.64,10.5.199.213,user049,DEV-0057,HR,High,Investigating,0,India,RDP,Multiple ports scanned from a source IP
+ALT00155,2026-04-29 02:45:00,Malware,66.233.191.16,10.19.247.169,user063,DEV-0005,IT,Critical,New,0,Singapore,DNS,Malicious software activity detected on endpoint
+ALT00051,2026-04-29 09:45:00,Ransomware,127.36.119.237,10.8.101.109,user015,DEV-0140,Finance,High,New,0,Canada,HTTPS,Potential ransomware behavior detected
+ALT00035,2026-04-29 12:44:00,Phishing,65.32.212.105,10.10.238.107,user008,DEV-0053,Marketing,Low,New,0,Germany,RDP,Suspicious email or malicious link detected
+ALT00134,2026-04-29 17:47:00,Phishing,20.89.213.226,10.5.18.215,user051,DEV-0127,Finance,Medium,Resolved,0,Canada,SMTP,Suspicious email or malicious link detected
+ALT00549,2026-04-30 08:41:00,Brute Force,32.150.40.202,10.8.116.26,user016,DEV-0019,HR,Medium,Investigating,14,India,DNS,Multiple failed login attempts detected
+ALT00796,2026-04-30 16:06:00,Port Scanning,209.137.205.152,10.0.83.132,user022,DEV-0077,Operations,Medium,Investigating,0,Canada,DNS,Multiple ports scanned from a source IP
+ALT00364,2026-04-30 22:18:00,Malware,11.60.12.120,10.20.60.189,user027,DEV-0158,Sales,Critical,Closed,0,Germany,HTTP,Malicious software activity detected on endpoint
+ALT00762,2026-05-01 00:18:00,Ransomware,66.209.31.144,10.10.133.173,user041,DEV-0106,Sales,Critical,New,0,Australia,RDP,Potential ransomware behavior detected
+ALT00944,2026-05-01 02:48:00,Malware,102.173.41.106,10.10.35.127,user052,DEV-0140,IT,Critical,Investigating,0,Singapore,RDP,Malicious software activity detected on endpoint
+ALT00382,2026-05-01 13:44:00,Unauthorized Access,171.162.195.104,10.12.222.140,user028,DEV-0170,Finance,Critical,Resolved,0,Germany,HTTPS,Unauthorized access attempt detected
+ALT00583,2026-05-01 15:31:00,Phishing,36.4.31.69,10.0.21.25,user028,DEV-0134,Marketing,Medium,Resolved,0,India,RDP,Suspicious email or malicious link detected
+ALT00475,2026-05-01 19:28:00,Unauthorized Access,105.234.43.3,10.15.68.224,user042,DEV-0178,Sales,Critical,Closed,0,Canada,HTTPS,Unauthorized access attempt detected
+ALT00063,2026-05-01 20:43:00,Brute Force,202.46.222.251,10.3.51.114,user022,DEV-0178,HR,High,Closed,41,India,HTTP,Multiple failed login attempts detected
+ALT00031,2026-05-01 21:19:00,Data Exfiltration,61.75.12.12,10.7.243.157,user099,DEV-0019,Sales,High,New,0,Germany,FTP,Unusual outbound data transfer detected
+ALT00016,2026-05-02 05:26:00,Brute Force,113.30.84.98,10.0.199.68,user059,DEV-0074,Sales,Critical,Investigating,67,Canada,FTP,Multiple failed login attempts detected
+ALT00937,2026-05-02 07:31:00,Suspicious Login,91.48.196.193,10.4.164.21,user068,DEV-0126,Sales,High,Closed,7,Singapore,FTP,Login detected from unusual location or time
+ALT00612,2026-05-03 02:10:00,Phishing,32.146.252.207,10.0.217.174,user066,DEV-0188,Finance,Low,Resolved,0,Germany,RDP,Suspicious email or malicious link detected
+ALT00098,2026-05-03 09:51:00,Ransomware,60.188.225.119,10.9.195.129,user068,DEV-0108,Finance,High,Resolved,0,Australia,HTTPS,Potential ransomware behavior detected
+ALT00282,2026-05-03 19:43:00,Data Exfiltration,142.71.228.41,10.5.74.189,user094,DEV-0124,HR,Critical,New,0,India,HTTPS,Unusual outbound data transfer detected
+ALT00057,2026-05-03 22:10:00,Ransomware,14.208.47.58,10.3.236.243,user016,DEV-0166,Marketing,High,Investigating,0,USA,RDP,Potential ransomware behavior detected
+ALT00750,2026-05-04 22:18:00,Malware,222.172.55.185,10.1.37.190,user046,DEV-0115,Sales,Critical,New,0,Canada,RDP,Malicious software activity detected on endpoint
+ALT00324,2026-05-05 00:02:00,Phishing,187.243.79.96,10.2.127.41,user064,DEV-0024,Engineering,Medium,Resolved,0,Singapore,SSH,Suspicious email or malicious link detected
+ALT00300,2026-05-05 10:49:00,Port Scanning,128.14.246.30,10.8.34.98,user082,DEV-0057,Engineering,Medium,Investigating,0,Canada,HTTPS,Multiple ports scanned from a source IP
+ALT00503,2026-05-06 04:48:00,Port Scanning,118.116.70.206,10.13.211.236,user053,DEV-0118,Marketing,Medium,Resolved,0,Singapore,SMTP,Multiple ports scanned from a source IP
+ALT00733,2026-05-06 16:57:00,Unauthorized Access,189.53.27.89,10.13.248.72,user011,DEV-0053,Finance,Critical,New,0,Australia,DNS,Unauthorized access attempt detected
+ALT00607,2026-05-07 02:17:00,Brute Force,186.208.33.85,10.20.45.93,user043,DEV-0200,HR,Critical,Investigating,20,USA,SMTP,Multiple failed login attempts detected
+ALT00034,2026-05-07 20:17:00,Ransomware,144.248.122.71,10.14.39.183,user037,DEV-0061,HR,Critical,Resolved,0,UK,SSH,Potential ransomware behavior detected
+ALT00622,2026-05-07 21:52:00,Phishing,132.52.92.49,10.18.76.59,user016,DEV-0034,Sales,High,Investigating,0,India,SSH,Suspicious email or malicious link detected
+ALT00917,2026-05-08 03:42:00,Unauthorized Access,124.49.20.35,10.12.242.98,user062,DEV-0044,Marketing,High,Closed,0,India,DNS,Unauthorized access attempt detected
+ALT00854,2026-05-08 05:36:00,Data Exfiltration,143.79.71.178,10.15.19.16,user077,DEV-0054,Marketing,Medium,New,0,Canada,FTP,Unusual outbound data transfer detected
+ALT00254,2026-05-08 15:22:00,Phishing,175.197.76.215,10.17.27.3,user083,DEV-0041,Operations,Medium,Resolved,0,Australia,RDP,Suspicious email or malicious link detected
+ALT00170,2026-05-08 21:42:00,Phishing,176.22.204.248,10.10.220.28,user002,DEV-0026,HR,Low,Investigating,0,USA,DNS,Suspicious email or malicious link detected
+ALT00022,2026-05-09 01:05:00,Unauthorized Access,223.141.22.1,10.10.66.164,user034,DEV-0042,Engineering,High,Resolved,0,Germany,DNS,Unauthorized access attempt detected
+ALT00449,2026-05-09 15:31:00,Ransomware,45.15.50.189,10.1.34.128,user087,DEV-0007,Finance,High,New,0,Germany,DNS,Potential ransomware behavior detected
+ALT00867,2026-05-09 22:35:00,Unauthorized Access,64.34.30.194,10.13.71.37,user062,DEV-0042,Marketing,Low,Resolved,0,Australia,HTTPS,Unauthorized access attempt detected
+ALT00628,2026-05-10 17:22:00,Port Scanning,125.60.223.18,10.15.214.135,user065,DEV-0006,Finance,Medium,Closed,0,Singapore,SSH,Multiple ports scanned from a source IP
+ALT00334,2026-05-11 11:28:00,Suspicious Login,11.17.145.153,10.0.69.228,user039,DEV-0002,HR,High,Closed,7,USA,HTTPS,Login detected from unusual location or time
+ALT00065,2026-05-11 14:16:00,Malware,216.238.147.174,10.17.80.19,user057,DEV-0089,Operations,High,Resolved,0,UK,FTP,Malicious software activity detected on endpoint
+ALT00246,2026-05-11 17:39:00,Port Scanning,23.55.10.13,10.3.213.114,user049,DEV-0032,Operations,High,New,0,UK,RDP,Multiple ports scanned from a source IP
+ALT00476,2026-05-12 02:06:00,Port Scanning,24.170.120.121,10.11.23.2,user033,DEV-0130,Operations,High,Resolved,0,Germany,SSH,Multiple ports scanned from a source IP
+ALT00657,2026-05-12 14:41:00,Unauthorized Access,42.249.20.94,10.9.205.105,user080,DEV-0175,Finance,Critical,Closed,0,Germany,SSH,Unauthorized access attempt detected
+ALT00810,2026-05-12 23:41:00,Brute Force,121.59.98.147,10.8.155.158,user066,DEV-0139,Marketing,Medium,Resolved,15,Australia,HTTPS,Multiple failed login attempts detected
+ALT00227,2026-05-13 10:58:00,Malware,217.34.44.100,10.17.203.142,user042,DEV-0071,Operations,Critical,Resolved,0,Germany,SMTP,Malicious software activity detected on endpoint
+ALT00825,2026-05-13 18:17:00,Data Exfiltration,205.71.75.134,10.9.13.57,user048,DEV-0145,HR,Critical,Resolved,0,Canada,SSH,Unusual outbound data transfer detected
+ALT00435,2026-05-13 20:43:00,Ransomware,188.61.191.132,10.18.8.217,user034,DEV-0042,Operations,Critical,Investigating,0,India,HTTPS,Potential ransomware behavior detected
+ALT00239,2026-05-13 23:51:00,Ransomware,57.171.45.57,10.11.114.191,user040,DEV-0108,Marketing,High,Resolved,0,UK,SSH,Potential ransomware behavior detected
+ALT00299,2026-05-14 05:26:00,Port Scanning,154.37.150.88,10.3.131.225,user069,DEV-0148,HR,Medium,Investigating,0,Canada,RDP,Multiple ports scanned from a source IP
+ALT00281,2026-05-14 17:57:00,Suspicious Login,209.76.187.101,10.7.148.35,user060,DEV-0129,Operations,Critical,Investigating,8,India,RDP,Login detected from unusual location or time
+ALT00306,2026-05-15 07:17:00,Unauthorized Access,167.175.187.48,10.15.217.54,user054,DEV-0180,Marketing,Medium,Investigating,0,UK,SSH,Unauthorized access attempt detected
+ALT00883,2026-05-15 13:23:00,Data Exfiltration,71.163.182.20,10.4.164.221,user090,DEV-0064,Marketing,Critical,Investigating,0,Singapore,DNS,Unusual outbound data transfer detected
+ALT00284,2026-05-15 18:34:00,Unauthorized Access,107.193.187.151,10.20.39.133,user033,DEV-0097,Finance,Critical,Resolved,0,Singapore,RDP,Unauthorized access attempt detected
+ALT00218,2026-05-16 06:15:00,Data Exfiltration,100.131.55.185,10.0.24.99,user057,DEV-0188,Sales,Critical,Resolved,0,USA,RDP,Unusual outbound data transfer detected
+ALT00062,2026-05-16 10:39:00,Malware,177.41.168.219,10.17.194.245,user041,DEV-0161,Engineering,High,Resolved,0,Australia,RDP,Malicious software activity detected on endpoint
+ALT00283,2026-05-16 11:14:00,Ransomware,63.184.198.121,10.14.23.11,user084,DEV-0083,IT,High,New,0,Canada,DNS,Potential ransomware behavior detected
+ALT00856,2026-05-16 19:20:00,Data Exfiltration,17.169.14.228,10.15.17.189,user019,DEV-0105,IT,Critical,New,0,Singapore,RDP,Unusual outbound data transfer detected
+ALT00127,2026-05-16 20:50:00,Brute Force,195.26.245.44,10.16.194.38,user088,DEV-0063,IT,High,Resolved,79,Singapore,FTP,Multiple failed login attempts detected
+ALT00956,2026-05-17 00:42:00,Ransomware,59.120.229.208,10.0.22.224,user073,DEV-0112,Operations,High,New,0,Canada,RDP,Potential ransomware behavior detected
+ALT00399,2026-05-17 04:44:00,Brute Force,158.1.251.123,10.13.206.217,user094,DEV-0200,Marketing,High,Closed,47,Australia,HTTP,Multiple failed login attempts detected
+ALT00500,2026-05-17 04:54:00,Brute Force,37.25.224.205,10.14.56.250,user014,DEV-0157,Operations,Critical,Resolved,70,Australia,SMTP,Multiple failed login attempts detected
+ALT00474,2026-05-17 09:47:00,Suspicious Login,121.105.110.211,10.9.96.108,user024,DEV-0105,Marketing,Medium,Investigating,7,USA,HTTP,Login detected from unusual location or time
+ALT00157,2026-05-17 12:05:00,Unauthorized Access,114.235.124.254,10.7.153.176,user011,DEV-0168,Marketing,Critical,Investigating,0,Canada,SMTP,Unauthorized access attempt detected
+ALT00331,2026-05-17 16:02:00,Brute Force,30.110.49.26,10.7.197.49,user025,DEV-0135,Engineering,Critical,Resolved,14,USA,DNS,Multiple failed login attempts detected
+ALT00182,2026-05-17 16:57:00,Unauthorized Access,35.69.210.236,10.1.141.222,user084,DEV-0033,Engineering,High,Resolved,0,Australia,HTTPS,Unauthorized access attempt detected
+ALT00302,2026-05-18 05:47:00,Suspicious Login,62.120.123.224,10.8.105.59,user026,DEV-0064,Marketing,Critical,Investigating,3,Singapore,SSH,Login detected from unusual location or time
+ALT00634,2026-05-18 06:37:00,Ransomware,203.202.79.115,10.7.222.95,user019,DEV-0123,IT,High,Resolved,0,Germany,HTTPS,Potential ransomware behavior detected
+ALT00838,2026-05-18 07:59:00,Port Scanning,88.189.74.79,10.10.181.213,user096,DEV-0081,Sales,High,New,0,UK,RDP,Multiple ports scanned from a source IP
+ALT00979,2026-05-18 08:55:00,Phishing,142.116.160.238,10.10.122.145,user025,DEV-0090,HR,Medium,New,0,USA,SMTP,Suspicious email or malicious link detected
+ALT00224,2026-05-18 18:03:00,Ransomware,189.49.43.172,10.11.211.249,user097,DEV-0151,Finance,High,New,0,Singapore,HTTP,Potential ransomware behavior detected
+ALT00483,2026-05-18 19:42:00,Ransomware,22.231.166.243,10.18.66.55,user007,DEV-0165,HR,Critical,New,0,UK,SMTP,Potential ransomware behavior detected
+ALT00344,2026-05-19 01:29:00,Brute Force,180.138.184.222,10.3.9.75,user084,DEV-0099,Finance,High,New,6,Germany,DNS,Multiple failed login attempts detected
+ALT00850,2026-05-19 07:59:00,Unauthorized Access,208.181.13.36,10.14.63.214,user049,DEV-0007,Sales,Medium,Closed,0,Australia,FTP,Unauthorized access attempt detected
+ALT00132,2026-05-20 04:06:00,Unauthorized Access,161.122.124.13,10.16.115.164,user030,DEV-0014,IT,Critical,Resolved,0,Germany,SSH,Unauthorized access attempt detected
+ALT00069,2026-05-20 05:16:00,Data Exfiltration,134.151.173.206,10.3.239.247,user010,DEV-0037,Marketing,Critical,Closed,0,USA,SMTP,Unusual outbound data transfer detected
+ALT00318,2026-05-20 09:41:00,Suspicious Login,116.96.35.47,10.4.148.29,user082,DEV-0117,Operations,High,Resolved,8,Germany,SSH,Login detected from unusual location or time
+ALT00939,2026-05-20 10:31:00,Ransomware,165.102.96.246,10.19.61.76,user094,DEV-0016,Engineering,Critical,Closed,0,USA,DNS,Potential ransomware behavior detected
+ALT00058,2026-05-20 13:53:00,Unauthorized Access,131.124.233.142,10.4.196.49,user077,DEV-0131,Engineering,High,Investigating,0,USA,SMTP,Unauthorized access attempt detected
+ALT00881,2026-05-21 00:31:00,Malware,188.112.125.225,10.7.225.166,user028,DEV-0038,IT,Critical,New,0,UK,HTTPS,Malicious software activity detected on endpoint
+ALT00738,2026-05-21 02:15:00,Brute Force,157.202.19.158,10.8.185.69,user085,DEV-0065,Marketing,High,New,74,Canada,SMTP,Multiple failed login attempts detected
+ALT00117,2026-05-21 04:40:00,Phishing,147.47.86.152,10.18.78.44,user085,DEV-0160,Engineering,Medium,Investigating,0,Singapore,SSH,Suspicious email or malicious link detected
+ALT00406,2026-05-21 04:48:00,Data Exfiltration,189.189.84.113,10.7.20.35,user013,DEV-0162,Operations,High,Investigating,0,Germany,SMTP,Unusual outbound data transfer detected
+ALT00242,2026-05-21 06:48:00,Brute Force,51.250.45.34,10.19.222.163,user055,DEV-0104,Sales,Low,Resolved,26,Germany,RDP,Multiple failed login attempts detected
+ALT00001,2026-05-21 07:14:00,Phishing,37.44.216.9,10.0.47.56,user030,DEV-0130,Operations,Low,New,0,India,DNS,Suspicious email or malicious link detected
+ALT00362,2026-05-21 10:33:00,Phishing,64.107.29.28,10.18.44.124,user093,DEV-0177,Operations,Medium,Investigating,0,Australia,FTP,Suspicious email or malicious link detected
+ALT00716,2026-05-21 12:24:00,Ransomware,38.237.213.209,10.13.75.8,user037,DEV-0118,IT,Critical,Resolved,0,Singapore,RDP,Potential ransomware behavior detected
+ALT00235,2026-05-21 13:57:00,Unauthorized Access,100.235.129.56,10.14.154.174,user067,DEV-0160,Sales,High,Investigating,0,Singapore,HTTP,Unauthorized access attempt detected
+ALT00872,2026-05-22 08:40:00,Unauthorized Access,118.128.182.22,10.0.51.183,user063,DEV-0063,Operations,Critical,Investigating,0,Germany,HTTPS,Unauthorized access attempt detected
+ALT00985,2026-05-22 09:27:00,Phishing,67.136.181.216,10.7.77.6,user071,DEV-0150,HR,Medium,New,0,Australia,HTTPS,Suspicious email or malicious link detected
+ALT00165,2026-05-22 13:19:00,Phishing,30.184.128.242,10.7.253.153,user079,DEV-0051,Sales,Medium,Investigating,0,India,HTTPS,Suspicious email or malicious link detected
+ALT00611,2026-05-22 13:33:00,Ransomware,219.117.156.163,10.2.156.105,user099,DEV-0081,Marketing,Critical,Closed,0,India,FTP,Potential ransomware behavior detected
+ALT00983,2026-05-22 16:36:00,Ransomware,79.26.218.161,10.15.55.122,user056,DEV-0100,HR,Critical,Investigating,0,India,HTTPS,Potential ransomware behavior detected
+ALT00335,2026-05-22 17:32:00,Data Exfiltration,157.79.48.10,10.14.182.40,user018,DEV-0068,HR,Medium,Resolved,0,Singapore,HTTPS,Unusual outbound data transfer detected
+ALT00754,2026-05-23 04:06:00,Phishing,141.86.14.154,10.1.99.2,user063,DEV-0007,HR,High,New,0,USA,SSH,Suspicious email or malicious link detected
+ALT00605,2026-05-23 04:46:00,Suspicious Login,76.133.195.167,10.5.204.117,user011,DEV-0066,Engineering,High,New,6,Germany,FTP,Login detected from unusual location or time
+ALT00562,2026-05-23 05:10:00,Ransomware,166.51.90.76,10.3.200.44,user010,DEV-0172,Marketing,High,Resolved,0,India,FTP,Potential ransomware behavior detected
+ALT00694,2026-05-23 13:10:00,Port Scanning,158.52.75.119,10.3.56.62,user003,DEV-0118,Finance,Medium,Resolved,0,UK,HTTP,Multiple ports scanned from a source IP
+ALT00753,2026-05-23 18:56:00,Suspicious Login,83.84.60.74,10.8.249.113,user029,DEV-0044,HR,High,New,5,UK,DNS,Login detected from unusual location or time
+ALT00448,2026-05-23 22:49:00,Port Scanning,80.204.182.122,10.19.207.253,user063,DEV-0131,HR,High,Resolved,0,USA,SMTP,Multiple ports scanned from a source IP
+ALT00752,2026-05-24 03:14:00,Malware,98.24.218.74,10.10.196.82,user097,DEV-0046,Finance,Critical,New,0,India,SMTP,Malicious software activity detected on endpoint
+ALT00633,2026-05-24 05:16:00,Data Exfiltration,148.54.195.243,10.20.131.223,user081,DEV-0163,Operations,High,Closed,0,Singapore,HTTPS,Unusual outbound data transfer detected
+ALT00389,2026-05-24 08:54:00,Unauthorized Access,200.57.89.233,10.18.77.169,user058,DEV-0095,Marketing,Medium,New,0,USA,SSH,Unauthorized access attempt detected
+ALT00920,2026-05-24 16:57:00,Unauthorized Access,136.163.85.14,10.20.122.180,user040,DEV-0068,Sales,Medium,Closed,0,Germany,SSH,Unauthorized access attempt detected
+ALT00625,2026-05-24 19:06:00,Suspicious Login,136.186.171.78,10.3.49.172,user002,DEV-0175,Operations,High,New,6,Australia,SMTP,Login detected from unusual location or time
+ALT00806,2026-05-25 01:07:00,Port Scanning,128.187.25.228,10.19.189.65,user055,DEV-0087,Engineering,Low,Closed,0,UK,SMTP,Multiple ports scanned from a source IP
+ALT00651,2026-05-25 05:34:00,Data Exfiltration,65.5.158.49,10.17.103.164,user005,DEV-0062,HR,Medium,New,0,India,DNS,Unusual outbound data transfer detected
+ALT00948,2026-05-25 08:35:00,Brute Force,51.103.131.86,10.6.167.230,user034,DEV-0101,IT,Critical,Investigating,52,Canada,SSH,Multiple failed login attempts detected
+ALT00288,2026-05-26 02:13:00,Brute Force,131.246.87.57,10.13.73.204,user075,DEV-0197,Finance,Critical,Resolved,62,Singapore,FTP,Multiple failed login attempts detected
+ALT00842,2026-05-26 03:30:00,Data Exfiltration,202.37.166.251,10.13.77.224,user020,DEV-0151,HR,Critical,New,0,Singapore,HTTPS,Unusual outbound data transfer detected
+ALT00802,2026-05-26 09:24:00,Malware,134.17.133.246,10.13.91.42,user051,DEV-0175,Operations,Critical,Resolved,0,Australia,HTTP,Malicious software activity detected on endpoint
+ALT00310,2026-05-26 11:20:00,Malware,135.228.40.98,10.19.146.119,user081,DEV-0038,Marketing,Critical,Resolved,0,USA,FTP,Malicious software activity detected on endpoint
+ALT00191,2026-05-26 22:01:00,Suspicious Login,166.96.200.76,10.20.27.201,user031,DEV-0127,Sales,High,New,4,India,HTTPS,Login detected from unusual location or time
+ALT00748,2026-05-27 10:20:00,Malware,115.215.75.148,10.15.101.231,user024,DEV-0117,IT,Critical,New,0,USA,HTTP,Malicious software activity detected on endpoint
+ALT00641,2026-05-27 11:56:00,Unauthorized Access,138.188.135.208,10.2.1.221,user020,DEV-0200,Engineering,High,New,0,USA,SSH,Unauthorized access attempt detected
+ALT00461,2026-05-27 20:10:00,Port Scanning,164.120.207.62,10.3.76.50,user004,DEV-0063,Marketing,Medium,New,0,Australia,SSH,Multiple ports scanned from a source IP
+ALT00425,2026-05-28 01:09:00,Ransomware,127.85.82.183,10.17.146.47,user023,DEV-0182,Engineering,Critical,Investigating,0,Canada,SMTP,Potential ransomware behavior detected
+ALT00179,2026-05-28 05:49:00,Unauthorized Access,201.253.57.147,10.3.137.199,user070,DEV-0094,Operations,High,Investigating,0,Australia,SMTP,Unauthorized access attempt detected
+ALT00434,2026-05-28 13:11:00,Ransomware,187.125.14.31,10.8.252.249,user009,DEV-0154,Engineering,High,Investigating,0,UK,DNS,Potential ransomware behavior detected
+ALT00513,2026-05-29 01:33:00,Phishing,106.156.191.78,10.9.248.8,user019,DEV-0037,Marketing,Medium,New,0,Singapore,RDP,Suspicious email or malicious link detected
+ALT00934,2026-05-29 04:15:00,Data Exfiltration,137.110.213.126,10.0.157.162,user021,DEV-0087,Engineering,Critical,Investigating,0,UK,FTP,Unusual outbound data transfer detected
+ALT00990,2026-05-29 07:24:00,Port Scanning,131.12.124.166,10.2.231.183,user003,DEV-0100,Operations,Medium,Resolved,0,UK,SSH,Multiple ports scanned from a source IP
+ALT00701,2026-05-29 07:33:00,Brute Force,48.48.51.78,10.10.231.126,user095,DEV-0090,Operations,High,New,69,UK,FTP,Multiple failed login attempts detected
+ALT00725,2026-05-29 08:24:00,Data Exfiltration,28.80.147.20,10.17.123.219,user067,DEV-0157,Operations,Medium,Resolved,0,UK,RDP,Unusual outbound data transfer detected
+ALT00916,2026-05-29 09:06:00,Data Exfiltration,51.77.83.107,10.3.209.41,user072,DEV-0142,Engineering,Critical,Resolved,0,Germany,FTP,Unusual outbound data transfer detected
+ALT00339,2026-05-29 12:09:00,Phishing,32.243.25.141,10.12.134.22,user052,DEV-0129,Sales,Medium,New,0,Australia,FTP,Suspicious email or malicious link detected
+ALT00428,2026-05-29 18:42:00,Unauthorized Access,155.226.173.177,10.3.245.231,user006,DEV-0036,Engineering,High,New,0,Singapore,HTTP,Unauthorized access attempt detected
+ALT00631,2026-05-30 01:40:00,Brute Force,82.68.138.224,10.1.127.254,user027,DEV-0137,IT,High,Closed,23,India,FTP,Multiple failed login attempts detected
+ALT00760,2026-05-30 21:31:00,Unauthorized Access,172.200.182.140,10.15.151.25,user029,DEV-0029,Marketing,Critical,Investigating,0,Australia,SSH,Unauthorized access attempt detected
+ALT00545,2026-05-31 04:20:00,Suspicious Login,214.143.64.218,10.16.250.54,user094,DEV-0021,Marketing,Critical,New,3,Germany,SMTP,Login detected from unusual location or time
+ALT00746,2026-05-31 07:21:00,Data Exfiltration,207.185.118.117,10.10.59.178,user031,DEV-0114,Engineering,High,New,0,Germany,SSH,Unusual outbound data transfer detected
+ALT00064,2026-05-31 11:23:00,Data Exfiltration,73.210.92.44,10.5.40.157,user049,DEV-0159,Engineering,Critical,Investigating,0,USA,RDP,Unusual outbound data transfer detected
+ALT00497,2026-05-31 23:45:00,Ransomware,117.184.241.205,10.5.106.73,user089,DEV-0192,IT,High,Investigating,0,Canada,RDP,Potential ransomware behavior detected
+ALT00017,2026-06-01 06:03:00,Ransomware,149.31.160.15,10.1.244.129,user068,DEV-0041,IT,High,Resolved,0,Singapore,HTTP,Potential ransomware behavior detected
+ALT00417,2026-06-01 07:41:00,Suspicious Login,182.156.82.181,10.14.12.250,user059,DEV-0119,Marketing,Medium,New,1,USA,SMTP,Login detected from unusual location or time
+ALT00162,2026-06-01 07:45:00,Port Scanning,79.78.194.183,10.20.78.190,user050,DEV-0082,HR,Low,New,0,India,HTTP,Multiple ports scanned from a source IP
+ALT00323,2026-06-02 06:23:00,Phishing,181.111.57.61,10.20.222.84,user002,DEV-0043,Marketing,Medium,Closed,0,UK,DNS,Suspicious email or malicious link detected
+ALT00130,2026-06-02 09:45:00,Unauthorized Access,191.250.162.123,10.11.140.74,user016,DEV-0147,Engineering,High,New,0,Singapore,RDP,Unauthorized access attempt detected
+ALT00336,2026-06-03 02:36:00,Suspicious Login,66.39.166.203,10.15.88.125,user089,DEV-0180,Operations,High,Resolved,6,Australia,HTTP,Login detected from unusual location or time
+ALT00910,2026-06-03 04:02:00,Brute Force,149.116.205.33,10.20.180.54,user052,DEV-0108,Sales,High,Investigating,63,Germany,FTP,Multiple failed login attempts detected
+ALT00160,2026-06-03 05:36:00,Port Scanning,110.169.196.194,10.4.40.129,user096,DEV-0089,IT,High,New,0,India,RDP,Multiple ports scanned from a source IP
+ALT00964,2026-06-03 10:24:00,Port Scanning,88.219.244.163,10.19.21.174,user063,DEV-0009,Sales,Low,Investigating,0,UK,SSH,Multiple ports scanned from a source IP
+ALT00369,2026-06-04 06:33:00,Suspicious Login,106.19.103.234,10.2.227.130,user004,DEV-0124,Operations,High,New,4,USA,HTTPS,Login detected from unusual location or time
+ALT00708,2026-06-04 19:19:00,Phishing,122.165.71.175,10.6.128.35,user054,DEV-0142,Finance,High,New,0,UK,SSH,Suspicious email or malicious link detected
+ALT00316,2026-06-05 00:00:00,Port Scanning,205.69.176.74,10.15.4.177,user063,DEV-0194,Sales,Medium,Investigating,0,UK,HTTP,Multiple ports scanned from a source IP
+ALT00624,2026-06-05 03:17:00,Port Scanning,100.214.126.82,10.1.93.11,user001,DEV-0014,Engineering,Medium,Investigating,0,Canada,SSH,Multiple ports scanned from a source IP
+ALT00827,2026-06-05 04:37:00,Brute Force,195.207.244.159,10.5.176.165,user020,DEV-0151,Marketing,Critical,New,6,Singapore,SSH,Multiple failed login attempts detected
+ALT00230,2026-06-05 09:17:00,Data Exfiltration,189.50.116.35,10.9.226.199,user042,DEV-0069,Engineering,Critical,Resolved,0,Germany,DNS,Unusual outbound data transfer detected
+ALT00950,2026-06-05 11:29:00,Suspicious Login,69.129.111.131,10.0.158.4,user028,DEV-0047,Marketing,Critical,Resolved,0,UK,HTTPS,Login detected from unusual location or time
+ALT00432,2026-06-05 15:55:00,Phishing,96.33.192.23,10.0.209.164,user035,DEV-0107,Finance,Low,Investigating,0,Singapore,RDP,Suspicious email or malicious link detected
+ALT00933,2026-06-05 17:17:00,Ransomware,135.255.221.112,10.5.249.249,user086,DEV-0016,HR,Critical,New,0,India,HTTP,Potential ransomware behavior detected
+ALT00706,2026-06-06 00:27:00,Phishing,11.25.128.36,10.11.145.202,user065,DEV-0171,Marketing,Low,Investigating,0,Singapore,HTTPS,Suspicious email or malicious link detected
+ALT00736,2026-06-06 01:34:00,Port Scanning,17.172.134.208,10.18.110.194,user004,DEV-0088,Engineering,Medium,Resolved,0,Australia,DNS,Multiple ports scanned from a source IP
+ALT00244,2026-06-06 05:04:00,Port Scanning,87.148.233.187,10.16.172.112,user088,DEV-0035,HR,Medium,Resolved,0,Germany,SSH,Multiple ports scanned from a source IP
+ALT00514,2026-06-06 09:13:00,Brute Force,136.1.62.141,10.11.34.223,user006,DEV-0107,Sales,Critical,Resolved,28,Singapore,SSH,Multiple failed login attempts detected
+ALT00778,2026-06-06 11:39:00,Port Scanning,76.103.39.152,10.4.52.188,user028,DEV-0072,Finance,Medium,Resolved,0,UK,DNS,Multiple ports scanned from a source IP
+ALT00187,2026-06-06 23:44:00,Malware,120.46.48.1,10.6.244.20,user017,DEV-0152,Finance,High,Resolved,0,Singapore,FTP,Malicious software activity detected on endpoint
+ALT00667,2026-06-07 16:52:00,Data Exfiltration,190.255.233.106,10.13.180.91,user070,DEV-0110,Operations,Medium,Closed,0,Australia,SSH,Unusual outbound data transfer detected
+ALT00194,2026-06-08 02:32:00,Malware,217.79.167.101,10.18.33.80,user090,DEV-0112,Engineering,High,Closed,0,Australia,HTTPS,Malicious software activity detected on endpoint
+ALT00081,2026-06-09 11:06:00,Brute Force,50.246.114.217,10.3.179.217,user072,DEV-0095,IT,Critical,Investigating,78,Australia,SSH,Multiple failed login attempts detected
+ALT00889,2026-06-09 11:11:00,Data Exfiltration,75.255.46.48,10.8.205.52,user030,DEV-0090,Engineering,High,Resolved,0,Canada,HTTP,Unusual outbound data transfer detected
+ALT00693,2026-06-09 22:29:00,Data Exfiltration,140.54.66.57,10.11.197.250,user058,DEV-0159,Operations,Critical,Resolved,0,USA,SMTP,Unusual outbound data transfer detected
+ALT00478,2026-06-10 01:08:00,Malware,82.184.220.73,10.8.135.133,user041,DEV-0112,Finance,High,Investigating,0,UK,FTP,Malicious software activity detected on endpoint
+ALT00740,2026-06-10 02:28:00,Phishing,207.141.132.223,10.15.65.59,user081,DEV-0045,Finance,Medium,New,0,Australia,DNS,Suspicious email or malicious link detected
+ALT00176,2026-06-10 03:15:00,Phishing,57.191.72.131,10.12.214.153,user018,DEV-0148,Sales,Medium,Investigating,0,Germany,HTTPS,Suspicious email or malicious link detected
+ALT00019,2026-06-10 07:16:00,Suspicious Login,176.153.234.81,10.2.4.118,user080,DEV-0145,IT,High,New,6,India,DNS,Login detected from unusual location or time
+ALT00087,2026-06-10 18:27:00,Ransomware,192.213.148.30,10.12.10.248,user042,DEV-0044,Marketing,Critical,Resolved,0,Singapore,RDP,Potential ransomware behavior detected
+ALT00936,2026-06-10 20:58:00,Data Exfiltration,132.143.174.148,10.10.99.231,user017,DEV-0083,Marketing,Critical,Closed,0,Canada,DNS,Unusual outbound data transfer detected
+ALT00757,2026-06-11 01:27:00,Phishing,191.162.97.216,10.17.18.243,user082,DEV-0161,IT,High,New,0,USA,HTTPS,Suspicious email or malicious link detected
+ALT00363,2026-06-12 08:33:00,Unauthorized Access,170.181.66.158,10.18.254.134,user094,DEV-0162,Sales,High,Resolved,0,Germany,SMTP,Unauthorized access attempt detected
+ALT00852,2026-06-12 13:12:00,Data Exfiltration,34.184.244.66,10.16.57.242,user059,DEV-0005,IT,Critical,New,0,Germany,SMTP,Unusual outbound data transfer detected
+ALT00217,2026-06-12 19:14:00,Brute Force,138.72.169.191,10.2.121.89,user041,DEV-0043,Engineering,Medium,New,77,India,SMTP,Multiple failed login attempts detected
+ALT00787,2026-06-12 22:10:00,Data Exfiltration,161.187.7.241,10.12.213.215,user086,DEV-0172,IT,Critical,Closed,0,India,HTTPS,Unusual outbound data transfer detected
+ALT00661,2026-06-13 18:02:00,Malware,209.194.31.240,10.11.220.251,user061,DEV-0055,IT,Critical,Closed,0,USA,SMTP,Malicious software activity detected on endpoint
+ALT00147,2026-06-14 07:19:00,Data Exfiltration,180.113.211.77,10.8.31.143,user076,DEV-0189,Finance,Critical,Closed,0,Canada,FTP,Unusual outbound data transfer detected
+ALT00183,2026-06-14 07:48:00,Suspicious Login,158.137.212.97,10.14.38.163,user099,DEV-0024,Sales,Medium,Investigating,6,Singapore,FTP,Login detected from unusual location or time
+ALT00739,2026-06-14 08:54:00,Brute Force,15.225.4.120,10.1.183.123,user082,DEV-0143,Finance,Medium,Investigating,27,Germany,HTTP,Multiple failed login attempts detected
+ALT00942,2026-06-15 00:07:00,Malware,94.244.188.37,10.10.192.141,user004,DEV-0161,Sales,Critical,New,0,Canada,SSH,Malicious software activity detected on endpoint
+ALT00861,2026-06-15 00:36:00,Suspicious Login,99.96.207.116,10.6.232.160,user034,DEV-0140,Sales,Medium,Investigating,7,India,FTP,Login detected from unusual location or time
+ALT00185,2026-06-15 09:21:00,Suspicious Login,155.248.175.229,10.1.23.26,user081,DEV-0118,IT,High,Resolved,8,India,SMTP,Login detected from unusual location or time
+ALT00596,2026-06-15 18:55:00,Port Scanning,192.155.234.168,10.5.70.114,user090,DEV-0124,HR,Low,Resolved,0,USA,HTTPS,Multiple ports scanned from a source IP
+ALT00263,2026-06-15 22:07:00,Malware,154.245.213.173,10.17.146.225,user055,DEV-0004,Operations,Critical,Resolved,0,India,HTTP,Malicious software activity detected on endpoint
+ALT00356,2026-06-15 22:41:00,Ransomware,214.83.63.24,10.3.230.163,user047,DEV-0022,Operations,High,Closed,0,Canada,RDP,Potential ransomware behavior detected
+ALT00761,2026-06-16 07:42:00,Port Scanning,56.237.163.170,10.3.177.179,user051,DEV-0181,Finance,Critical,Investigating,0,Australia,RDP,Multiple ports scanned from a source IP
+ALT00376,2026-06-16 14:31:00,Data Exfiltration,132.57.179.123,10.14.87.73,user099,DEV-0090,Operations,Critical,New,0,Singapore,HTTPS,Unusual outbound data transfer detected
+ALT00876,2026-06-16 14:44:00,Ransomware,78.82.107.143,10.17.164.190,user052,DEV-0193,HR,Critical,Closed,0,Australia,SMTP,Potential ransomware behavior detected
+ALT00800,2026-06-17 09:52:00,Malware,119.201.36.89,10.15.13.57,user078,DEV-0046,Marketing,Critical,Resolved,0,USA,SSH,Malicious software activity detected on endpoint
+ALT00038,2026-06-17 10:48:00,Data Exfiltration,82.215.129.214,10.2.240.5,user096,DEV-0139,IT,High,Closed,0,UK,HTTPS,Unusual outbound data transfer detected
+ALT00424,2026-06-17 15:37:00,Data Exfiltration,146.227.234.78,10.18.67.230,user040,DEV-0044,Marketing,Critical,Resolved,0,UK,HTTPS,Unusual outbound data transfer detected
+ALT00843,2026-06-17 18:34:00,Phishing,77.149.11.36,10.2.160.246,user047,DEV-0198,Sales,Medium,Resolved,0,Canada,HTTPS,Suspicious email or malicious link detected
+ALT00071,2026-06-17 19:14:00,Ransomware,173.237.154.167,10.13.59.36,user006,DEV-0010,HR,Medium,Resolved,0,Germany,HTTP,Potential ransomware behavior detected
+ALT00660,2026-06-18 02:20:00,Port Scanning,165.248.108.180,10.15.58.72,user059,DEV-0010,Operations,Medium,Investigating,0,USA,RDP,Multiple ports scanned from a source IP
+ALT00764,2026-06-18 04:38:00,Phishing,195.10.194.24,10.10.180.197,user099,DEV-0142,IT,High,Investigating,0,Canada,HTTP,Suspicious email or malicious link detected
+ALT00550,2026-06-18 08:19:00,Suspicious Login,165.70.133.3,10.9.144.211,user045,DEV-0104,Sales,High,New,4,Australia,DNS,Login detected from unusual location or time
+ALT00834,2026-06-18 16:30:00,Ransomware,176.153.135.223,10.17.127.88,user036,DEV-0174,Operations,Critical,Investigating,0,Singapore,SSH,Potential ransomware behavior detected
+ALT00813,2026-06-18 17:24:00,Ransomware,153.6.175.88,10.10.177.211,user057,DEV-0039,Sales,Critical,Investigating,0,Australia,FTP,Potential ransomware behavior detected
+ALT00712,2026-06-19 01:07:00,Unauthorized Access,183.27.104.133,10.4.253.35,user029,DEV-0173,Engineering,High,Resolved,0,Australia,HTTPS,Unauthorized access attempt detected
+ALT00571,2026-06-19 10:15:00,Brute Force,181.127.113.156,10.12.164.47,user057,DEV-0162,IT,High,Investigating,31,India,SMTP,Multiple failed login attempts detected
+ALT00269,2026-06-19 10:23:00,Suspicious Login,203.243.4.30,10.11.228.62,user083,DEV-0158,Operations,Critical,New,4,USA,HTTP,Login detected from unusual location or time
+ALT00541,2026-06-19 23:24:00,Ransomware,58.3.185.3,10.2.183.8,user072,DEV-0030,Finance,Critical,New,0,UK,RDP,Potential ransomware behavior detected
+ALT00397,2026-06-20 01:16:00,Brute Force,28.251.102.157,10.12.91.166,user063,DEV-0028,Finance,High,New,38,Singapore,SMTP,Multiple failed login attempts detected
+ALT00640,2026-06-20 03:23:00,Data Exfiltration,32.22.77.46,10.13.171.154,user024,DEV-0174,Sales,High,Closed,0,USA,FTP,Unusual outbound data transfer detected
+ALT00074,2026-06-20 07:08:00,Brute Force,223.106.110.209,10.7.168.199,user019,DEV-0153,IT,Medium,New,77,UK,SMTP,Multiple failed login attempts detected
+ALT00590,2026-06-20 07:59:00,Ransomware,164.33.175.97,10.12.223.207,user030,DEV-0058,HR,High,Resolved,0,India,SSH,Potential ransomware behavior detected
+ALT00532,2026-06-21 02:56:00,Brute Force,199.115.216.246,10.2.127.51,user022,DEV-0085,HR,High,Resolved,78,India,FTP,Multiple failed login attempts detected
+ALT00502,2026-06-21 04:07:00,Malware,123.212.3.63,10.15.174.74,user065,DEV-0044,IT,Critical,Resolved,0,UK,SSH,Malicious software activity detected on endpoint
+ALT00101,2026-06-21 04:08:00,Data Exfiltration,223.241.71.195,10.15.229.158,user001,DEV-0021,IT,Critical,New,0,UK,HTTPS,Unusual outbound data transfer detected
+ALT00922,2026-06-21 11:51:00,Unauthorized Access,211.217.208.182,10.10.67.242,user045,DEV-0185,HR,High,Investigating,0,Singapore,HTTPS,Unauthorized access attempt detected
+ALT00009,2026-06-24 03:18:00,Unauthorized Access,127.1.134.249,10.16.91.130,user014,DEV-0161,HR,Critical,Investigating,0,Australia,FTP,Unauthorized access attempt detected
+ALT00870,2026-06-24 08:02:00,Ransomware,76.57.238.110,10.18.86.225,user091,DEV-0178,Marketing,High,Investigating,0,Australia,RDP,Potential ransomware behavior detected
+ALT00905,2026-06-24 08:58:00,Brute Force,62.28.200.98,10.4.149.130,user009,DEV-0058,Finance,Critical,Investigating,27,Canada,HTTPS,Multiple failed login attempts detected
+ALT00454,2026-06-24 12:06:00,Brute Force,102.210.179.15,10.7.126.61,user083,DEV-0080,Operations,Critical,Investigating,59,India,FTP,Multiple failed login attempts detected
+ALT00880,2026-06-24 17:22:00,Unauthorized Access,109.53.150.158,10.18.42.83,user029,DEV-0114,Marketing,Medium,Investigating,0,India,HTTPS,Unauthorized access attempt detected
+ALT00161,2026-06-24 19:49:00,Suspicious Login,94.15.139.201,10.14.251.59,user046,DEV-0142,Sales,Critical,Closed,6,Germany,HTTPS,Login detected from unusual location or time
+ALT00591,2026-06-24 23:37:00,Phishing,201.59.188.33,10.10.194.148,user095,DEV-0001,HR,Low,Closed,0,India,DNS,Suspicious email or malicious link detected
+ALT00188,2026-06-25 03:55:00,Ransomware,44.244.36.59,10.12.45.188,user014,DEV-0027,HR,Medium,Investigating,0,UK,SSH,Potential ransomware behavior detected
+ALT00251,2026-06-25 05:07:00,Phishing,127.139.197.177,10.15.215.167,user022,DEV-0029,Finance,Medium,Investigating,0,Canada,FTP,Suspicious email or malicious link detected
+ALT00414,2026-06-25 07:56:00,Port Scanning,51.87.117.23,10.13.250.221,user028,DEV-0152,Sales,Medium,New,0,Australia,RDP,Multiple ports scanned from a source IP
+ALT00289,2026-06-25 14:38:00,Unauthorized Access,69.193.197.34,10.3.8.52,user067,DEV-0130,Engineering,Medium,Resolved,0,Germany,SMTP,Unauthorized access attempt detected
+ALT00525,2026-06-25 20:16:00,Data Exfiltration,192.231.139.63,10.10.174.54,user059,DEV-0154,HR,Critical,Closed,0,India,FTP,Unusual outbound data transfer detected
+ALT00391,2026-06-26 01:41:00,Suspicious Login,40.26.85.119,10.12.243.78,user061,DEV-0192,Marketing,High,Resolved,4,Singapore,HTTPS,Login detected from unusual location or time
+ALT00276,2026-06-26 06:26:00,Phishing,142.72.82.48,10.7.129.50,user015,DEV-0047,Engineering,Medium,Closed,0,Australia,DNS,Suspicious email or malicious link detected
+ALT00105,2026-06-26 07:46:00,Data Exfiltration,37.170.68.12,10.11.173.209,user083,DEV-0045,Marketing,Critical,Resolved,0,Australia,FTP,Unusual outbound data transfer detected
+ALT00421,2026-06-26 14:31:00,Brute Force,42.240.149.116,10.19.188.205,user087,DEV-0178,Marketing,Medium,Investigating,69,India,HTTPS,Multiple failed login attempts detected
+ALT00285,2026-06-26 15:50:00,Data Exfiltration,165.3.71.113,10.5.117.20,user066,DEV-0165,HR,Critical,Investigating,0,USA,HTTPS,Unusual outbound data transfer detected
+ALT00928,2026-06-26 23:15:00,Port Scanning,178.128.144.194,10.5.33.16,user009,DEV-0127,HR,Medium,Investigating,0,Canada,HTTP,Multiple ports scanned from a source IP
+ALT00145,2026-06-27 04:17:00,Suspicious Login,196.57.16.208,10.13.8.62,user027,DEV-0018,IT,High,Closed,3,Singapore,HTTP,Login detected from unusual location or time
+ALT00958,2026-06-27 09:09:00,Port Scanning,203.253.208.93,10.13.44.155,user033,DEV-0036,HR,Medium,Resolved,0,UK,FTP,Multiple ports scanned from a source IP
+ALT00803,2026-06-27 21:46:00,Ransomware,114.6.82.82,10.4.196.176,user059,DEV-0003,Sales,Critical,New,0,Canada,FTP,Potential ransomware behavior detected
+ALT00219,2026-06-29 17:24:00,Ransomware,133.115.83.116,10.2.17.76,user003,DEV-0082,HR,Critical,New,0,India,HTTP,Potential ransomware behavior detected
+ALT00181,2026-06-29 22:39:00,Suspicious Login,46.105.105.207,10.1.179.137,user036,DEV-0153,Operations,High,New,6,USA,SSH,Login detected from unusual location or time
+ALT00154,2026-06-30 05:08:00,Ransomware,136.94.30.135,10.1.38.242,user086,DEV-0013,Marketing,Critical,Resolved,0,India,RDP,Potential ransomware behavior detected
+ALT00548,2026-06-30 07:37:00,Unauthorized Access,142.172.218.116,10.14.221.105,user048,DEV-0128,HR,High,New,0,UK,RDP,Unauthorized access attempt detected
+ALT00301,2026-06-30 16:34:00,Data Exfiltration,78.127.147.24,10.12.175.20,user071,DEV-0046,Sales,Critical,New,0,UK,SSH,Unusual outbound data transfer detected
+ALT00604,2026-06-30 19:34:00,Data Exfiltration,187.50.22.61,10.1.96.37,user039,DEV-0056,Finance,Critical,Investigating,0,Singapore,DNS,Unusual outbound data transfer detected
+ALT00346,2026-07-01 20:19:00,Data Exfiltration,139.141.31.161,10.8.198.228,user004,DEV-0143,HR,Critical,New,0,USA,HTTPS,Unusual outbound data transfer detected
+ALT00216,2026-07-02 07:42:00,Malware,55.193.157.188,10.9.65.46,user094,DEV-0001,Engineering,Critical,Resolved,0,Singapore,RDP,Malicious software activity detected on endpoint
+ALT00268,2026-07-03 02:50:00,Unauthorized Access,145.112.94.134,10.2.81.107,user070,DEV-0138,Sales,High,Resolved,0,India,SSH,Unauthorized access attempt detected
+ALT00563,2026-07-03 05:13:00,Unauthorized Access,183.110.226.179,10.1.52.100,user089,DEV-0079,Sales,Medium,Resolved,0,India,DNS,Unauthorized access attempt detected
+ALT00528,2026-07-03 06:05:00,Brute Force,67.119.252.248,10.11.18.72,user064,DEV-0181,Engineering,Critical,Resolved,43,Singapore,HTTPS,Multiple failed login attempts detected
+ALT00003,2026-07-03 11:38:00,Phishing,22.235.63.250,10.12.40.142,user038,DEV-0161,Operations,Medium,New,0,Australia,SSH,Suspicious email or malicious link detected
+ALT00542,2026-07-04 01:01:00,Suspicious Login,55.112.134.185,10.5.173.217,user071,DEV-0063,Finance,High,New,3,USA,HTTP,Login detected from unusual location or time
+ALT00361,2026-07-04 01:05:00,Malware,93.188.194.210,10.2.218.216,user071,DEV-0017,HR,Critical,Resolved,0,Germany,HTTPS,Malicious software activity detected on endpoint
+ALT00104,2026-07-04 02:33:00,Phishing,212.10.199.224,10.15.22.163,user050,DEV-0096,HR,Medium,Investigating,0,Canada,HTTP,Suspicious email or malicious link detected
+ALT00383,2026-07-04 13:09:00,Suspicious Login,182.64.68.3,10.2.8.37,user093,DEV-0125,Engineering,High,Closed,4,Germany,HTTPS,Login detected from unusual location or time
+ALT00723,2026-07-04 13:36:00,Malware,29.174.94.175,10.20.254.49,user027,DEV-0147,Marketing,Critical,Investigating,0,Germany,DNS,Malicious software activity detected on endpoint
+ALT00152,2026-07-04 16:56:00,Data Exfiltration,36.240.163.235,10.6.189.81,user053,DEV-0012,Operations,Critical,Investigating,0,Australia,HTTPS,Unusual outbound data transfer detected
+ALT00250,2026-07-04 21:20:00,Brute Force,35.23.4.219,10.4.87.85,user046,DEV-0113,Operations,Critical,Resolved,59,UK,FTP,Multiple failed login attempts detected
+ALT00138,2026-07-04 22:15:00,Brute Force,130.157.81.104,10.16.159.177,user016,DEV-0164,HR,High,Resolved,12,UK,DNS,Multiple failed login attempts detected
+ALT00677,2026-07-05 06:25:00,Phishing,214.11.211.19,10.15.39.54,user088,DEV-0108,Sales,Medium,New,0,UK,FTP,Suspicious email or malicious link detected
+ALT00817,2026-07-05 20:06:00,Unauthorized Access,186.162.200.58,10.12.253.194,user060,DEV-0074,Marketing,High,Resolved,0,Germany,HTTPS,Unauthorized access attempt detected
+ALT00626,2026-07-05 23:49:00,Malware,165.190.121.167,10.8.107.150,user050,DEV-0023,IT,Critical,Resolved,0,USA,FTP,Malicious software activity detected on endpoint
+ALT00123,2026-07-07 01:25:00,Data Exfiltration,154.99.185.142,10.9.37.99,user065,DEV-0116,Marketing,Critical,New,0,Singapore,SSH,Unusual outbound data transfer detected
+ALT00070,2026-07-07 02:50:00,Port Scanning,78.63.232.95,10.8.195.211,user082,DEV-0096,IT,Critical,Investigating,0,Canada,HTTPS,Multiple ports scanned from a source IP
+ALT00614,2026-07-07 04:32:00,Suspicious Login,119.253.194.44,10.11.57.87,user087,DEV-0064,Marketing,Medium,Closed,5,Singapore,SMTP,Login detected from unusual location or time
+ALT00863,2026-07-07 13:41:00,Unauthorized Access,150.64.48.59,10.14.56.31,user071,DEV-0183,HR,Medium,New,0,USA,SMTP,Unauthorized access attempt detected
+ALT00567,2026-07-08 01:04:00,Unauthorized Access,116.154.255.252,10.3.87.65,user013,DEV-0154,HR,High,Closed,0,Canada,FTP,Unauthorized access attempt detected
+ALT00632,2026-07-08 10:05:00,Data Exfiltration,151.135.68.105,10.19.150.84,user008,DEV-0161,Marketing,Critical,Closed,0,India,SMTP,Unusual outbound data transfer detected
+ALT00730,2026-07-08 11:12:00,Phishing,25.121.118.24,10.18.5.59,user053,DEV-0192,Marketing,High,Investigating,0,Australia,SMTP,Suspicious email or malicious link detected
+ALT00184,2026-07-08 14:31:00,Unauthorized Access,11.47.234.163,10.11.32.204,user069,DEV-0102,Finance,High,Investigating,0,Germany,SMTP,Unauthorized access attempt detected
+ALT00045,2026-07-08 15:35:00,Suspicious Login,201.169.180.180,10.14.138.79,user033,DEV-0060,IT,High,Investigating,8,Canada,HTTPS,Login detected from unusual location or time
+ALT00120,2026-07-09 16:35:00,Port Scanning,72.238.62.69,10.14.126.37,user013,DEV-0013,HR,Low,New,0,Germany,SMTP,Multiple ports scanned from a source IP
+ALT00418,2026-07-09 20:29:00,Port Scanning,11.36.197.229,10.10.16.76,user055,DEV-0193,HR,Medium,Resolved,0,Canada,DNS,Multiple ports scanned from a source IP
+ALT00199,2026-07-10 03:32:00,Unauthorized Access,24.91.114.206,10.16.23.245,user052,DEV-0018,Sales,Critical,Resolved,0,Australia,SSH,Unauthorized access attempt detected
+ALT00438,2026-07-10 15:26:00,Malware,52.52.111.40,10.16.113.213,user025,DEV-0144,Operations,Critical,Investigating,0,Canada,SMTP,Malicious software activity detected on endpoint
+ALT00775,2026-07-10 18:41:00,Data Exfiltration,85.104.190.133,10.19.128.121,user060,DEV-0054,HR,Critical,New,0,Canada,FTP,Unusual outbound data transfer detected
+ALT00840,2026-07-11 00:20:00,Unauthorized Access,108.166.102.205,10.6.225.220,user036,DEV-0028,IT,High,Investigating,0,USA,HTTPS,Unauthorized access attempt detected
+ALT00891,2026-07-11 02:11:00,Port Scanning,169.255.93.138,10.6.176.25,user088,DEV-0040,Operations,Medium,New,0,UK,DNS,Multiple ports scanned from a source IP
+ALT00671,2026-07-11 07:32:00,Port Scanning,179.135.157.215,10.13.123.2,user054,DEV-0009,IT,Low,New,0,India,HTTPS,Multiple ports scanned from a source IP
+ALT00790,2026-07-11 14:05:00,Brute Force,185.97.67.80,10.1.194.181,user037,DEV-0046,HR,High,Investigating,36,USA,DNS,Multiple failed login attempts detected
+ALT00236,2026-07-11 17:41:00,Brute Force,38.246.32.87,10.8.166.221,user036,DEV-0067,Engineering,High,New,41,Canada,FTP,Multiple failed login attempts detected
+ALT00961,2026-07-11 17:59:00,Ransomware,179.201.112.148,10.11.208.177,user097,DEV-0028,Finance,High,Investigating,0,Canada,FTP,Potential ransomware behavior detected
+ALT00215,2026-07-11 22:42:00,Data Exfiltration,36.172.154.83,10.4.80.188,user056,DEV-0164,Sales,Critical,Investigating,0,Canada,SSH,Unusual outbound data transfer detected
+ALT00594,2026-07-12 01:51:00,Suspicious Login,194.107.115.180,10.1.91.220,user063,DEV-0187,Sales,High,New,5,UK,SMTP,Login detected from unusual location or time
+ALT00220,2026-07-12 05:46:00,Data Exfiltration,34.173.247.181,10.0.220.242,user084,DEV-0043,Operations,High,New,0,Germany,HTTPS,Unusual outbound data transfer detected
+ALT00940,2026-07-12 13:44:00,Unauthorized Access,13.152.133.53,10.4.151.7,user004,DEV-0167,Engineering,High,Resolved,0,Australia,RDP,Unauthorized access attempt detected
+ALT00368,2026-07-12 20:34:00,Brute Force,110.95.59.222,10.9.161.182,user005,DEV-0070,Sales,High,Resolved,26,India,RDP,Multiple failed login attempts detected
+ALT00997,2026-07-13 04:00:00,Brute Force,215.250.202.141,10.17.206.228,user068,DEV-0120,Engineering,Medium,Investigating,41,Singapore,SSH,Multiple failed login attempts detected
+ALT00564,2026-07-13 06:59:00,Brute Force,72.102.46.5,10.13.14.254,user002,DEV-0087,Marketing,Low,Investigating,36,USA,FTP,Multiple failed login attempts detected
+ALT00515,2026-07-13 15:53:00,Ransomware,166.67.70.130,10.20.235.195,user058,DEV-0171,Sales,Critical,Resolved,0,USA,SMTP,Potential ransomware behavior detected
+ALT00472,2026-07-13 18:14:00,Malware,16.117.45.250,10.14.101.68,user090,DEV-0044,IT,Critical,New,0,Germany,DNS,Malicious software activity detected on endpoint
+ALT00453,2026-07-13 19:43:00,Unauthorized Access,83.164.31.8,10.18.23.33,user047,DEV-0090,Marketing,High,Investigating,0,Canada,DNS,Unauthorized access attempt detected
+ALT00767,2026-07-13 20:25:00,Unauthorized Access,200.138.43.20,10.2.212.6,user002,DEV-0191,Marketing,High,New,0,Singapore,DNS,Unauthorized access attempt detected
+ALT00357,2026-07-14 01:49:00,Malware,96.76.83.223,10.4.91.197,user092,DEV-0014,Sales,Critical,New,0,UK,SSH,Malicious software activity detected on endpoint
+ALT00043,2026-07-14 10:01:00,Ransomware,94.93.249.55,10.11.132.88,user036,DEV-0153,Engineering,Critical,Investigating,0,UK,DNS,Potential ransomware behavior detected
+ALT00158,2026-07-14 12:35:00,Brute Force,13.87.42.128,10.13.169.145,user013,DEV-0136,IT,Medium,New,65,USA,HTTPS,Multiple failed login attempts detected
+ALT00036,2026-07-14 15:00:00,Brute Force,110.214.112.125,10.7.139.112,user063,DEV-0008,Sales,Critical,New,50,UK,FTP,Multiple failed login attempts detected
+ALT00729,2026-07-14 21:43:00,Suspicious Login,24.198.193.179,10.4.220.180,user055,DEV-0141,Finance,High,Resolved,0,India,RDP,Login detected from unusual location or time
+ALT00338,2026-07-15 01:19:00,Brute Force,149.76.167.129,10.7.78.13,user087,DEV-0188,Sales,High,New,72,Germany,SMTP,Multiple failed login attempts detected
+ALT00337,2026-07-15 02:49:00,Unauthorized Access,208.171.178.226,10.13.213.239,user016,DEV-0198,Finance,Low,New,0,Canada,FTP,Unauthorized access attempt detected
+ALT00878,2026-07-15 06:16:00,Ransomware,135.179.172.207,10.14.185.194,user021,DEV-0044,HR,Critical,Closed,0,India,HTTP,Potential ransomware behavior detected
+ALT00433,2026-07-15 09:35:00,Malware,221.154.155.127,10.17.237.58,user004,DEV-0001,Finance,High,Investigating,0,UK,SSH,Malicious software activity detected on endpoint
+ALT00992,2026-07-15 11:03:00,Suspicious Login,51.47.25.65,10.2.130.116,user020,DEV-0076,Finance,Critical,New,3,Australia,RDP,Login detected from unusual location or time
+ALT00986,2026-07-16 06:34:00,Malware,52.46.138.208,10.15.63.25,user032,DEV-0105,Finance,Critical,Resolved,0,USA,RDP,Malicious software activity detected on endpoint
+ALT00467,2026-07-16 09:40:00,Suspicious Login,186.62.121.220,10.14.198.3,user051,DEV-0066,HR,High,Closed,5,India,SMTP,Login detected from unusual location or time
+ALT00682,2026-07-16 13:12:00,Data Exfiltration,106.32.230.43,10.1.129.151,user053,DEV-0076,Operations,Critical,Resolved,0,Australia,FTP,Unusual outbound data transfer detected
+ALT00032,2026-07-16 15:25:00,Suspicious Login,187.2.54.200,10.13.112.46,user090,DEV-0133,Sales,High,New,3,India,DNS,Login detected from unusual location or time
+ALT00108,2026-07-17 10:11:00,Ransomware,138.188.136.206,10.2.217.21,user056,DEV-0155,Marketing,Critical,Investigating,0,USA,DNS,Potential ransomware behavior detected
+ALT00781,2026-07-17 22:30:00,Port Scanning,144.162.40.227,10.19.109.245,user022,DEV-0163,Marketing,Medium,Investigating,0,UK,FTP,Multiple ports scanned from a source IP
+ALT00655,2026-07-18 07:13:00,Port Scanning,166.38.78.146,10.20.254.25,user002,DEV-0037,Marketing,Low,Closed,0,Australia,SSH,Multiple ports scanned from a source IP
+ALT00911,2026-07-18 14:23:00,Ransomware,181.204.68.186,10.16.105.63,user028,DEV-0183,Finance,Critical,Investigating,0,Singapore,HTTPS,Potential ransomware behavior detected
+ALT00546,2026-07-18 20:48:00,Phishing,138.237.91.83,10.11.247.184,user064,DEV-0122,HR,Medium,Investigating,0,Singapore,RDP,Suspicious email or malicious link detected
+ALT00951,2026-07-18 23:20:00,Ransomware,111.84.251.123,10.17.146.204,user086,DEV-0064,IT,Critical,Investigating,0,Singapore,HTTP,Potential ransomware behavior detected
+ALT00664,2026-07-19 00:35:00,Port Scanning,163.101.39.186,10.18.74.83,user086,DEV-0188,Engineering,Medium,Resolved,0,Australia,FTP,Multiple ports scanned from a source IP
+ALT00620,2026-07-19 04:07:00,Port Scanning,213.10.64.40,10.11.6.197,user088,DEV-0061,IT,Medium,Closed,0,Canada,SMTP,Multiple ports scanned from a source IP
+ALT00938,2026-07-19 06:50:00,Unauthorized Access,193.73.186.218,10.1.242.64,user029,DEV-0163,IT,Medium,Resolved,0,UK,SSH,Unauthorized access attempt detected
+ALT00456,2026-07-19 10:36:00,Data Exfiltration,136.51.105.87,10.15.173.43,user079,DEV-0077,HR,Critical,New,0,Germany,HTTPS,Unusual outbound data transfer detected
+ALT00392,2026-07-19 15:16:00,Port Scanning,122.6.147.238,10.14.195.174,user041,DEV-0136,Engineering,Medium,New,0,India,HTTP,Multiple ports scanned from a source IP
+ALT00673,2026-07-19 23:11:00,Port Scanning,92.81.223.60,10.3.64.130,user016,DEV-0162,Operations,Low,Investigating,0,Australia,RDP,Multiple ports scanned from a source IP
+ALT00095,2026-07-20 04:38:00,Unauthorized Access,32.158.192.165,10.10.65.172,user090,DEV-0190,Engineering,Critical,Resolved,0,Singapore,HTTP,Unauthorized access attempt detected
+ALT00422,2026-07-20 05:18:00,Ransomware,30.55.84.71,10.3.75.128,user020,DEV-0053,Operations,High,Closed,0,Canada,HTTP,Potential ransomware behavior detected
+ALT00768,2026-07-20 06:53:00,Malware,90.165.217.132,10.0.154.71,user059,DEV-0052,IT,High,Resolved,0,UK,FTP,Malicious software activity detected on endpoint
+ALT00171,2026-07-20 14:49:00,Suspicious Login,17.247.53.76,10.13.43.30,user094,DEV-0037,HR,High,New,8,UK,SSH,Login detected from unusual location or time
+ALT00275,2026-07-20 17:18:00,Suspicious Login,214.191.5.142,10.17.72.32,user006,DEV-0002,Operations,Medium,New,2,Singapore,RDP,Login detected from unusual location or time
+ALT00711,2026-07-21 04:25:00,Unauthorized Access,129.235.27.22,10.1.138.213,user084,DEV-0028,HR,Medium,Resolved,0,Singapore,HTTP,Unauthorized access attempt detected
+ALT00430,2026-07-21 06:31:00,Phishing,165.28.184.102,10.4.218.95,user050,DEV-0096,IT,Critical,Investigating,0,UK,SSH,Suspicious email or malicious link detected
+ALT00353,2026-07-21 19:47:00,Port Scanning,148.19.55.116,10.14.21.225,user032,DEV-0133,Operations,High,Resolved,0,Germany,FTP,Multiple ports scanned from a source IP
+ALT00529,2026-07-22 03:55:00,Brute Force,137.87.99.169,10.18.89.17,user076,DEV-0033,Engineering,Medium,Resolved,40,India,HTTPS,Multiple failed login attempts detected
+ALT00142,2026-07-22 08:52:00,Unauthorized Access,66.37.23.109,10.11.32.139,user008,DEV-0018,Sales,High,New,0,India,SSH,Unauthorized access attempt detected
+ALT00166,2026-07-22 10:53:00,Unauthorized Access,216.168.225.86,10.13.69.77,user042,DEV-0155,Engineering,Low,Resolved,0,USA,RDP,Unauthorized access attempt detected
+ALT00447,2026-07-22 12:44:00,Phishing,37.86.33.94,10.6.173.52,user077,DEV-0104,IT,Low,Resolved,0,USA,SMTP,Suspicious email or malicious link detected
+ALT00167,2026-07-23 10:18:00,Data Exfiltration,173.251.124.84,10.12.143.210,user051,DEV-0094,IT,High,Resolved,0,Singapore,HTTPS,Unusual outbound data transfer detected
+ALT00223,2026-07-23 15:31:00,Phishing,78.46.198.48,10.11.195.95,user024,DEV-0115,IT,Medium,Closed,0,UK,RDP,Suspicious email or malicious link detected
+ALT00561,2026-07-24 06:25:00,Ransomware,75.58.69.84,10.14.248.119,user009,DEV-0022,Operations,Critical,New,0,Canada,HTTPS,Potential ransomware behavior detected
+ALT00012,2026-07-24 21:41:00,Suspicious Login,143.231.61.64,10.7.32.87,user003,DEV-0151,Operations,High,Investigating,5,USA,DNS,Login detected from unusual location or time
+ALT00006,2026-07-25 08:04:00,Brute Force,156.161.108.168,10.15.202.227,user083,DEV-0118,Finance,Critical,Closed,32,UK,HTTPS,Multiple failed login attempts detected
+ALT00296,2026-07-25 19:41:00,Brute Force,163.29.89.164,10.15.224.3,user026,DEV-0169,Marketing,High,New,71,Singapore,SSH,Multiple failed login attempts detected
+ALT00245,2026-07-26 00:14:00,Suspicious Login,44.108.11.151,10.16.86.32,user047,DEV-0183,Engineering,Medium,Resolved,3,Australia,HTTP,Login detected from unusual location or time
+ALT00311,2026-07-27 02:05:00,Data Exfiltration,69.160.162.168,10.9.136.155,user083,DEV-0102,HR,Critical,New,0,Germany,SMTP,Unusual outbound data transfer detected
+ALT00273,2026-07-27 13:20:00,Port Scanning,183.60.3.165,10.19.32.194,user096,DEV-0150,IT,Medium,New,0,Canada,SMTP,Multiple ports scanned from a source IP
+ALT00206,2026-07-27 14:35:00,Malware,74.48.236.27,10.4.62.4,user008,DEV-0200,Finance,Medium,Resolved,0,USA,HTTPS,Malicious software activity detected on endpoint
+ALT00298,2026-07-27 18:12:00,Data Exfiltration,199.35.46.141,10.9.178.89,user036,DEV-0058,Operations,Critical,Investigating,0,USA,RDP,Unusual outbound data transfer detected
+ALT00772,2026-07-28 00:17:00,Brute Force,214.250.255.81,10.20.120.83,user060,DEV-0182,Sales,High,Resolved,31,Singapore,DNS,Multiple failed login attempts detected
+ALT00014,2026-07-28 06:06:00,Suspicious Login,101.216.210.120,10.1.50.16,user052,DEV-0187,HR,Critical,Resolved,1,Australia,SMTP,Login detected from unusual location or time
+ALT00531,2026-07-28 08:07:00,Data Exfiltration,130.253.185.133,10.1.114.13,user036,DEV-0108,Operations,Critical,Resolved,0,Germany,SSH,Unusual outbound data transfer detected
+ALT00446,2026-07-28 09:54:00,Ransomware,28.243.188.46,10.0.251.173,user014,DEV-0102,Sales,High,Investigating,0,Singapore,FTP,Potential ransomware behavior detected
+ALT00201,2026-07-29 00:14:00,Suspicious Login,188.4.171.1,10.12.157.27,user027,DEV-0136,Finance,Medium,Investigating,8,Germany,RDP,Login detected from unusual location or time
+ALT00259,2026-07-29 03:16:00,Malware,59.61.201.56,10.14.97.184,user044,DEV-0028,Marketing,Critical,Resolved,0,Germany,HTTP,Malicious software activity detected on endpoint
+ALT00029,2026-07-29 10:25:00,Unauthorized Access,152.65.98.108,10.12.89.158,user073,DEV-0078,Sales,High,Resolved,0,Singapore,SMTP,Unauthorized access attempt detected
+ALT00516,2026-07-29 12:14:00,Data Exfiltration,97.23.226.189,10.8.45.222,user022,DEV-0182,IT,High,Closed,0,Singapore,FTP,Unusual outbound data transfer detected
+ALT00980,2026-07-30 08:16:00,Data Exfiltration,182.96.71.206,10.9.97.176,user088,DEV-0093,Engineering,Critical,Resolved,0,Singapore,DNS,Unusual outbound data transfer detected
+ALT00471,2026-07-30 10:28:00,Malware,199.68.133.45,10.18.167.205,user037,DEV-0051,IT,Critical,Investigating,0,Germany,SSH,Malicious software activity detected on endpoint
+ALT00556,2026-07-30 12:10:00,Data Exfiltration,44.214.244.191,10.2.199.245,user027,DEV-0034,Marketing,Critical,Closed,0,USA,SSH,Unusual outbound data transfer detected
+ALT00710,2026-07-30 14:01:00,Port Scanning,17.215.45.194,10.4.154.202,user032,DEV-0149,Operations,Medium,Closed,0,UK,HTTPS,Multiple ports scanned from a source IP
+ALT00560,2026-07-30 17:07:00,Suspicious Login,37.166.209.116,10.5.129.54,user065,DEV-0012,Sales,Critical,New,5,India,HTTP,Login detected from unusual location or time
+ALT00025,2026-07-30 21:55:00,Data Exfiltration,74.136.81.202,10.3.195.224,user005,DEV-0121,Finance,Critical,Resolved,0,USA,SMTP,Unusual outbound data transfer detected
+ALT00580,2026-07-30 23:55:00,Port Scanning,173.176.73.69,10.6.203.179,user040,DEV-0002,Finance,Medium,New,0,Australia,RDP,Multiple ports scanned from a source IP
+ALT00658,2026-07-31 16:28:00,Data Exfiltration,185.21.29.190,10.7.4.40,user014,DEV-0075,Sales,Critical,New,0,USA,DNS,Unusual outbound data transfer detected
+ALT00643,2026-07-31 19:50:00,Port Scanning,46.125.196.108,10.17.254.138,user069,DEV-0127,Operations,Medium,Resolved,0,Singapore,SMTP,Multiple ports scanned from a source IP
+ALT00975,2026-07-31 20:23:00,Malware,222.134.208.16,10.13.21.223,user042,DEV-0200,Sales,High,Closed,0,India,HTTPS,Malicious software activity detected on endpoint
+ALT00367,2026-07-31 23:03:00,Data Exfiltration,87.161.9.54,10.18.169.205,user046,DEV-0017,Finance,Critical,Resolved,0,UK,SMTP,Unusual outbound data transfer detected
+ALT00855,2026-08-01 05:26:00,Unauthorized Access,143.77.92.94,10.3.83.8,user064,DEV-0053,HR,High,New,0,Germany,FTP,Unauthorized access attempt detected
+ALT00059,2026-08-01 10:59:00,Phishing,79.1.144.186,10.9.250.222,user020,DEV-0115,Operations,Medium,Resolved,0,Germany,SSH,Suspicious email or malicious link detected
+ALT00384,2026-08-01 14:57:00,Phishing,165.217.92.117,10.16.217.142,user058,DEV-0099,HR,Low,Resolved,0,USA,HTTPS,Suspicious email or malicious link detected
+ALT00812,2026-08-01 21:08:00,Port Scanning,129.162.49.57,10.7.9.182,user042,DEV-0057,IT,Medium,New,0,Singapore,SSH,Multiple ports scanned from a source IP
+ALT00332,2026-08-01 23:06:00,Malware,158.183.234.180,10.13.53.43,user024,DEV-0141,Sales,Critical,Resolved,0,Singapore,SSH,Malicious software activity detected on endpoint
+ALT00647,2026-08-02 04:48:00,Phishing,201.71.153.121,10.13.172.114,user083,DEV-0178,IT,Low,New,0,UK,HTTP,Suspicious email or malicious link detected
+ALT00552,2026-08-02 06:28:00,Suspicious Login,18.191.71.148,10.4.156.242,user095,DEV-0003,Sales,High,Closed,7,Australia,FTP,Login detected from unusual location or time
+ALT00704,2026-08-02 08:19:00,Data Exfiltration,159.175.62.111,10.14.177.74,user015,DEV-0003,Sales,Critical,New,0,Canada,HTTPS,Unusual outbound data transfer detected
+ALT00153,2026-08-02 09:09:00,Malware,69.194.125.128,10.17.172.66,user098,DEV-0126,Engineering,Medium,New,0,Canada,FTP,Malicious software activity detected on endpoint
+ALT00581,2026-08-02 16:26:00,Brute Force,54.90.191.48,10.4.101.125,user024,DEV-0129,IT,Medium,Resolved,41,Germany,DNS,Multiple failed login attempts detected
+ALT00049,2026-08-02 19:38:00,Phishing,68.194.230.233,10.14.152.221,user076,DEV-0110,HR,Medium,Resolved,0,Singapore,DNS,Suspicious email or malicious link detected
+ALT00960,2026-08-03 03:32:00,Port Scanning,144.53.2.66,10.17.84.190,user030,DEV-0176,Engineering,Low,Investigating,0,Australia,SSH,Multiple ports scanned from a source IP
+ALT00868,2026-08-03 12:37:00,Port Scanning,100.36.115.247,10.8.71.229,user052,DEV-0032,Engineering,High,New,0,Canada,DNS,Multiple ports scanned from a source IP
+ALT00553,2026-08-03 13:43:00,Data Exfiltration,206.153.166.151,10.0.16.237,user018,DEV-0040,HR,Critical,Resolved,0,Singapore,FTP,Unusual outbound data transfer detected
+ALT00225,2026-08-03 17:43:00,Port Scanning,132.120.243.77,10.2.202.232,user092,DEV-0009,Operations,High,Closed,0,Singapore,DNS,Multiple ports scanned from a source IP
+ALT00874,2026-08-04 12:45:00,Suspicious Login,212.225.235.147,10.16.19.241,user052,DEV-0161,Engineering,High,Investigating,0,Australia,RDP,Login detected from unusual location or time
+ALT00644,2026-08-04 16:36:00,Suspicious Login,71.185.1.53,10.0.185.143,user061,DEV-0035,IT,High,Resolved,3,India,SSH,Login detected from unusual location or time
+ALT00486,2026-08-05 02:48:00,Unauthorized Access,105.95.222.162,10.13.47.11,user066,DEV-0088,Sales,High,Investigating,0,Canada,HTTPS,Unauthorized access attempt detected
+ALT00662,2026-08-05 08:16:00,Brute Force,28.140.207.21,10.9.231.224,user054,DEV-0135,Finance,Critical,New,27,Canada,SSH,Multiple failed login attempts detected
+ALT00592,2026-08-05 10:49:00,Suspicious Login,214.64.113.28,10.12.4.138,user059,DEV-0081,Finance,Critical,Resolved,5,Australia,SSH,Login detected from unusual location or time
+ALT00341,2026-08-05 11:22:00,Phishing,99.12.156.44,10.11.226.160,user019,DEV-0113,IT,Medium,New,0,Australia,HTTPS,Suspicious email or malicious link detected
+ALT00169,2026-08-05 12:04:00,Unauthorized Access,164.245.205.137,10.16.214.140,user005,DEV-0093,Engineering,High,Investigating,0,Australia,DNS,Unauthorized access attempt detected
+ALT00574,2026-08-05 16:39:00,Malware,205.79.246.6,10.12.218.219,user011,DEV-0195,HR,Critical,Resolved,0,Singapore,DNS,Malicious software activity detected on endpoint
+ALT00008,2026-08-05 19:04:00,Malware,163.239.128.249,10.17.5.175,user093,DEV-0030,Engineering,Critical,Investigating,0,Singapore,SMTP,Malicious software activity detected on endpoint
+ALT00646,2026-08-06 11:03:00,Port Scanning,180.37.244.215,10.19.80.8,user019,DEV-0094,Finance,High,Resolved,0,India,HTTPS,Multiple ports scanned from a source IP
+ALT00773,2026-08-06 22:04:00,Phishing,204.6.82.134,10.3.85.51,user057,DEV-0030,IT,High,Investigating,0,Germany,RDP,Suspicious email or malicious link detected
+ALT00578,2026-08-06 23:15:00,Brute Force,219.185.14.179,10.20.75.67,user078,DEV-0117,Engineering,High,Investigating,36,USA,SSH,Multiple failed login attempts detected
+ALT00623,2026-08-07 00:39:00,Suspicious Login,24.194.208.135,10.9.118.57,user044,DEV-0110,Sales,Critical,New,3,India,DNS,Login detected from unusual location or time
+ALT00636,2026-08-07 07:29:00,Phishing,114.51.70.187,10.0.51.97,user050,DEV-0006,IT,Low,Closed,0,Australia,HTTP,Suspicious email or malicious link detected
+ALT00743,2026-08-07 09:09:00,Port Scanning,166.184.171.250,10.13.191.121,user038,DEV-0160,IT,Low,New,0,USA,SSH,Multiple ports scanned from a source IP
+ALT00293,2026-08-07 20:37:00,Data Exfiltration,148.216.187.157,10.8.203.194,user027,DEV-0106,Operations,High,New,0,Australia,DNS,Unusual outbound data transfer detected
+ALT00769,2026-08-08 02:14:00,Ransomware,154.142.247.73,10.17.125.98,user003,DEV-0128,Engineering,Critical,Closed,0,Germany,SSH,Potential ransomware behavior detected
+ALT00267,2026-08-08 08:35:00,Phishing,52.130.2.85,10.14.79.11,user020,DEV-0083,Operations,Medium,New,0,India,SMTP,Suspicious email or malicious link detected
+ALT00415,2026-08-08 23:55:00,Unauthorized Access,94.222.113.229,10.18.76.234,user074,DEV-0002,Sales,Low,New,0,India,HTTP,Unauthorized access attempt detected
+ALT00703,2026-08-09 11:13:00,Ransomware,60.193.55.248,10.8.230.253,user068,DEV-0045,HR,Medium,Resolved,0,Canada,SSH,Potential ransomware behavior detected
+ALT00533,2026-08-10 00:37:00,Phishing,96.128.126.28,10.15.122.246,user044,DEV-0014,Marketing,Low,Resolved,0,UK,DNS,Suspicious email or malicious link detected
+ALT00535,2026-08-10 02:06:00,Unauthorized Access,154.26.150.218,10.12.205.25,user080,DEV-0193,Sales,High,Resolved,0,USA,SMTP,Unauthorized access attempt detected
+ALT00393,2026-08-10 19:58:00,Data Exfiltration,80.171.138.69,10.3.130.168,user075,DEV-0101,Sales,Critical,Resolved,0,Australia,FTP,Unusual outbound data transfer detected
+ALT00195,2026-08-11 03:29:00,Brute Force,200.89.61.4,10.4.5.42,user064,DEV-0089,Operations,High,Investigating,12,Singapore,SMTP,Multiple failed login attempts detected
+ALT00042,2026-08-11 05:46:00,Ransomware,177.138.247.120,10.13.137.83,user032,DEV-0023,HR,Critical,Investigating,0,Germany,HTTPS,Potential ransomware behavior detected
+ALT00932,2026-08-11 21:57:00,Port Scanning,162.94.111.25,10.0.200.121,user020,DEV-0070,HR,Medium,New,0,USA,HTTP,Multiple ports scanned from a source IP
+ALT00544,2026-08-11 22:04:00,Malware,44.97.98.137,10.12.191.82,user077,DEV-0110,Engineering,Critical,New,0,USA,HTTP,Malicious software activity detected on endpoint
+ALT00898,2026-08-11 23:32:00,Brute Force,141.189.22.234,10.6.50.118,user024,DEV-0057,Engineering,Critical,Resolved,72,UK,HTTP,Multiple failed login attempts detected
+ALT00496,2026-08-12 00:10:00,Data Exfiltration,60.240.176.113,10.7.112.151,user088,DEV-0087,Operations,Critical,New,0,Australia,SMTP,Unusual outbound data transfer detected
+ALT00885,2026-08-12 02:10:00,Ransomware,125.29.177.123,10.4.32.175,user046,DEV-0017,Engineering,Critical,New,0,UK,DNS,Potential ransomware behavior detected
+ALT00279,2026-08-12 08:53:00,Suspicious Login,198.169.245.119,10.14.183.199,user040,DEV-0125,Operations,Critical,New,5,India,HTTPS,Login detected from unusual location or time
+ALT00462,2026-08-12 13:41:00,Ransomware,62.81.139.35,10.0.132.203,user036,DEV-0169,Operations,Critical,Closed,0,USA,FTP,Potential ransomware behavior detected
+ALT00864,2026-08-12 17:05:00,Data Exfiltration,140.93.203.210,10.16.99.37,user088,DEV-0057,Marketing,Critical,Closed,0,India,HTTPS,Unusual outbound data transfer detected
+ALT00991,2026-08-12 23:28:00,Port Scanning,33.223.130.90,10.7.137.94,user034,DEV-0123,Finance,Low,Closed,0,USA,HTTPS,Multiple ports scanned from a source IP
+ALT00906,2026-08-13 00:55:00,Data Exfiltration,73.147.82.37,10.17.162.15,user015,DEV-0176,IT,Critical,Investigating,0,Germany,DNS,Unusual outbound data transfer detected
+ALT00534,2026-08-13 03:40:00,Suspicious Login,32.31.17.97,10.10.33.201,user017,DEV-0016,Marketing,Critical,Resolved,7,Germany,HTTP,Login detected from unusual location or time
+ALT00618,2026-08-13 05:08:00,Phishing,122.2.183.227,10.6.56.49,user037,DEV-0011,Finance,Critical,Investigating,0,Germany,RDP,Suspicious email or malicious link detected
+ALT00795,2026-08-13 19:29:00,Malware,188.222.204.122,10.7.129.186,user048,DEV-0154,HR,Critical,Resolved,0,Germany,FTP,Malicious software activity detected on endpoint
+ALT00722,2026-08-13 21:18:00,Suspicious Login,52.222.98.23,10.18.12.162,user086,DEV-0025,Finance,High,New,3,India,SMTP,Login detected from unusual location or time
+ALT00128,2026-08-14 10:26:00,Phishing,187.104.210.129,10.19.241.224,user095,DEV-0187,IT,Medium,New,0,Canada,HTTPS,Suspicious email or malicious link detected
+ALT00180,2026-08-14 17:13:00,Brute Force,223.126.152.224,10.1.230.68,user045,DEV-0023,Sales,Critical,New,59,Australia,HTTP,Multiple failed login attempts detected
+ALT00988,2026-08-15 04:47:00,Port Scanning,168.194.11.139,10.8.105.226,user087,DEV-0126,Sales,High,Closed,0,Australia,DNS,Multiple ports scanned from a source IP
+ALT00504,2026-08-15 04:49:00,Data Exfiltration,217.35.43.87,10.10.205.252,user099,DEV-0043,Sales,Critical,New,0,India,RDP,Unusual outbound data transfer detected
+ALT00266,2026-08-15 07:58:00,Unauthorized Access,192.188.100.199,10.6.150.115,user023,DEV-0175,IT,High,Resolved,0,USA,HTTPS,Unauthorized access attempt detected
+ALT00054,2026-08-15 08:11:00,Malware,122.251.46.121,10.11.209.86,user042,DEV-0172,IT,Critical,Closed,0,Australia,HTTPS,Malicious software activity detected on endpoint
+ALT00333,2026-08-15 11:57:00,Malware,94.190.211.196,10.20.220.212,user093,DEV-0083,Operations,Critical,Investigating,0,USA,DNS,Malicious software activity detected on endpoint
+ALT00782,2026-08-15 15:44:00,Malware,186.61.222.167,10.11.91.7,user047,DEV-0120,Marketing,Critical,Resolved,0,Canada,SSH,Malicious software activity detected on endpoint
+ALT00518,2026-08-16 02:51:00,Suspicious Login,113.23.251.221,10.0.174.112,user024,DEV-0107,IT,High,Resolved,8,Australia,DNS,Login detected from unusual location or time
+ALT00821,2026-08-16 07:50:00,Ransomware,129.56.169.224,10.5.125.119,user093,DEV-0018,IT,Critical,New,0,Canada,HTTP,Potential ransomware behavior detected
+ALT00073,2026-08-16 07:54:00,Data Exfiltration,186.188.183.16,10.12.141.49,user016,DEV-0117,IT,High,Investigating,0,Canada,HTTPS,Unusual outbound data transfer detected
+ALT00163,2026-08-16 11:48:00,Brute Force,33.95.220.115,10.17.208.27,user004,DEV-0023,HR,Critical,New,39,Singapore,HTTP,Multiple failed login attempts detected
+ALT00714,2026-08-16 12:03:00,Brute Force,134.94.120.216,10.17.133.211,user079,DEV-0175,Sales,Critical,New,20,Australia,FTP,Multiple failed login attempts detected
+ALT00527,2026-08-16 21:07:00,Brute Force,107.183.198.46,10.0.63.119,user048,DEV-0050,Sales,Critical,Closed,50,India,HTTPS,Multiple failed login attempts detected
+ALT00929,2026-08-17 00:47:00,Port Scanning,92.185.33.146,10.8.163.116,user046,DEV-0191,Marketing,Low,Resolved,0,Germany,SSH,Multiple ports scanned from a source IP
+ALT00602,2026-08-17 10:07:00,Malware,158.105.82.23,10.17.131.218,user097,DEV-0009,IT,Medium,New,0,India,DNS,Malicious software activity detected on endpoint
+ALT00851,2026-08-17 14:25:00,Suspicious Login,108.63.47.249,10.5.62.42,user097,DEV-0054,IT,High,New,3,Germany,FTP,Login detected from unusual location or time
+ALT00431,2026-08-17 17:05:00,Data Exfiltration,124.212.226.74,10.5.217.187,user054,DEV-0036,Marketing,Critical,New,0,Singapore,DNS,Unusual outbound data transfer detected
+ALT00226,2026-08-18 05:10:00,Malware,217.98.64.11,10.13.40.253,user088,DEV-0112,Finance,High,Closed,0,Australia,FTP,Malicious software activity detected on endpoint
+ALT00260,2026-08-19 14:42:00,Phishing,140.68.255.2,10.16.24.142,user056,DEV-0150,Sales,High,Resolved,0,Singapore,SMTP,Suspicious email or malicious link detected
+ALT00490,2026-08-19 19:51:00,Ransomware,218.95.108.48,10.2.132.224,user087,DEV-0028,Sales,Critical,New,0,Singapore,HTTP,Potential ransomware behavior detected
+ALT00355,2026-08-20 02:46:00,Ransomware,57.69.201.106,10.10.230.7,user023,DEV-0117,Operations,Critical,Investigating,0,Canada,HTTPS,Potential ransomware behavior detected
+ALT00686,2026-08-20 05:38:00,Port Scanning,109.121.10.73,10.0.2.234,user060,DEV-0073,Finance,Low,Investigating,0,Australia,RDP,Multiple ports scanned from a source IP
+ALT00695,2026-08-20 11:16:00,Ransomware,151.43.181.111,10.6.77.102,user065,DEV-0111,Operations,Critical,New,0,UK,HTTP,Potential ransomware behavior detected
+ALT00656,2026-08-21 10:10:00,Phishing,52.34.143.148,10.11.180.23,user010,DEV-0046,Engineering,Medium,Closed,0,Australia,RDP,Suspicious email or malicious link detected
+ALT00785,2026-08-21 15:11:00,Ransomware,176.53.19.95,10.0.78.181,user095,DEV-0046,Marketing,Critical,Investigating,0,Australia,HTTPS,Potential ransomware behavior detected
+ALT00688,2026-08-21 15:54:00,Brute Force,169.52.14.58,10.1.5.36,user014,DEV-0083,Marketing,High,Resolved,20,Canada,FTP,Multiple failed login attempts detected
+ALT00909,2026-08-21 15:58:00,Unauthorized Access,127.184.114.37,10.9.89.247,user050,DEV-0066,Finance,High,Closed,0,UK,FTP,Unauthorized access attempt detected
+ALT00459,2026-08-21 21:48:00,Unauthorized Access,15.95.255.55,10.14.137.240,user082,DEV-0137,Marketing,High,Investigating,0,Singapore,SMTP,Unauthorized access attempt detected
+ALT00200,2026-08-22 00:23:00,Unauthorized Access,155.155.124.119,10.11.252.198,user100,DEV-0051,Engineering,High,New,0,Singapore,SMTP,Unauthorized access attempt detected
+ALT00593,2026-08-22 04:38:00,Suspicious Login,181.17.163.80,10.16.63.71,user091,DEV-0147,Sales,High,New,4,Canada,SMTP,Login detected from unusual location or time
+ALT00831,2026-08-22 05:02:00,Suspicious Login,34.97.32.232,10.4.155.16,user027,DEV-0059,Finance,High,Resolved,4,Singapore,SMTP,Login detected from unusual location or time
+ALT00066,2026-08-22 09:12:00,Port Scanning,134.54.121.98,10.18.183.148,user038,DEV-0180,HR,Medium,Closed,0,India,SMTP,Multiple ports scanned from a source IP
+ALT00315,2026-08-22 20:47:00,Malware,155.222.158.233,10.11.246.139,user030,DEV-0023,Sales,Critical,Resolved,0,UK,SSH,Malicious software activity detected on endpoint
+ALT00702,2026-08-23 00:52:00,Ransomware,192.170.247.29,10.8.10.38,user053,DEV-0057,Engineering,High,Investigating,0,USA,SSH,Potential ransomware behavior detected
+ALT00665,2026-08-23 04:31:00,Data Exfiltration,40.208.134.134,10.0.230.242,user017,DEV-0163,Sales,Medium,Closed,0,Canada,DNS,Unusual outbound data transfer detected
+ALT00668,2026-08-23 13:23:00,Phishing,163.83.223.98,10.9.223.163,user037,DEV-0180,Operations,High,New,0,Australia,HTTP,Suspicious email or malicious link detected
+ALT00136,2026-08-23 20:16:00,Phishing,14.172.151.146,10.6.89.157,user082,DEV-0104,Marketing,Medium,Resolved,0,Germany,DNS,Suspicious email or malicious link detected
+ALT00921,2026-08-23 21:05:00,Brute Force,44.5.9.78,10.12.102.232,user061,DEV-0098,Sales,High,Resolved,47,India,FTP,Multiple failed login attempts detected
+ALT00616,2026-08-24 10:19:00,Data Exfiltration,12.179.95.103,10.11.4.26,user056,DEV-0126,Finance,Medium,Investigating,0,India,DNS,Unusual outbound data transfer detected
+ALT00982,2026-08-24 17:21:00,Ransomware,166.36.129.32,10.12.201.1,user009,DEV-0049,Marketing,Critical,New,0,UK,RDP,Potential ransomware behavior detected
+ALT00208,2026-08-25 01:10:00,Data Exfiltration,121.202.254.8,10.12.218.45,user046,DEV-0055,Finance,High,Closed,0,UK,SSH,Unusual outbound data transfer detected
+ALT00709,2026-08-25 17:11:00,Phishing,122.49.70.135,10.14.160.129,user088,DEV-0183,HR,Medium,Investigating,0,Germany,SSH,Suspicious email or malicious link detected
+ALT00981,2026-08-25 18:33:00,Data Exfiltration,196.149.126.53,10.19.172.47,user083,DEV-0128,HR,High,New,0,USA,RDP,Unusual outbound data transfer detected
+ALT00277,2026-08-25 20:35:00,Brute Force,28.128.50.51,10.18.249.244,user043,DEV-0092,Finance,Critical,New,14,Canada,FTP,Multiple failed login attempts detected
+ALT00240,2026-08-26 03:30:00,Unauthorized Access,173.36.241.228,10.6.61.223,user088,DEV-0098,Operations,High,New,0,UK,RDP,Unauthorized access attempt detected
+ALT00493,2026-08-26 04:30:00,Suspicious Login,53.78.227.247,10.15.241.6,user058,DEV-0150,Finance,Medium,New,6,USA,SSH,Login detected from unusual location or time
+ALT00536,2026-08-26 13:56:00,Brute Force,183.13.232.133,10.10.98.28,user014,DEV-0004,Operations,High,Investigating,17,Canada,HTTP,Multiple failed login attempts detected
+ALT00931,2026-08-26 14:09:00,Ransomware,203.197.214.244,10.0.71.202,user041,DEV-0098,Marketing,Critical,New,0,Canada,HTTPS,Potential ransomware behavior detected
+ALT00523,2026-08-26 19:18:00,Brute Force,134.139.128.215,10.12.179.216,user081,DEV-0055,Operations,Low,New,26,Australia,DNS,Multiple failed login attempts detected
+ALT00815,2026-08-28 00:09:00,Data Exfiltration,53.180.220.107,10.0.145.143,user096,DEV-0126,Finance,Critical,Resolved,0,Germany,DNS,Unusual outbound data transfer detected
+ALT00037,2026-08-28 04:39:00,Port Scanning,111.13.42.165,10.13.69.222,user060,DEV-0047,IT,High,Investigating,0,UK,RDP,Multiple ports scanned from a source IP
+ALT00650,2026-08-28 15:20:00,Phishing,114.194.84.14,10.11.217.50,user035,DEV-0028,IT,High,Resolved,0,India,SSH,Suspicious email or malicious link detected
+ALT00841,2026-08-29 01:49:00,Data Exfiltration,187.249.127.72,10.19.192.16,user013,DEV-0015,Engineering,Critical,Resolved,0,UK,SSH,Unusual outbound data transfer detected
+ALT00996,2026-08-29 04:54:00,Malware,166.188.142.119,10.7.232.45,user091,DEV-0029,Engineering,High,New,0,USA,HTTPS,Malicious software activity detected on endpoint
+ALT00321,2026-08-29 05:12:00,Port Scanning,75.195.6.32,10.7.197.198,user057,DEV-0064,Engineering,Low,Closed,0,India,HTTPS,Multiple ports scanned from a source IP
+ALT00858,2026-08-29 08:08:00,Brute Force,104.49.244.127,10.18.100.33,user029,DEV-0132,Finance,High,Resolved,46,Australia,HTTPS,Multiple failed login attempts detected
+ALT00822,2026-08-29 12:04:00,Port Scanning,77.61.12.113,10.15.30.75,user051,DEV-0186,Marketing,High,Resolved,0,India,SSH,Multiple ports scanned from a source IP
+ALT00978,2026-08-29 16:31:00,Data Exfiltration,187.70.240.87,10.2.250.250,user044,DEV-0137,Operations,Critical,Investigating,0,Singapore,FTP,Unusual outbound data transfer detected
+ALT00351,2026-08-29 22:41:00,Ransomware,110.251.242.36,10.5.98.58,user005,DEV-0105,Marketing,High,Investigating,0,India,SSH,Potential ransomware behavior detected
+ALT00749,2026-08-29 23:06:00,Port Scanning,19.220.12.177,10.5.37.34,user066,DEV-0136,Sales,Medium,New,0,Germany,SSH,Multiple ports scanned from a source IP
+ALT00799,2026-08-30 17:43:00,Malware,65.241.192.213,10.14.124.196,user013,DEV-0100,Finance,Critical,Investigating,0,UK,SMTP,Malicious software activity detected on endpoint
+ALT00719,2026-08-30 19:42:00,Ransomware,192.132.66.179,10.10.178.150,user080,DEV-0104,IT,Critical,New,0,India,HTTP,Potential ransomware behavior detected
+ALT00776,2026-08-31 00:20:00,Malware,49.240.34.251,10.0.159.180,user025,DEV-0052,Engineering,High,Investigating,0,India,DNS,Malicious software activity detected on endpoint
+ALT00229,2026-08-31 01:11:00,Ransomware,47.205.19.102,10.10.121.13,user096,DEV-0122,HR,Critical,New,0,UK,HTTP,Potential ransomware behavior detected
+ALT00811,2026-08-31 06:48:00,Brute Force,187.95.141.129,10.1.204.233,user024,DEV-0174,HR,High,New,60,UK,HTTP,Multiple failed login attempts detected
+ALT00584,2026-08-31 10:38:00,Unauthorized Access,105.175.161.210,10.7.184.171,user052,DEV-0097,Operations,Critical,Investigating,0,India,SSH,Unauthorized access attempt detected
+ALT00965,2026-08-31 12:48:00,Brute Force,119.179.251.7,10.12.19.247,user063,DEV-0195,IT,High,Resolved,73,Germany,SSH,Multiple failed login attempts detected
+ALT00388,2026-08-31 18:10:00,Unauthorized Access,179.149.13.74,10.15.42.33,user065,DEV-0020,Marketing,Medium,Resolved,0,Australia,SSH,Unauthorized access attempt detected
+ALT00780,2026-09-01 00:20:00,Malware,24.70.225.109,10.15.167.78,user065,DEV-0195,IT,High,New,0,USA,DNS,Malicious software activity detected on endpoint
+ALT00557,2026-09-01 05:38:00,Port Scanning,90.103.234.71,10.6.3.254,user019,DEV-0115,IT,High,Resolved,0,Australia,RDP,Multiple ports scanned from a source IP
+ALT00359,2026-09-01 14:26:00,Ransomware,164.3.125.226,10.17.142.159,user081,DEV-0143,Marketing,High,Investigating,0,Australia,HTTPS,Potential ransomware behavior detected
+ALT00974,2026-09-01 15:30:00,Suspicious Login,110.36.74.171,10.4.74.221,user098,DEV-0018,Sales,Medium,New,3,Singapore,HTTP,Login detected from unusual location or time
+ALT00586,2026-09-01 16:26:00,Ransomware,11.164.8.163,10.11.23.249,user095,DEV-0084,Engineering,Critical,Resolved,0,Germany,HTTPS,Potential ransomware behavior detected
+ALT00214,2026-09-02 00:21:00,Suspicious Login,98.90.165.16,10.0.75.151,user091,DEV-0037,Marketing,Low,Resolved,3,India,SMTP,Login detected from unusual location or time
+ALT00642,2026-09-02 02:07:00,Malware,197.142.74.24,10.10.65.47,user099,DEV-0099,HR,Critical,Resolved,0,UK,RDP,Malicious software activity detected on endpoint
+ALT00129,2026-09-02 16:24:00,Suspicious Login,128.175.181.174,10.20.135.157,user062,DEV-0050,Finance,High,Closed,5,UK,DNS,Login detected from unusual location or time
+ALT00751,2026-09-02 22:08:00,Port Scanning,196.42.77.230,10.0.189.173,user084,DEV-0117,Sales,Medium,Resolved,0,UK,RDP,Multiple ports scanned from a source IP
+ALT00638,2026-09-03 04:15:00,Malware,188.136.63.6,10.1.52.140,user038,DEV-0027,Operations,Critical,New,0,Australia,RDP,Malicious software activity detected on endpoint
+ALT00600,2026-09-03 08:44:00,Suspicious Login,57.196.247.166,10.13.152.147,user017,DEV-0026,HR,Low,Resolved,1,India,FTP,Login detected from unusual location or time
+ALT00106,2026-09-03 20:11:00,Ransomware,27.234.18.76,10.6.22.203,user026,DEV-0011,HR,Critical,Resolved,0,UK,DNS,Potential ransomware behavior detected
+ALT00400,2026-09-04 03:36:00,Suspicious Login,102.170.155.103,10.1.46.94,user069,DEV-0088,IT,Low,Closed,8,Australia,RDP,Login detected from unusual location or time
+ALT00340,2026-09-04 17:12:00,Malware,177.100.126.63,10.2.136.199,user056,DEV-0083,Engineering,Critical,Investigating,0,Singapore,HTTP,Malicious software activity detected on endpoint
+ALT00652,2026-09-05 01:03:00,Brute Force,90.4.182.193,10.9.203.129,user025,DEV-0081,Marketing,High,New,45,Germany,FTP,Multiple failed login attempts detected
+ALT00824,2026-09-05 06:16:00,Malware,175.37.234.231,10.15.125.194,user034,DEV-0088,HR,Critical,New,0,Canada,RDP,Malicious software activity detected on endpoint
+ALT00294,2026-09-05 08:19:00,Ransomware,209.203.70.219,10.3.117.115,user090,DEV-0042,IT,High,Resolved,0,USA,DNS,Potential ransomware behavior detected
+ALT00615,2026-09-05 09:16:00,Phishing,199.201.111.237,10.9.18.240,user060,DEV-0159,Marketing,Medium,New,0,Germany,HTTP,Suspicious email or malicious link detected
+ALT00441,2026-09-05 13:02:00,Phishing,19.30.240.31,10.8.22.17,user039,DEV-0171,IT,Low,New,0,Australia,HTTP,Suspicious email or malicious link detected
+ALT00882,2026-09-05 14:26:00,Brute Force,156.98.211.48,10.16.204.161,user074,DEV-0100,Engineering,Critical,Resolved,76,UK,FTP,Multiple failed login attempts detected
+ALT00463,2026-09-06 00:03:00,Brute Force,87.32.208.230,10.11.46.102,user093,DEV-0036,Finance,Critical,Investigating,15,India,DNS,Multiple failed login attempts detected
+ALT00011,2026-09-06 02:48:00,Phishing,43.65.243.243,10.17.84.68,user068,DEV-0156,Sales,Low,Investigating,0,USA,DNS,Suspicious email or malicious link detected
+ALT00411,2026-09-06 16:07:00,Malware,71.227.166.108,10.6.166.59,user100,DEV-0029,HR,Critical,New,0,USA,HTTP,Malicious software activity detected on endpoint
+ALT00345,2026-09-06 19:34:00,Phishing,61.234.11.11,10.7.156.86,user063,DEV-0101,Engineering,High,New,0,USA,HTTP,Suspicious email or malicious link detected
+ALT00828,2026-09-06 20:10:00,Data Exfiltration,134.89.247.230,10.12.7.172,user009,DEV-0088,Finance,Critical,Closed,0,UK,HTTPS,Unusual outbound data transfer detected
+ALT00326,2026-09-06 22:28:00,Unauthorized Access,149.250.97.146,10.5.178.83,user094,DEV-0120,HR,Critical,Resolved,0,Australia,SMTP,Unauthorized access attempt detected
+ALT00617,2026-09-07 00:09:00,Malware,75.115.240.102,10.11.153.94,user055,DEV-0047,Operations,Critical,Resolved,0,Australia,SSH,Malicious software activity detected on endpoint
+ALT00407,2026-09-07 02:00:00,Malware,33.145.213.178,10.15.64.53,user019,DEV-0164,HR,Medium,New,0,Singapore,RDP,Malicious software activity detected on endpoint
+ALT00555,2026-09-08 00:11:00,Malware,109.145.105.60,10.9.35.117,user008,DEV-0095,Operations,Medium,New,0,India,HTTPS,Malicious software activity detected on endpoint
+ALT00902,2026-09-08 02:11:00,Phishing,53.131.203.73,10.17.146.73,user073,DEV-0067,IT,Medium,Investigating,0,Australia,HTTP,Suspicious email or malicious link detected
+ALT00691,2026-09-08 08:20:00,Suspicious Login,78.151.42.91,10.17.124.169,user083,DEV-0189,Marketing,High,New,7,USA,FTP,Login detected from unusual location or time
+ALT00930,2026-09-08 10:34:00,Ransomware,59.116.87.11,10.11.209.120,user060,DEV-0084,Marketing,Critical,Closed,0,Australia,RDP,Potential ransomware behavior detected
+ALT00175,2026-09-08 16:40:00,Ransomware,110.200.58.90,10.11.234.159,user023,DEV-0173,Engineering,High,Investigating,0,Australia,SSH,Potential ransomware behavior detected
+ALT00771,2026-09-08 18:15:00,Suspicious Login,168.242.119.16,10.15.129.106,user040,DEV-0190,HR,Critical,New,1,Australia,HTTPS,Login detected from unusual location or time
+ALT00968,2026-09-09 05:57:00,Phishing,52.20.148.154,10.10.218.29,user088,DEV-0040,Marketing,Medium,Investigating,0,India,HTTPS,Suspicious email or malicious link detected
+ALT00485,2026-09-09 13:47:00,Malware,90.67.183.171,10.3.188.132,user026,DEV-0126,Sales,High,Resolved,0,Germany,RDP,Malicious software activity detected on endpoint
+ALT00558,2026-09-09 14:29:00,Suspicious Login,84.233.177.180,10.9.200.157,user023,DEV-0107,Finance,High,Resolved,0,USA,DNS,Login detected from unusual location or time
+ALT00090,2026-09-10 14:48:00,Phishing,159.229.165.222,10.20.161.39,user057,DEV-0018,Sales,Medium,Resolved,0,Germany,FTP,Suspicious email or malicious link detected
+ALT00692,2026-09-11 01:13:00,Phishing,66.239.197.49,10.15.53.88,user027,DEV-0152,Marketing,Low,New,0,Singapore,DNS,Suspicious email or malicious link detected
+ALT00480,2026-09-11 01:28:00,Ransomware,192.248.234.127,10.3.75.32,user045,DEV-0024,Finance,Critical,Investigating,0,Australia,SSH,Potential ransomware behavior detected
+ALT00055,2026-09-11 09:42:00,Data Exfiltration,219.18.232.23,10.10.129.83,user015,DEV-0198,Sales,Critical,Closed,0,Australia,DNS,Unusual outbound data transfer detected
+ALT00445,2026-09-11 11:45:00,Phishing,195.20.42.84,10.15.59.99,user037,DEV-0117,Operations,Medium,New,0,Canada,SSH,Suspicious email or malicious link detected
+ALT00256,2026-09-13 14:20:00,Ransomware,138.9.52.104,10.13.18.143,user071,DEV-0001,Marketing,High,New,0,India,SMTP,Potential ransomware behavior detected
+ALT00989,2026-09-13 16:39:00,Data Exfiltration,124.105.190.37,10.2.193.44,user052,DEV-0054,Finance,Critical,Investigating,0,UK,SSH,Unusual outbound data transfer detected
+ALT00385,2026-09-13 23:15:00,Port Scanning,79.210.187.9,10.1.247.181,user048,DEV-0029,Operations,Medium,Resolved,0,Germany,FTP,Multiple ports scanned from a source IP
+ALT00489,2026-09-15 00:07:00,Unauthorized Access,129.91.93.216,10.12.23.22,user054,DEV-0181,HR,High,Resolved,0,UK,DNS,Unauthorized access attempt detected
+ALT00499,2026-09-15 01:51:00,Malware,121.58.116.31,10.17.114.125,user034,DEV-0088,Marketing,Critical,New,0,UK,SMTP,Malicious software activity detected on endpoint
+ALT00819,2026-09-15 02:38:00,Suspicious Login,94.127.85.146,10.20.241.176,user012,DEV-0095,IT,Medium,Closed,6,Canada,DNS,Login detected from unusual location or time
+ALT00274,2026-09-15 03:18:00,Phishing,88.44.144.196,10.14.195.102,user085,DEV-0008,Sales,Medium,Resolved,0,USA,DNS,Suspicious email or malicious link detected
+ALT00699,2026-09-15 22:39:00,Brute Force,187.122.87.81,10.2.85.48,user043,DEV-0117,Finance,Medium,Resolved,66,India,FTP,Multiple failed login attempts detected
+ALT00416,2026-09-16 01:27:00,Ransomware,133.50.231.127,10.7.42.143,user097,DEV-0004,Engineering,Critical,Investigating,0,Canada,RDP,Potential ransomware behavior detected
+ALT00747,2026-09-16 02:58:00,Phishing,134.117.229.202,10.13.117.146,user017,DEV-0138,Finance,Medium,Investigating,0,Australia,RDP,Suspicious email or malicious link detected
+ALT00508,2026-09-16 03:46:00,Unauthorized Access,106.132.181.32,10.1.63.115,user039,DEV-0147,Engineering,High,New,0,India,RDP,Unauthorized access attempt detected
+ALT00521,2026-09-16 12:07:00,Suspicious Login,129.208.33.124,10.0.208.163,user030,DEV-0005,HR,High,New,4,Singapore,DNS,Login detected from unusual location or time
+ALT00178,2026-09-16 20:31:00,Port Scanning,136.212.227.126,10.5.42.145,user004,DEV-0195,Finance,Critical,Investigating,0,UK,HTTP,Multiple ports scanned from a source IP
+ALT00884,2026-09-17 22:30:00,Malware,37.116.178.184,10.20.114.120,user035,DEV-0148,Marketing,High,Investigating,0,India,RDP,Malicious software activity detected on endpoint
+ALT00879,2026-09-17 22:41:00,Suspicious Login,154.91.203.159,10.2.101.24,user012,DEV-0183,Operations,High,New,8,Canada,RDP,Login detected from unusual location or time
+ALT00114,2026-09-18 07:07:00,Malware,213.71.121.203,10.15.13.93,user071,DEV-0147,HR,Critical,Closed,0,Germany,SMTP,Malicious software activity detected on endpoint
+ALT00481,2026-09-18 08:36:00,Malware,160.108.2.135,10.18.92.107,user010,DEV-0064,Marketing,Critical,Closed,0,Germany,FTP,Malicious software activity detected on endpoint
+ALT00126,2026-09-18 17:31:00,Data Exfiltration,87.243.8.95,10.10.56.251,user054,DEV-0150,HR,Critical,Resolved,0,Australia,FTP,Unusual outbound data transfer detected
+ALT00304,2026-09-19 08:25:00,Ransomware,158.65.27.135,10.13.244.241,user070,DEV-0009,Operations,High,New,0,UK,RDP,Potential ransomware behavior detected
+ALT00197,2026-09-19 11:03:00,Phishing,156.85.188.41,10.8.52.229,user074,DEV-0173,Engineering,Medium,Investigating,0,India,HTTPS,Suspicious email or malicious link detected
+ALT00381,2026-09-19 12:54:00,Phishing,86.31.189.231,10.17.27.1,user091,DEV-0144,Marketing,Medium,New,0,UK,HTTP,Suspicious email or malicious link detected
+ALT00297,2026-09-19 16:44:00,Suspicious Login,183.18.184.62,10.20.0.250,user021,DEV-0023,HR,Low,Resolved,3,Australia,RDP,Login detected from unusual location or time
+ALT00823,2026-09-19 20:41:00,Port Scanning,212.63.53.38,10.8.57.185,user022,DEV-0094,Sales,High,Investigating,0,Canada,SSH,Multiple ports scanned from a source IP
+ALT00551,2026-09-20 04:55:00,Brute Force,196.107.242.60,10.16.239.185,user060,DEV-0088,Marketing,High,New,55,India,SSH,Multiple failed login attempts detected
+ALT00262,2026-09-20 09:53:00,Malware,91.111.102.54,10.19.148.176,user045,DEV-0173,Finance,High,Resolved,0,Canada,FTP,Malicious software activity detected on endpoint
+ALT00949,2026-09-20 12:13:00,Ransomware,21.198.54.191,10.6.102.195,user073,DEV-0189,Engineering,Medium,New,0,UK,SMTP,Potential ransomware behavior detected
+ALT00512,2026-09-20 16:07:00,Ransomware,127.242.16.192,10.5.189.236,user016,DEV-0155,Marketing,High,Resolved,0,Germany,HTTP,Potential ransomware behavior detected
+ALT00862,2026-09-21 10:21:00,Unauthorized Access,58.130.174.207,10.15.233.170,user013,DEV-0172,Marketing,High,Closed,0,UK,SMTP,Unauthorized access attempt detected
+ALT00598,2026-09-21 20:21:00,Brute Force,49.206.125.9,10.3.123.102,user063,DEV-0078,Engineering,Medium,Investigating,80,Singapore,HTTPS,Multiple failed login attempts detected
+ALT00237,2026-09-22 07:57:00,Unauthorized Access,216.206.163.175,10.4.13.168,user064,DEV-0076,HR,Medium,New,0,Germany,RDP,Unauthorized access attempt detected
+ALT00354,2026-09-22 20:03:00,Brute Force,112.155.146.119,10.5.216.76,user079,DEV-0014,Engineering,High,New,29,Singapore,HTTPS,Multiple failed login attempts detected
+ALT00511,2026-09-23 12:55:00,Port Scanning,138.216.225.177,10.15.213.211,user021,DEV-0037,Operations,Medium,New,0,USA,RDP,Multiple ports scanned from a source IP
+ALT00125,2026-09-23 14:09:00,Data Exfiltration,142.71.167.239,10.19.163.42,user051,DEV-0158,Engineering,Critical,Resolved,0,Australia,SSH,Unusual outbound data transfer detected
+ALT00672,2026-09-23 23:38:00,Data Exfiltration,54.220.123.143,10.12.98.158,user083,DEV-0101,Marketing,Critical,Investigating,0,India,SMTP,Unusual outbound data transfer detected
+ALT00755,2026-09-24 04:53:00,Port Scanning,39.61.227.228,10.13.252.68,user012,DEV-0036,HR,High,Investigating,0,Canada,FTP,Multiple ports scanned from a source IP
+ALT00312,2026-09-24 14:26:00,Data Exfiltration,16.64.120.170,10.8.40.54,user022,DEV-0102,IT,Critical,New,0,India,HTTP,Unusual outbound data transfer detected
+ALT00172,2026-09-24 15:22:00,Ransomware,123.231.163.18,10.9.22.208,user091,DEV-0030,IT,Critical,Investigating,0,Australia,SSH,Potential ransomware behavior detected
+ALT00248,2026-09-25 06:22:00,Suspicious Login,21.254.106.177,10.15.169.61,user001,DEV-0004,Engineering,Critical,New,6,India,HTTP,Login detected from unusual location or time
+ALT00705,2026-09-25 09:39:00,Ransomware,52.155.249.74,10.2.150.4,user059,DEV-0011,Finance,Critical,Resolved,0,UK,SMTP,Potential ransomware behavior detected
+ALT00228,2026-09-25 13:07:00,Brute Force,156.51.54.145,10.3.146.223,user069,DEV-0089,Sales,Critical,New,58,UK,RDP,Multiple failed login attempts detected
+ALT00779,2026-09-25 18:41:00,Phishing,95.141.242.54,10.5.1.201,user030,DEV-0056,IT,Low,Resolved,0,Australia,DNS,Suspicious email or malicious link detected
+ALT00464,2026-09-26 08:31:00,Phishing,71.62.160.85,10.18.199.207,user096,DEV-0191,Finance,Medium,Closed,0,Germany,HTTPS,Suspicious email or malicious link detected
+ALT00370,2026-09-26 09:49:00,Data Exfiltration,207.50.67.53,10.1.235.100,user092,DEV-0134,IT,Critical,Investigating,0,India,SSH,Unusual outbound data transfer detected
+ALT00718,2026-09-26 12:32:00,Suspicious Login,49.180.173.118,10.4.142.201,user098,DEV-0169,HR,High,New,1,Germany,HTTP,Login detected from unusual location or time
+ALT00998,2026-09-26 13:10:00,Port Scanning,138.64.18.53,10.2.188.216,user039,DEV-0030,Operations,High,Investigating,0,Germany,RDP,Multiple ports scanned from a source IP
+ALT00774,2026-09-26 15:08:00,Malware,151.214.204.3,10.9.60.112,user038,DEV-0185,Engineering,Critical,Resolved,0,UK,DNS,Malicious software activity detected on endpoint
+ALT00076,2026-09-27 03:47:00,Malware,125.185.55.116,10.16.113.243,user079,DEV-0012,Engineering,Critical,New,0,Australia,SMTP,Malicious software activity detected on endpoint
+ALT00210,2026-09-27 07:40:00,Suspicious Login,108.183.245.140,10.15.176.234,user073,DEV-0129,HR,High,Resolved,8,Germany,SSH,Login detected from unusual location or time
+ALT00386,2026-09-27 08:29:00,Phishing,144.45.125.121,10.20.39.176,user082,DEV-0139,Marketing,Low,Investigating,0,Singapore,SSH,Suspicious email or malicious link detected
+ALT00487,2026-09-27 20:41:00,Malware,85.239.223.21,10.15.153.39,user017,DEV-0176,HR,Critical,Investigating,0,Australia,HTTPS,Malicious software activity detected on endpoint
+ALT00390,2026-09-28 01:21:00,Suspicious Login,163.78.253.193,10.13.196.61,user085,DEV-0113,Engineering,High,Closed,1,Canada,HTTPS,Login detected from unusual location or time
+ALT00687,2026-09-28 01:21:00,Brute Force,35.212.154.71,10.10.177.103,user011,DEV-0143,Marketing,Critical,New,7,UK,RDP,Multiple failed login attempts detected
+ALT00845,2026-09-28 01:58:00,Ransomware,106.8.223.9,10.16.167.203,user069,DEV-0126,HR,Critical,Closed,0,Singapore,SSH,Potential ransomware behavior detected
+ALT00102,2026-09-28 13:07:00,Malware,71.154.62.13,10.7.214.164,user080,DEV-0118,IT,Critical,Resolved,0,India,SMTP,Malicious software activity detected on endpoint
+ALT00458,2026-09-29 15:27:00,Phishing,214.39.154.130,10.9.221.170,user070,DEV-0081,Finance,Medium,New,0,Germany,RDP,Suspicious email or malicious link detected
+ALT00156,2026-09-29 23:17:00,Port Scanning,84.8.220.207,10.5.54.236,user013,DEV-0135,Finance,Low,Investigating,0,USA,HTTPS,Multiple ports scanned from a source IP
+ALT00805,2026-09-30 12:55:00,Malware,49.3.172.243,10.18.132.51,user066,DEV-0158,Engineering,Critical,Resolved,0,Australia,RDP,Malicious software activity detected on endpoint
+ALT00349,2026-09-30 23:07:00,Data Exfiltration,48.15.163.226,10.13.210.78,user057,DEV-0191,Marketing,High,New,0,Canada,FTP,Unusual outbound data transfer detected
+ALT00387,2026-10-01 00:30:00,Brute Force,131.169.215.91,10.9.148.43,user005,DEV-0178,Operations,Critical,Investigating,63,Canada,SSH,Multiple failed login attempts detected
+ALT00047,2026-10-01 04:17:00,Malware,24.149.64.164,10.15.52.224,user002,DEV-0147,HR,Critical,New,0,Germany,RDP,Malicious software activity detected on endpoint
+ALT00524,2026-10-01 18:04:00,Unauthorized Access,112.62.71.186,10.17.143.225,user056,DEV-0054,Operations,Low,Investigating,0,Singapore,SMTP,Unauthorized access attempt detected
+ALT00509,2026-10-01 19:14:00,Data Exfiltration,83.71.193.134,10.7.53.84,user067,DEV-0150,Finance,Critical,Investigating,0,Australia,SMTP,Unusual outbound data transfer detected
+ALT00830,2026-10-01 23:34:00,Phishing,215.28.228.146,10.16.126.63,user033,DEV-0190,Finance,Medium,Closed,0,Canada,FTP,Suspicious email or malicious link detected
+ALT00832,2026-10-02 01:20:00,Ransomware,29.100.244.30,10.14.42.122,user026,DEV-0026,Operations,Critical,Resolved,0,Singapore,HTTPS,Potential ransomware behavior detected
+ALT00046,2026-10-02 22:11:00,Data Exfiltration,200.247.141.186,10.18.144.252,user013,DEV-0050,HR,High,New,0,USA,SSH,Unusual outbound data transfer detected
+ALT00072,2026-10-03 04:24:00,Phishing,182.214.79.227,10.13.50.214,user063,DEV-0158,Sales,Medium,Investigating,0,UK,HTTP,Suspicious email or malicious link detected
+ALT00836,2026-10-03 05:12:00,Ransomware,206.118.109.79,10.16.156.82,user099,DEV-0136,Sales,Critical,Resolved,0,India,FTP,Potential ransomware behavior detected
+ALT00343,2026-10-03 06:13:00,Brute Force,77.247.72.178,10.0.192.150,user085,DEV-0135,IT,High,Investigating,74,UK,HTTPS,Multiple failed login attempts detected
+ALT00007,2026-10-03 08:47:00,Suspicious Login,113.185.112.36,10.16.252.24,user097,DEV-0013,Marketing,High,Closed,6,India,HTTPS,Login detected from unusual location or time
+ALT00144,2026-10-03 12:33:00,Data Exfiltration,68.1.11.251,10.9.237.173,user093,DEV-0140,Sales,High,New,0,Singapore,RDP,Unusual outbound data transfer detected
+ALT00075,2026-10-04 08:51:00,Malware,180.13.67.4,10.11.121.151,user042,DEV-0005,Finance,Critical,New,0,UK,HTTP,Malicious software activity detected on endpoint
+ALT00409,2026-10-04 16:14:00,Phishing,171.106.141.14,10.6.57.204,user020,DEV-0176,Marketing,Medium,Investigating,0,Germany,RDP,Suspicious email or malicious link detected
+ALT00959,2026-10-04 21:10:00,Ransomware,98.74.174.139,10.20.81.218,user074,DEV-0036,Marketing,Critical,Closed,0,Australia,HTTPS,Potential ransomware behavior detected
+ALT00887,2026-10-04 21:37:00,Port Scanning,12.27.183.151,10.3.36.158,user009,DEV-0136,Sales,Low,Investigating,0,Canada,HTTPS,Multiple ports scanned from a source IP
+ALT00538,2026-10-05 04:09:00,Data Exfiltration,165.175.149.95,10.0.74.15,user031,DEV-0130,Marketing,Critical,Investigating,0,Australia,DNS,Unusual outbound data transfer detected
+ALT00423,2026-10-05 04:30:00,Unauthorized Access,124.10.149.49,10.2.11.224,user030,DEV-0134,Engineering,High,Investigating,0,UK,RDP,Unauthorized access attempt detected
+ALT00056,2026-10-05 14:26:00,Brute Force,103.255.226.195,10.1.104.69,user071,DEV-0034,HR,High,New,11,Germany,FTP,Multiple failed login attempts detected
+ALT00603,2026-10-06 05:27:00,Unauthorized Access,179.0.127.77,10.1.150.169,user069,DEV-0114,Finance,High,Closed,0,Singapore,RDP,Unauthorized access attempt detected
+ALT00060,2026-10-06 12:29:00,Data Exfiltration,59.122.196.60,10.13.22.82,user096,DEV-0122,Engineering,Critical,Closed,0,Australia,RDP,Unusual outbound data transfer detected
+ALT00292,2026-10-06 13:16:00,Phishing,192.3.60.134,10.0.192.168,user027,DEV-0177,Marketing,Medium,New,0,UK,RDP,Suspicious email or malicious link detected
+ALT00107,2026-10-06 15:16:00,Port Scanning,176.97.146.92,10.1.169.70,user016,DEV-0095,Sales,Critical,New,0,Germany,FTP,Multiple ports scanned from a source IP
+ALT00002,2026-10-07 13:14:00,Suspicious Login,218.3.81.179,10.13.174.72,user020,DEV-0056,Marketing,High,Resolved,7,UK,HTTP,Login detected from unusual location or time
+ALT00945,2026-10-08 02:52:00,Port Scanning,51.59.133.59,10.7.28.166,user088,DEV-0143,IT,Medium,New,0,India,FTP,Multiple ports scanned from a source IP
+ALT00595,2026-10-08 12:21:00,Malware,132.178.200.101,10.2.144.73,user090,DEV-0050,Engineering,Critical,Investigating,0,Australia,DNS,Malicious software activity detected on endpoint
+ALT00912,2026-10-08 13:23:00,Data Exfiltration,65.201.72.121,10.3.231.77,user100,DEV-0160,Sales,Critical,Resolved,0,India,HTTPS,Unusual outbound data transfer detected
+ALT00484,2026-10-08 19:24:00,Brute Force,56.122.204.23,10.0.106.42,user050,DEV-0200,Sales,High,Investigating,16,UK,FTP,Multiple failed login attempts detected
+ALT00078,2026-10-08 22:20:00,Malware,163.150.232.130,10.19.220.26,user090,DEV-0030,Marketing,High,Investigating,0,Canada,FTP,Malicious software activity detected on endpoint

@@ -1,0 +1,16 @@
+tactic_name,record_count
+Persistence,297
+Stealth,294
+Privilege Escalation,223
+Credential Access,222
+Execution,196
+Defense Impairment,149
+Collection,110
+Lateral Movement,101
+Initial Access,94
+Command and Control,76
+Discovery,59
+Impact,54
+Reconnaissance,52
+Resource Development,50
+Exfiltration,45

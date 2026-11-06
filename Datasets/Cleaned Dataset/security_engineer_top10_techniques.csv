@@ -1,0 +1,11 @@
+technique_name,record_count
+Unsecured Credentials,11
+Hijack Execution Flow,10
+Software Deployment Tools,10
+Create or Modify System Process,9
+OS Credential Dumping,9
+Command and Scripting Interpreter,9
+Modify Authentication Process,9
+Masquerading,8
+Valid Accounts,8
+Exploitation of Remote Services,8
